@@ -1,0 +1,768 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+42 items
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/CompleteEvaluation$.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/CompleteEvaluation.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$1$$anonfun$apply$1.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$1.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$2$$anonfun$apply$2.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$2.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$1.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2$$anonfun$3.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2$$anonfun$4.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2$$anonfun$5.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2$$anonfun$6.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2$$anonfun$apply$3.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSourceParams$.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSourceParams.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/TrainingData.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/ActualResult.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/ClassificationEngine$.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/ClassificationEngine.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/PredictedResult.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Query.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Accuracy$.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Accuracy.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/AccuracyEvaluation$.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/AccuracyEvaluation.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/EngineParamsList$.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/EngineParamsList.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/AlgorithmParams$.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/AlgorithmParams.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/NaiveBayesAlgorithm$$anonfun$train$1.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/NaiveBayesAlgorithm.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Precision$.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Precision.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/PrecisionEvaluation$.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/PrecisionEvaluation.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Preparator.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/PreparedData.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/RandomForestAlgorithm.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/RandomForestAlgorithmParams$.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/RandomForestAlgorithmParams.class
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Serving.class
+binary dependencies:
+39 items
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> /home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> /home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/.ivy2/cache/io.prediction/data_2.10/jars/data_2.10-0.9.5.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.7.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/jars/grizzled-slf4j_2.10-1.0.2.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/jars/grizzled-slf4j_2.10-1.0.2.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> /home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> /home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> /home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> /home/jinyang/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> /home/jinyang/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> /home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /home/jinyang/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /home/jinyang/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /home/jinyang/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/jars/grizzled-slf4j_2.10-1.0.2.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> /home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> /home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+23 items
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> /home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+42 items
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> org.template.classification.CompleteEvaluation
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> org.template.classification.CompleteEvaluation$
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$1$$anonfun$apply$1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$2
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$2$$anonfun$apply$2
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$readEval$1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$readEval$2
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$readEval$2$$anonfun$3
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$readEval$2$$anonfun$4
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$readEval$2$$anonfun$5
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$readEval$2$$anonfun$6
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSource$$anonfun$readEval$2$$anonfun$apply$3
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSourceParams
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.DataSourceParams$
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org.template.classification.TrainingData
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> org.template.classification.ActualResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> org.template.classification.ClassificationEngine
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> org.template.classification.ClassificationEngine$
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> org.template.classification.PredictedResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> org.template.classification.Query
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> org.template.classification.Accuracy
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> org.template.classification.Accuracy$
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> org.template.classification.AccuracyEvaluation
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> org.template.classification.AccuracyEvaluation$
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> org.template.classification.EngineParamsList
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> org.template.classification.EngineParamsList$
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> org.template.classification.AlgorithmParams
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> org.template.classification.AlgorithmParams$
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> org.template.classification.NaiveBayesAlgorithm
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> org.template.classification.NaiveBayesAlgorithm$$anonfun$train$1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> org.template.classification.Precision
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> org.template.classification.Precision$
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> org.template.classification.PrecisionEvaluation
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> org.template.classification.PrecisionEvaluation$
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> org.template.classification.Preparator
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> org.template.classification.PreparedData
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> org.template.classification.RandomForestAlgorithm
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> org.template.classification.RandomForestAlgorithmParams
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> org.template.classification.RandomForestAlgorithmParams$
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> org.template.classification.Serving
+used names:
+457 items
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> <init>
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> ClassificationEngine
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> CompleteEvaluation
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> Evaluation
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> MetricEvaluator
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> Seq
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> apply
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> classification
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> collection
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> controller
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> engineEvaluator_=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> io
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> org
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> prediction
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> template
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> !=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> %
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> &&
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> +
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> <init>
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> ==
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> AbstractFunction2
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> ActualResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Array
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> ClassTag
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> DataSource
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> DataSourceParams
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Double
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> EmptyEvaluationInfo
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Exception
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> IndexedSeq
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Int
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> LabeledPoint
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> List
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Logger
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Long
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> ManifestFactory
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> None
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Option
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> PDataSource
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> PEventStore
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Params
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Predef
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Product
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Query
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> RDD
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> ScalaRunTime
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Seq
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Serializable
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> SparkContext
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> String
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> StringContext
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> TrainingData
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Tuple2
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Tuple3
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> Vectors
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> _1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> _2
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> _hashCode
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> _toString
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> aggregateProperties
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> apache
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> appName
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> apply
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> asInstanceOf
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> cache
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> canBuildFrom
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> classification
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> controller
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> data
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> dense
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> dsp
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> e
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> entityId
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> eq
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> error
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> evalK
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> features
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> filter
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> get
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> grizzled
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> idx
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> immutable
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> indexedPoints
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> intWrapper
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> io
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> isInstanceOf
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> label
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> labeledPoints
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> linalg
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> logger
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> map
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> materializeClassTag
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> mllib
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> ne
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> nonEmpty
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> org
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> p
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> package
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> prediction
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> properties
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> rdd
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> reflect
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> regression
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> require
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> runtime
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> s
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> sc
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> slf4j
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> spark
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> store
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> template
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> testingPoints
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> toString
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> trainingPoints
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> typedProductIterator
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> until
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$10
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$11
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$12
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$13
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$14
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$15
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$16
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$17
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$18
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$5
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$6
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$7
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$8
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> x$9
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> zipWithIndex
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> ||
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> ->
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> <init>
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> ActualResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> ClassificationEngine
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> Double
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> Engine
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> EngineFactory
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> Map
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> Predef
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> PredictedResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> Query
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> Serializable
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> any2ArrowAssoc
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> apply
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> attr0
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> attr1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> attr2
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> classification
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> controller
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> io
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> label
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> org
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> prediction
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> template
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> &&
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> <init>
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> ==
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> AbstractFunction0
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> Accuracy
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> AccuracyEvaluation
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> ActualResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> AverageMetric
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> ClassificationEngine
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> Double
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> EmptyEvaluationInfo
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> EngineParams
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> EngineParamsGenerator
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> EngineParamsList
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> Evaluation
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> PredictedResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> Product
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> Query
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> ScalaRunTime
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> Seq
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> Serializable
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> _hashCode
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> _toString
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> actual
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> apply
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> asInstanceOf
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> baseEP
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> classification
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> collection
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> controller
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> copy
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> engineMetric_=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> engineParamsList_=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> io
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> isInstanceOf
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> label
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> org
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> package
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> predicted
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> prediction
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> runtime
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> template
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> toString
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> typedProductIterator
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$10
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$11
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$12
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$13
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$14
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$15
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$16
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$17
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$18
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$19
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$2
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$3
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$4
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$5
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$6
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$7
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$8
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> x$9
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> &&
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> +
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> <init>
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> ==
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> AbstractFunction1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> AlgorithmParams
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> Array
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> ClassTag
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> Double
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> Logger
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> NaiveBayes
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> NaiveBayesAlgorithm
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> NaiveBayesModel
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> None
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> P2LAlgorithm
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> Params
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> Predef
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> PredictedResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> PreparedData
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> Product
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> Query
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> ScalaRunTime
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> Serializable
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> SparkContext
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> Statics
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> StringContext
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> Vectors
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> _toString
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> ap
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> apache
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> apply
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> asInstanceOf
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> attr0
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> attr1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> attr2
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> classification
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> controller
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> data
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> dense
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> doubleHash
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> eq
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> finalizeHash
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> grizzled
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> io
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> isInstanceOf
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> label
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> labeledPoints
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> lambda
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> linalg
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> logger
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> materializeClassTag
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> mix
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> mllib
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> model
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> nonEmpty
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> org
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> package
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> predict
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> prediction
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> query
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> refArrayOps
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> require
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> runtime
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> s
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> slf4j
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> spark
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> take
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> template
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> toString
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> train
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> typedProductIterator
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> ||
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> &&
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> <init>
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> ==
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> AbstractFunction1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> ActualResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> ClassificationEngine
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> Double
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> EmptyEvaluationInfo
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> Evaluation
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> None
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> Option
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> OptionAverageMetric
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> Precision
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> PrecisionEvaluation
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> Predef
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> PredictedResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> Product
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> Query
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> ScalaRunTime
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> Serializable
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> Statics
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> String
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> StringContext
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> _toString
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> actual
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> apply
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> asInstanceOf
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> classification
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> controller
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> doubleHash
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> engineMetric_=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> eq
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> finalizeHash
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> io
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> isInstanceOf
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> label
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> mix
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> org
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> package
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> predicted
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> prediction
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> runtime
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> s
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> template
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> toString
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> typedProductIterator
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> ||
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> <init>
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> LabeledPoint
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> PPreparator
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> Preparator
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> PreparedData
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> RDD
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> Serializable
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> SparkContext
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> TrainingData
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> apache
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> classification
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> controller
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> io
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> labeledPoints
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> mllib
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> org
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> prediction
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> rdd
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> regression
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> spark
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> template
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> trainingData
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> &&
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> <init>
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> ==
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> AbstractFunction6
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> ClassTag
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> Int
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> Logger
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> Map
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> None
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> P2LAlgorithm
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> Params
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> Predef
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> PredictedResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> PreparedData
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> Product
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> Query
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> RandomForest
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> RandomForestAlgorithm
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> RandomForestAlgorithmParams
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> RandomForestModel
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> ScalaRunTime
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> Serializable
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> SparkContext
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> Statics
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> String
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> Vectors
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> _toString
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> anyHash
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> ap
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> apache
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> apply
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> asInstanceOf
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> attr0
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> attr1
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> attr2
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> categoricalFeatureInfo
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> classification
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> controller
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> data
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> dense
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> eq
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> featureSubsetStrategy
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> finalizeHash
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> grizzled
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> impurity
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> io
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> isInstanceOf
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> label
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> labeledPoints
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> linalg
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> materializeClassTag
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> maxBins
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> maxDepth
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> mix
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> mllib
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> model
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> numClasses
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> numTrees
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> org
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> package
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> predict
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> prediction
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> query
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> runtime
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> slf4j
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> spark
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> template
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> toString
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> trainClassifier
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> tree
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> typedProductIterator
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> ||
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> <init>
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> LServing
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> PredictedResult
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> Query
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> Seq
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> Serving
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> classification
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> controller
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> head
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> io
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> org
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> package
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> predictedResults
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> prediction
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> scala
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> template
+product stamps:
+42 items
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Accuracy$.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Accuracy.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/AccuracyEvaluation$.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/AccuracyEvaluation.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/ActualResult.class -> lastModified(1448533067000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/AlgorithmParams$.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/AlgorithmParams.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/ClassificationEngine$.class -> lastModified(1448533067000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/ClassificationEngine.class -> lastModified(1448533067000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/CompleteEvaluation$.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/CompleteEvaluation.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$1$$anonfun$apply$1.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$1.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$2$$anonfun$apply$2.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$2.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$1.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2$$anonfun$3.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2$$anonfun$4.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2$$anonfun$5.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2$$anonfun$6.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2$$anonfun$apply$3.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource$$anonfun$readEval$2.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSource.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSourceParams$.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/DataSourceParams.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/EngineParamsList$.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/EngineParamsList.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/NaiveBayesAlgorithm$$anonfun$train$1.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/NaiveBayesAlgorithm.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Precision$.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Precision.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/PrecisionEvaluation$.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/PrecisionEvaluation.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/PredictedResult.class -> lastModified(1448533067000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Preparator.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/PreparedData.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Query.class -> lastModified(1448533067000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/RandomForestAlgorithm.class -> lastModified(1448533067000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/RandomForestAlgorithmParams$.class -> lastModified(1448533067000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/RandomForestAlgorithmParams.class -> lastModified(1448533067000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/Serving.class -> lastModified(1448360249000)
+/home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes/org/template/classification/TrainingData.class -> lastModified(1448360249000)
+source stamps:
+9 items
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> hash(fd4f60c1f993ec64dc96abde6f37c5c7c0ae3e9c)
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> hash(175e8ff6dfac27a7c453fbc15c847b6beac6c685)
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> hash(bdae240e5c8e4d7d9e9baaf466b0e4b8238b87d2)
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> hash(26d3ad66e71d4065c4f7afae514a02409ef93cdc)
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> hash(c7872cd3c47e01579fa239c17897d4396fde50b6)
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> hash(67b8368b562259821bcf79c52892f50320956d55)
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> hash(d963bb997c1ccd20a5388351e71c9c69af3585a4)
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> hash(9b6d82680081118523325edfebe26f90477c69b8)
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> hash(c837e3d2b65c4477a00088f2699c6016ff25b958)
+binary stamps:
+8 items
+/home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar -> lastModified(1445023773000)
+/home/jinyang/.ivy2/cache/io.prediction/data_2.10/jars/data_2.10-0.9.5.jar -> lastModified(1445023799000)
+/home/jinyang/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.7.jar -> lastModified(1421023878000)
+/home/jinyang/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar -> lastModified(1428727559000)
+/home/jinyang/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar -> lastModified(1428727567000)
+/home/jinyang/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/jars/grizzled-slf4j_2.10-1.0.2.jar -> lastModified(1398608828000)
+/home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> lastModified(1437726344000)
+class names:
+8 items
+/home/jinyang/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.5.jar -> io.prediction.controller.Params
+/home/jinyang/.ivy2/cache/io.prediction/data_2.10/jars/data_2.10-0.9.5.jar -> io.prediction.data.store.PEventStore$
+/home/jinyang/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.7.jar -> org.joda.time.DateTime
+/home/jinyang/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar -> org.apache.spark.SparkContext$
+/home/jinyang/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar -> org.apache.spark.mllib.tree.RandomForest$
+/home/jinyang/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/jars/grizzled-slf4j_2.10-1.0.2.jar -> grizzled.slf4j.Logger
+/home/jinyang/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.Product
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+9 items
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAiNr1iAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAI3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cArishV0AAZub3RpZnlzcQB+AAzYRRfMdAAEd2FpdHNxAH4ADNh3wSZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMlz+ae3QACGVuZ2luZV89c3EAfgAMKGB4hHQABmVxdWFsc3NxAH4ADOIIuGp0AAxhc0luc3RhbmNlT2ZzcQB+AAyXGyBgdAAMZW5naW5lUGFyYW1zc3EAfgAMlWZQb3QADHN5bmNocm9uaXplZHNxAH4ADHPKbvN0AA9lbmdpbmVFdmFsdWF0b3JzcQB+AAyaJOZ4dAANJGlzSW5zdGFuY2VPZnNxAH4ADLWmYaR0AAlldmFsdWF0b3JzcQB+AAxanFk/dAAPZW5naW5lTWV0cmljc189c3EAfgAMlAqUIXQADV9ldmFsdWF0b3JTZXRzcQB+AAyDQ+XGdAASQ29tcGxldGVFdmFsdWF0aW9uc3EAfgAMWmYSpHQACWVuZ2luZVNldHNxAH4ADFuIBW90AAlub3RpZnlBbGxzcQB+AAxhlfcgdAAMZW5naW5lTWV0cmljc3EAfgAM8S2y13QADGlzSW5zdGFuY2VPZnNxAH4ADLl7YZt0AAVhcHBseXNxAH4ADH+jpnN0AA5lbmdpbmVNZXRyaWNfPXNxAH4ADClzcYN0AAI9PXNxAH4ADLVw70B0AAVjbG9uZXNxAH4ADIdcQ/R0ABFlbmdpbmVFdmFsdWF0b3JfPXNxAH4ADOro7hh0AApfZXZhbHVhdG9yc3EAfgAMsIrQkXQADWVuZ2luZU1ldHJpY3NzcQB+AAw/pMnMdAAIdG9TdHJpbmdzcQB+AAwWk7LodAACIT1zcQB+AAxFAe6ddAAHX2VuZ2luZXNxAH4ADHKHfJF0AAhnZXRDbGFzc3NxAH4ADKTQoDR0AAJuZXNxAH4ADJpdiKl0AAJlcXNxAH4ADLH+2wd0AAIjI3NxAH4ADI855zx0AAZlbmdpbmVzcQB+AAy0hKnidAAIZmluYWxpemVzcQB+AAxZ1MXKdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBdeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAub3JnLnRlbXBsYXRlLmNsYXNzaWZpY2F0aW9uLkNvbXBsZXRlRXZhbHVhdGlvbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AHZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHUAcHNxAH4AenNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBdTAAJaW5oZXJpdGVkcQB+AF1MAAdwYXJlbnRzcQB+AF14cQB+AH5zcQB+AHUAcHNxAH4AenVxAH4AWAAAAABzcQB+AHUAcHNxAH4AenVxAH4AWAAAAABzcQB+AHUAcHNxAH4AenVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAFc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AfXQACkV2YWx1YXRpb25zcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AH1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAAmlvc3EAfgCadAAKcHJlZGljdGlvbnNxAH4AmnQACmNvbnRyb2xsZXJzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Am3NxAH4AjnQACkRlcGxveW1lbnRxAH4AlHNxAH4AjnQADUVuZ2luZUZhY3RvcnlxAH4AlHNxAH4AjnQABk9iamVjdHNxAH4AknNxAH4AlXVxAH4AmAAAAANzcQB+AJp0AARqYXZhc3EAfgCadAAEbGFuZ3EAfgCjc3EAfgCOdAADQW55c3EAfgCSc3EAfgCVdXEAfgCYAAAAAnNxAH4AmnQABXNjYWxhcQB+AKN1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABtvcmcudGVtcGxhdGUuY2xhc3NpZmljYXRpb25zcQB+ALp0AAxvcmcudGVtcGxhdGVzcQB+ALp0AANvcmdzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVE4/3BIdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQARi9ob21lL2ppbnlhbmcvT2ZmaWNpYWxfdGVtcC9NeUNsYXNzaWZpY2F0aW9uL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABT9T2DB+ZPsZNyWq95vN8XHwK4+nA==
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDliwT7AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMMKRIh0AAxyZWFkRXZhbEJhc2VzcQB+AAzPK3lEdAAGbm90aWZ5c3EAfgAMvtP8+nQABHJlYWRzcQB+AAy+hyVldAAMVHJhaW5pbmdEYXRhc3EAfgAM+soXfXQABHdhaXRzcQB+AAy7gy+IdAAOY29weSRkZWZhdWx0JDJzcQB+AAyS35o8dAANJGFzSW5zdGFuY2VPZnNxAH4ADOKWXo10AANkc3BzcQB+AAyY7taKdAAGbG9nZ2Vyc3EAfgAMT1JCHHQADHByb2R1Y3RBcml0eXNxAH4ADPR6tLp0AAZlcXVhbHNzcQB+AAyQ6AYUdAAQRGF0YVNvdXJjZVBhcmFtc3NxAH4ADD04rJR0AAdhcHBOYW1lc3EAfgAMi85esHQADGFzSW5zdGFuY2VPZnNxAH4ADDxR9C10AAxzeW5jaHJvbml6ZWRzcQB+AAwyRMN1dAANJGlzSW5zdGFuY2VPZnNxAH4ADEni7wt0AAhyZWFkRXZhbHNxAH4ADL9Ra8x0AAhjYW5FcXVhbHNxAH4ADP907v50AA1wcm9kdWN0UHJlZml4c3EAfgAMyZrzPnQACW5vdGlmeUFsbHNxAH4ADJM0xB10AA1sYWJlbGVkUG9pbnRzc3EAfgAMnd/ax3QADGlzSW5zdGFuY2VPZnNxAH4ADJmM1PJ0AAY8aW5pdD5zcQB+AAzyyeoedAACPT1zcQB+AAy1SLCvdAAFZXZhbEtzcQB+AAyYVU+IdAAFY2xvbmVzcQB+AAyH4jSldAAEY29weXNxAH4ADENOyth0AAh0b1N0cmluZ3NxAH4ADHlhc4p0AAIhPXNxAH4ADD7rTA90AAhnZXRDbGFzc3NxAH4ADGLrwAh0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADCkbjax0AAJuZXNxAH4ADJ3YSEN0AAJlcXNxAH4ADJIT8Wx0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAzKCpmxdAAQcmVhZFRyYWluaW5nQmFzZXNxAH4ADKFzSpN0AAIjI3NxAH4ADNzyZ7N0AApEYXRhU291cmNlc3EAfgAMC+J5UXQACGZpbmFsaXplc3EAfgAMc85m0XQADHJlYWRUcmFpbmluZ3NxAH4ADHFomn90AA5wcm9kdWN0RWxlbWVudHNxAH4ADOBi2B90AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACxvcmcudGVtcGxhdGUuY2xhc3NpZmljYXRpb24uRGF0YVNvdXJjZVBhcmFtc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Agnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AgQBwc3EAfgCGc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGlMAAlpbmhlcml0ZWRxAH4AaUwAB3BhcmVudHNxAH4AaXhxAH4AinNxAH4AgQBwc3EAfgCGdXEAfgBkAAAAAHNxAH4AgQBwc3EAfgCGdXEAfgBkAAAAAHNxAH4AgQBwc3EAfgCGdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAdzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCJdAAHUHJvZHVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AiXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ap3NxAH4AmnQABkVxdWFsc3EAfgCgc3EAfgCadAAGUGFyYW1zc3EAfgCec3EAfgChdXEAfgCkAAAABHNxAH4ApnQAAmlvc3EAfgCmdAAKcHJlZGljdGlvbnNxAH4ApnQACmNvbnRyb2xsZXJxAH4Aq3NxAH4AmnQADFNlcmlhbGl6YWJsZXEAfgCgc3EAfgCacQB+ALpzcQB+AJ5zcQB+AKF1cQB+AKQAAAADc3EAfgCmdAAEamF2YXNxAH4ApnQAAmlvcQB+AKtzcQB+AJp0AAZPYmplY3RzcQB+AJ5zcQB+AKF1cQB+AKQAAAADc3EAfgCmcQB+AMBzcQB+AKZ0AARsYW5ncQB+AKtzcQB+AJp0AANBbnlxAH4AoHNxAH4AZnEAfgBzdXEAfgB0AAAAAHNxAH4AdgB0ACZvcmcudGVtcGxhdGUuY2xhc3NpZmljYXRpb24uRGF0YVNvdXJjZXVxAH4AeQAAAABxAH4AfXVxAH4AfwAAAAF0ABBzY2FsYS5kZXByZWNhdGVkc3EAfgCBAHBzcQB+AIZxAH4Ai3NxAH4AgQBwc3EAfgCGc3EAfgCOc3EAfgCBAHBzcQB+AIZ1cQB+AGQAAAAAc3EAfgCBAHBzcQB+AIZ1cQB+AGQAAAAAc3EAfgCBAHBzcQB+AIZ1cQB+AJgAAAAHc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCbWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCJc3EAfgCadAALUERhdGFTb3VyY2VzcQB+AJ5zcQB+AKF1cQB+AKQAAAAEc3EAfgCmdAACaW9zcQB+AKZ0AApwcmVkaWN0aW9uc3EAfgCmdAAKY29udHJvbGxlcnEAfgCrdXEAfgCYAAAABHNxAH4AmnQADFRyYWluaW5nRGF0YXNxAH4AnnNxAH4AoXVxAH4ApAAAAARzcQB+AKZ0AANvcmdzcQB+AKZ0AAh0ZW1wbGF0ZXNxAH4ApnQADmNsYXNzaWZpY2F0aW9ucQB+AKtzcQB+AJp0ABFTZXJpYWxpemFibGVDbGFzc3NxAH4AmnQAB3BhY2thZ2VzcQB+AJp0AApjb250cm9sbGVyc3EAfgCadAAKcHJlZGljdGlvbnNxAH4AmnQAAmlvc3EAfgCec3EAfgChdXEAfgCkAAAAAXEAfgCrc3EAfgCadAAFUXVlcnlxAH4A83NxAH4AmnQADEFjdHVhbFJlc3VsdHEAfgDzc3EAfgDic3EAfgCadAAOQmFzZURhdGFTb3VyY2VzcQB+AJ5zcQB+AKF1cQB+AKQAAAAEc3EAfgCmdAACaW9zcQB+AKZ0AApwcmVkaWN0aW9uc3EAfgCmdAAEY29yZXEAfgCrdXEAfgCYAAAABHEAfgDxcQB+APxxAH4BCXEAfgELc3EAfgCadAAMQWJzdHJhY3REb2VycQB+ARBzcQB+AJpxAH4AunNxAH4AnnNxAH4AoXVxAH4ApAAAAAJzcQB+AKZxAH4AqXEAfgCrc3EAfgCacQB+ALpzcQB+AJ5zcQB+AKF1cQB+AKQAAAADc3EAfgCmcQB+AMBzcQB+AKZ0AAJpb3EAfgCrc3EAfgCacQB+AMRzcQB+AJ5zcQB+AKF1cQB+AKQAAAADc3EAfgCmcQB+AMBzcQB+AKZxAH4AynEAfgCrc3EAfgCacQB+AMxxAH4BHXNxAH4AZnEAfgBzdXEAfgB0AAAAAHNxAH4AdgB0AChvcmcudGVtcGxhdGUuY2xhc3NpZmljYXRpb24uVHJhaW5pbmdEYXRhdXEAfgB5AAAAAHEAfgB9dXEAfgB/AAAAAHNxAH4AgQBwc3EAfgCGcQB+AItzcQB+AIEAcHNxAH4AhnNxAH4AjnNxAH4AgQBwc3EAfgCGdXEAfgBkAAAAAHNxAH4AgQBwc3EAfgCGdXEAfgBkAAAAAHNxAH4AgQBwc3EAfgCGdXEAfgCYAAAABHNxAH4AmnEAfgC6c3EAfgCec3EAfgChdXEAfgCkAAAAAnNxAH4ApnEAfgCpcQB+AKtzcQB+AJpxAH4AunNxAH4AnnNxAH4AoXVxAH4ApAAAAANzcQB+AKZxAH4AwHNxAH4ApnQAAmlvcQB+AKtzcQB+AJpxAH4AxHNxAH4AnnNxAH4AoXVxAH4ApAAAAANzcQB+AKZxAH4AwHNxAH4ApnEAfgDKcQB+AKtzcQB+AJpxAH4AzHEAfgFEdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAbb3JnLnRlbXBsYXRlLmNsYXNzaWZpY2F0aW9uc3EAfgFYdAAMb3JnLnRlbXBsYXRlc3EAfgFYdAADb3Jnc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFROP9wSHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEYvaG9tZS9qaW55YW5nL09mZmljaWFsX3RlbXAvTXlDbGFzc2lmaWNhdGlvbi90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUF16P9t+sJ6fEU/vBXIR7a+rGxoU=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHACV4T/AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFD49rx0AAZub3RpZnlzcQB+AAxSrA7VdAAUQ2xhc3NpZmljYXRpb25FbmdpbmVzcQB+AAywFgJqdAAEd2FpdHNxAH4ADH/kVBB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMGmmwvnQABmVxdWFsc3NxAH4ADB+8+ZR0AAxhc0luc3RhbmNlT2ZzcQB+AAzbQb+tdAAMZW5naW5lUGFyYW1zc3EAfgAMRbJwqXQADHN5bmNocm9uaXplZHNxAH4ADF9Kj/R0AAVsYWJlbHNxAH4ADB6VfE50AA0kaXNJbnN0YW5jZU9mc3EAfgAMsQaMVnQADEFjdHVhbFJlc3VsdHNxAH4ADOClF9h0AAVRdWVyeXNxAH4ADKEmkFB0AAlub3RpZnlBbGxzcQB+AAzPcG0zdAAMaXNJbnN0YW5jZU9mc3EAfgAMWBjqEXQABjxpbml0PnNxAH4ADA44PRx0AAVhcHBseXNxAH4ADFLT7T50AA9QcmVkaWN0ZWRSZXN1bHRzcQB+AAzTC8COdAACPT1zcQB+AAwNz/ZydAAFY2xvbmVzcQB+AAwnKX+tdAAFYXR0cjBzcQB+AAyPRwnwdAAIdG9TdHJpbmdzcQB+AAx0HMlndAACIT1zcQB+AAzeYh4odAAIZ2V0Q2xhc3NzcQB+AAyHu9gcdAAFYXR0cjJzcQB+AAwEpGMfdAACbmVzcQB+AAzwbIr+dAAFYXR0cjFzcQB+AAwsWlV7dAACZXFzcQB+AAz2f2yFdAACIyNzcQB+AAzgJTE7dAAIZmluYWxpemVzcQB+AAxc1ZI+dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAEc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBTeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAhb3JnLnRlbXBsYXRlLmNsYXNzaWZpY2F0aW9uLlF1ZXJ5dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AGsBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFNMAAlpbmhlcml0ZWRxAH4AU0wAB3BhcmVudHNxAH4AU3hxAH4AcnNxAH4AawF1cQB+AE4AAAAAcHNxAH4AawF1cQB+AE4AAAAAcHNxAH4AawF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHF0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXB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
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD4WPsUAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAANXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJ6qJhh0AAZub3RpZnlzcQB+AAygjUBsdAAEd2FpdHNxAH4ADAYD7R50AA0kYXNJbnN0YW5jZU9mc3EAfgAMeagxFXQACGVuZ2luZV89c3EAfgAMQkBCanQADmNhbGN1bGF0ZVN0YXRzc3EAfgAMKnEXvXQADHByb2R1Y3RBcml0eXNxAH4ADFYWZwh0AAZlcXVhbHNzcQB+AAzu1BUddAAMYXNJbnN0YW5jZU9mc3EAfgAMXld4yXQADGVuZ2luZVBhcmFtc3NxAH4ADNY6Hkh0AAxzeW5jaHJvbml6ZWRzcQB+AAznOa51dAAPZW5naW5lRXZhbHVhdG9yc3EAfgAMbfyceXQAEGVuZ2luZVBhcmFtc0xpc3RzcQB+AAyMam41dAANJGlzSW5zdGFuY2VPZnNxAH4ADFwHZ8l0AAlldmFsdWF0b3JzcQB+AAy9YGP0dAAPZW5naW5lTWV0cmljc189c3EAfgAMnQnr+HQACGNhbkVxdWFsc3EAfgAMMMTwv3QADV9ldmFsdWF0b3JTZXRzcQB+AAxfxizBdAAJZW5naW5lU2V0c3EAfgAM0iI7vHQADXByb2R1Y3RQcmVmaXhzcQB+AAyLFeIUdAAJZXBMaXN0U2V0c3EAfgAMGhE0gXQACW5vdGlmeUFsbHNxAH4ADA2IHC90AAxlbmdpbmVNZXRyaWNzcQB+AAyDxMtGdAAMaXNJbnN0YW5jZU9mc3EAfgAMV1e5PnQABjxpbml0PnNxAH4ADGb8fE50AAhBY2N1cmFjeXNxAH4ADEgXUjl0AAljYWxjdWxhdGVzcQB+AAxBM/ZkdAAFYXBwbHlzcQB+AAz7azO7dAAOZW5naW5lTWV0cmljXz1zcQB+AAwZekQTdAASZW5naW5lUGFyYW1zTGlzdF89c3EAfgAMo5mr8HQAAj09c3EAfgAMWQCvWXQABWNsb25lc3EAfgAM/RJ1WHQAEWVuZ2luZUV2YWx1YXRvcl89c3EAfgAMdFHQIXQACl9ldmFsdWF0b3JzcQB+AAy1s6hgdAANZW5naW5lTWV0cmljc3NxAH4ADEqWdb10AAZiYXNlRVBzcQB+AAw8IMh2dAAEY29weXNxAH4ADB0yoDp0AAZoZWFkZXJzcQB+AAyG46ZvdAAIdG9TdHJpbmdzcQB+AAxMgiVCdAAGZXBMaXN0c3EAfgAMQFD+AHQAAiE9c3EAfgAMU4hgyHQAB19lbmdpbmVzcQB+AAzESGWsdAAIZ2V0Q2xhc3NzcQB+AAypenXBdAASQWNjdXJhY3lFdmFsdWF0aW9uc3EAfgAMT6/8MHQAEEVuZ2luZVBhcmFtc0xpc3RzcQB+AAyXTObZdAACbmVzcQB+AAxfZtRjdAACZXFzcQB+AAyURjgQdAAHY29tcGFyZXNxAH4ADE0WE3t0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAy3L63XdAACIyNzcQB+AAwbkoOqdAAGZW5naW5lc3EAfgAMbAoxNnQACGZpbmFsaXplc3EAfgAMW0AUG3QADnByb2R1Y3RFbGVtZW50c3EAfgAMINYPknQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AgXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAJG9yZy50ZW1wbGF0ZS5jbGFzc2lmaWNhdGlvbi5BY2N1cmFjeXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Amnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AmQBwc3EAfgCec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AIFMAAlpbmhlcml0ZWRxAH4AgUwAB3BhcmVudHNxAH4AgXhxAH4AonNxAH4AmQBwc3EAfgCedXEAfgB8AAAAAHNxAH4AmQBwc3EAfgCedXEAfgB8AAAAAHNxAH4AmQBwc3EAfgCedXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAApzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgChdAAHUHJvZHVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AoXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Av3NxAH4AsnQABkVxdWFsc3EAfgC4c3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCzWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgChc3EAfgCydAANQXZlcmFnZU1ldHJpY3NxAH4AtnNxAH4AuXVxAH4AvAAAAARzcQB+AL50AAJpb3NxAH4AvnQACnByZWRpY3Rpb25zcQB+AL50AApjb250cm9sbGVycQB+AMN1cQB+ALAAAAAEc3EAfgCydAARU2VyaWFsaXphYmxlQ2xhc3NzcQB+ALJ0AAdwYWNrYWdlc3EAfgCydAAKY29udHJvbGxlcnNxAH4AsnQACnByZWRpY3Rpb25zcQB+ALJ0AAJpb3NxAH4AtnNxAH4AuXVxAH4AvAAAAAFxAH4Aw3NxAH4AsnQABVF1ZXJ5c3EAfgC2c3EAfgC5dXEAfgC8AAAABHNxAH4AvnQAA29yZ3NxAH4AvnQACHRlbXBsYXRlc3EAfgC+dAAOY2xhc3NpZmljYXRpb25xAH4Aw3NxAH4AsnQAD1ByZWRpY3RlZFJlc3VsdHEAfgDkc3EAfgCydAAMQWN0dWFsUmVzdWx0cQB+AORzcQB+AMZzcQB+ALJ0AAlRUEFNZXRyaWNxAH4Ay3VxAH4AsAAAAARxAH4A4nEAfgDtcQB+AO9zcQB+ALJ0AAZEb3VibGVxAH4AuHNxAH4AxnNxAH4AsnQAEVN0YXRzTWV0cmljSGVscGVycQB+AMt1cQB+ALAAAAAEcQB+ANVxAH4A4nEAfgDtcQB+AO9zcQB+AMZzcQB+ALJ0AAZNZXRyaWNxAH4Ay3VxAH4AsAAAAAVxAH4A1XEAfgDicQB+AO1xAH4A73EAfgD1c3EAfgCydAAMU2VyaWFsaXphYmxlcQB+ALhzcQB+ALJxAH4BAHNxAH4AtnNxAH4AuXVxAH4AvAAAAANzcQB+AL50AARqYXZhc3EAfgC+dAACaW9xAH4Aw3NxAH4AsnQABk9iamVjdHNxAH4AtnNxAH4AuXVxAH4AvAAAAANzcQB+AL5xAH4BBnNxAH4AvnQABGxhbmdxAH4Aw3NxAH4AsnQAA0FueXEAfgC4c3EAfgB+cQB+AIt1cQB+AIwAAAAAc3EAfgCOAHQALm9yZy50ZW1wbGF0ZS5jbGFzc2lmaWNhdGlvbi5BY2N1cmFjeUV2YWx1YXRpb251cQB+AJEAAAAAfnEAfgCTdAAGTW9kdWxldXEAfgCXAAAAAHNxAH4AmQBwc3EAfgCecQB+AKNzcQB+AJkAcHNxAH4AnnNxAH4ApnNxAH4AmQBwc3EAfgCedXEAfgB8AAAAAHNxAH4AmQBwc3EAfgCedXEAfgB8AAAAAHNxAH4AmQBwc3EAfgCedXEAfgCwAAAABXNxAH4AsnQACkV2YWx1YXRpb25zcQB+ALZzcQB+ALl1cQB+ALwAAAAEc3EAfgC+dAACaW9zcQB+AL50AApwcmVkaWN0aW9uc3EAfgC+dAAKY29udHJvbGxlcnEAfgDDc3EAfgCydAAKRGVwbG95bWVudHEAfgErc3EAfgCydAANRW5naW5lRmFjdG9yeXEAfgErc3EAfgCycQB+AQpzcQB+ALZzcQB+ALl1cQB+ALwAAAADc3EAfgC+cQB+AQZzcQB+AL5xAH4BEHEAfgDDc3EAfgCycQB+ARJzcQB+ALZzcQB+ALl1cQB+ALwAAAACc3EAfgC+cQB+AMFxAH4Aw3NxAH4AfnEAfgCLdXEAfgCMAAAAAHNxAH4AjgB0ACxvcmcudGVtcGxhdGUuY2xhc3NpZmljYXRpb24uRW5naW5lUGFyYW1zTGlzdHVxAH4AkQAAAABxAH4BGHVxAH4AlwAAAABzcQB+AJkAcHNxAH4AnnEAfgCjc3EAfgCZAHBzcQB+AJ5zcQB+AKZzcQB+AJkAcHNxAH4AnnVxAH4AfAAAAABzcQB+AJkAcHNxAH4AnnVxAH4AfAAAAABzcQB+AJkAcHNxAH4AnnVxAH4AsAAAAANzcQB+ALJ0ABVFbmdpbmVQYXJhbXNHZW5lcmF0b3JzcQB+ALZzcQB+ALl1cQB+ALwAAAAEc3EAfgC+dAACaW9zcQB+AL50AApwcmVkaWN0aW9uc3EAfgC+dAAKY29udHJvbGxlcnEAfgDDc3EAfgCycQB+AQpzcQB+ALZzcQB+ALl1cQB+ALwAAAADc3EAfgC+cQB+AQZzcQB+AL5xAH4BEHEAfgDDc3EAfgCycQB+ARJzcQB+ALZzcQB+ALl1cQB+ALwAAAACc3EAfgC+cQB+AMFxAH4Aw3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAG29yZy50ZW1wbGF0ZS5jbGFzc2lmaWNhdGlvbnNxAH4Bb3QADG9yZy50ZW1wbGF0ZXNxAH4Bb3QAA29yZ3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTj/cEh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABGL2hvbWUvamlueWFuZy9PZmZpY2lhbF90ZW1wL015Q2xhc3NpZmljYXRpb24vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFCbTrWbnHUBlxPevrlFKAkCe+Tzc
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDrpkZOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBgN8Qp0AAZub3RpZnlzcQB+AAzr8EkedAAEd2FpdHNxAH4ADFnypzl0AA0kYXNJbnN0YW5jZU9mc3EAfgAMvEYQb3QABmxvZ2dlcnNxAH4ADGdESNJ0AAxiYXRjaFByZWRpY3RzcQB+AAxEtLL9dAALcHJlZGljdEJhc2VzcQB+AAwGIYUVdAAMcHJvZHVjdEFyaXR5c3EAfgAMmhBFwHQAE21ha2VQZXJzaXN0ZW50TW9kZWxzcQB+AAymg3m5dAAGZXF1YWxzc3EAfgAMoA5kk3QAD0FsZ29yaXRobVBhcmFtc3NxAH4ADHBzZ3N0AAxhc0luc3RhbmNlT2ZzcQB+AAzkAT4pdAATTmFpdmVCYXllc0FsZ29yaXRobXNxAH4ADMi3lmN0AAZsYW1iZGFzcQB+AAzA7U9ndAAMc3luY2hyb25pemVkc3EAfgAM622FJHQADSRpc0luc3RhbmNlT2ZzcQB+AAz6fZk1dAAQYmF0Y2hQcmVkaWN0QmFzZXNxAH4ADEfom5F0AAJhcHNxAH4ADBpTp1B0ABhnc29uVHlwZUFkYXB0ZXJGYWN0b3JpZXNzcQB+AAy0n+vPdAAIY2FuRXF1YWxzcQB+AAxOo6WCdAAKcXVlcnlDbGFzc3NxAH4ADKdBQzt0AA9xdWVyeVNlcmlhbGl6ZXJzcQB+AAwIyKh/dAANcHJvZHVjdFByZWZpeHNxAH4ADOrrMDN0AAlub3RpZnlBbGxzcQB+AAxtEA1xdAAMaXNJbnN0YW5jZU9mc3EAfgAMLhdtdnQABjxpbml0PnNxAH4ADNXzWWx0AAl0cmFpbkJhc2VzcQB+AAw7Q9g6dAACPT1zcQB+AAx1Su7DdAAFY2xvbmVzcQB+AAxKuZCLdAAEY29weXNxAH4ADCSrw4B0AAh0b1N0cmluZ3NxAH4ADM8O/Bh0AAIhPXNxAH4ADHX7EA10AAV0cmFpbnNxAH4ADLJyPIJ0AAdwcmVkaWN0c3EAfgAM/DMylnQACGdldENsYXNzc3EAfgAMKwMK2HQADmNvcHkkZGVmYXVsdCQxc3EAfgAMKsj2u3QAAm5lc3EAfgAMRjAdx3QAAmVxc3EAfgAM/eu/q3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADDMl4hR0AAIjI3NxAH4ADJuX6VZ0AAhmaW5hbGl6ZXNxAH4ADOq0inF0AA5wcm9kdWN0RWxlbWVudHNxAH4ADJ3zlyZ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACtvcmcudGVtcGxhdGUuY2xhc3NpZmljYXRpb24uQWxnb3JpdGhtUGFyYW1zdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCEeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCDAHBzcQB+AIhzcgATeHNidGkuYXBpLlN0cnV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
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAZL0LjAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAMXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cK9nn3l0AAZub3RpZnlzcQB+AAwIY9HsdAAEd2FpdHNxAH4ADJijq9l0AA0kYXNJbnN0YW5jZU9mc3EAfgAMFyJsQXQACGVuZ2luZV89c3EAfgAMJWyWEnQADmNhbGN1bGF0ZVN0YXRzc3EAfgAMhpttZHQADHByb2R1Y3RBcml0eXNxAH4ADISNWv10AAZlcXVhbHNzcQB+AAwojQ2vdAAMYXNJbnN0YW5jZU9mc3EAfgAMCmVolnQADGVuZ2luZVBhcmFtc3NxAH4ADLPFvth0AAxzeW5jaHJvbml6ZWRzcQB+AAzl9AhydAAFbGFiZWxzcQB+AAwWLWkddAAPZW5naW5lRXZhbHVhdG9yc3EAfgAMjZ2bM3QADSRpc0luc3RhbmNlT2ZzcQB+AAxtnlXJdAAJZXZhbHVhdG9yc3EAfgAMwlH2r3QAD2VuZ2luZU1ldHJpY3NfPXNxAH4ADOSQwYB0AAhjYW5FcXVhbHNxAH4ADKL4hHJ0AA1fZXZhbHVhdG9yU2V0c3EAfgAMl1jht3QACWVuZ2luZVNldHNxAH4ADEvkjHx0AA1wcm9kdWN0UHJlZml4c3EAfgAMmzjOYnQACW5vdGlmeUFsbHNxAH4ADID6tPp0AAxlbmdpbmVNZXRyaWNzcQB+AAwwI8I5dAATUHJlY2lzaW9uRXZhbHVhdGlvbnNxAH4ADDBY6sl0AAxpc0luc3RhbmNlT2ZzcQB+AAyL7ul4dAAGPGluaXQ+c3EAfgAMirSTbHQACVByZWNpc2lvbnNxAH4ADMecauV0AAljYWxjdWxhdGVzcQB+AAxyAenQdAAFYXBwbHlzcQB+AAy5KZSFdAAOZW5naW5lTWV0cmljXz1zcQB+AAyAqErBdAACPT1zcQB+AAwG8884dAAFY2xvbmVzcQB+AAwxTIEldAARZW5naW5lRXZhbHVhdG9yXz1zcQB+AAyS/8s9dAAKX2V2YWx1YXRvcnNxAH4ADHz6orN0AA1lbmdpbmVNZXRyaWNzc3EAfgAMJFe2NnQABGNvcHlzcQB+AAzXUVJNdAAGaGVhZGVyc3EAfgAMtabh1HQACHRvU3RyaW5nc3EAfgAMbnqH9XQAAiE9c3EAfgAMIz1yAnQAB19lbmdpbmVzcQB+AAyBYw2GdAAIZ2V0Q2xhc3NzcQB+AAyxJHX5dAAOY29weSRkZWZhdWx0JDFzcQB+AAxCfX2odAACbmVzcQB+AAwsU0ytdAACZXFzcQB+AAynLyDWdAAHY29tcGFyZXNxAH4ADFsSAdF0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAzdfDYpdAACIyNzcQB+AAyHIqNYdAAGZW5naW5lc3EAfgAMXgR5mnQACGZpbmFsaXplc3EAfgAMNfe8jnQADnByb2R1Y3RFbGVtZW50c3EAfgAMKcAq2nQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AeXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAJW9yZy50ZW1wbGF0ZS5jbGFzc2lmaWNhdGlvbi5QcmVjaXNpb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AJJ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AJEAcHNxAH4AlnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgB5TAAJaW5oZXJpdGVkcQB+AHlMAAdwYXJlbnRzcQB+AHl4cQB+AJpzcQB+AJEAcHNxAH4AlnVxAH4AdAAAAABzcQB+AJEAcHNxAH4AlnVxAH4AdAAAAABzcQB+AJEAcHNxAH4AlnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAKc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AmXQAB1Byb2R1Y3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJlzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ALdzcQB+AKp0AAZFcXVhbHNxAH4AsHNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Aq1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AmXNxAH4AqnQAE09wdGlvbkF2ZXJhZ2VNZXRyaWNzcQB+AK5zcQB+ALF1cQB+ALQAAAAEc3EAfgC2dAACaW9zcQB+ALZ0AApwcmVkaWN0aW9uc3EAfgC2dAAKY29udHJvbGxlcnEAfgC7dXEAfgCoAAAABHNxAH4AqnQAEVNlcmlhbGl6YWJsZUNsYXNzc3EAfgCqdAAHcGFja2FnZXNxAH4AqnQACmNvbnRyb2xsZXJzcQB+AKp0AApwcmVkaWN0aW9uc3EAfgCqdAACaW9zcQB+AK5zcQB+ALF1cQB+ALQAAAABcQB+ALtzcQB+AKp0AAVRdWVyeXNxAH4ArnNxAH4AsXVxAH4AtAAAAARzcQB+ALZ0AANvcmdzcQB+ALZ0AAh0ZW1wbGF0ZXNxAH4AtnQADmNsYXNzaWZpY2F0aW9ucQB+ALtzcQB+AKp0AA9QcmVkaWN0ZWRSZXN1bHRxAH4A3HNxAH4AqnQADEFjdHVhbFJlc3VsdHEAfgDcc3EAfgC+c3EAfgCqdAAJUVBBTWV0cmljcQB+AMN1cQB+AKgAAAAEcQB+ANpxAH4A5XEAfgDnc3EAfgC+c3EAfgCqdAAGT3B0aW9ucQB+ALB1cQB+AKgAAAABc3EAfgCqdAAGRG91YmxlcQB+ALBzcQB+AL5zcQB+AKp0ABdTdGF0c09wdGlvbk1ldHJpY0hlbHBlcnEAfgDDdXEAfgCoAAAABHEAfgDNcQB+ANpxAH4A5XEAfgDnc3EAfgC+c3EAfgCqdAAGTWV0cmljcQB+AMN1cQB+AKgAAAAFcQB+AM1xAH4A2nEAfgDlcQB+AOdxAH4A8XNxAH4AqnQADFNlcmlhbGl6YWJsZXEAfgCwc3EAfgCqcQB+APxzcQB+AK5zcQB+ALF1cQB+ALQAAAADc3EAfgC2dAAEamF2YXNxAH4AtnQAAmlvcQB+ALtzcQB+AKp0AAZPYmplY3RzcQB+AK5zcQB+ALF1cQB+ALQAAAADc3EAfgC2cQB+AQJzcQB+ALZ0AARsYW5ncQB+ALtzcQB+AKp0AANBbnlxAH4AsHNxAH4AdnEAfgCDdXEAfgCEAAAAAHNxAH4AhgB0AC9vcmcudGVtcGxhdGUuY2xhc3NpZmljYXRpb24uUHJlY2lzaW9uRXZhbHVhdGlvbnVxAH4AiQAAAAB+cQB+AIt0AAZNb2R1bGV1cQB+AI8AAAAAc3EAfgCRAHBzcQB+AJZxAH4Am3NxAH4AkQBwc3EAfgCWc3EAfgCec3EAfgCRAHBzcQB+AJZ1cQB+AHQAAAAAc3EAfgCRAHBzcQB+AJZ1cQB+AHQAAAAAc3EAfgCRAHBzcQB+AJZ1cQB+AKgAAAAFc3EAfgCqdAAKRXZhbHVhdGlvbnNxAH4ArnNxAH4AsXVxAH4AtAAAAARzcQB+ALZ0AAJpb3NxAH4AtnQACnByZWRpY3Rpb25zcQB+ALZ0AApjb250cm9sbGVycQB+ALtzcQB+AKp0AApEZXBsb3ltZW50cQB+ASdzcQB+AKp0AA1FbmdpbmVGYWN0b3J5cQB+ASdzcQB+AKpxAH4BBnNxAH4ArnNxAH4AsXVxAH4AtAAAAANzcQB+ALZxAH4BAnNxAH4AtnEAfgEMcQB+ALtzcQB+AKpxAH4BDnNxAH4ArnNxAH4AsXVxAH4AtAAAAAJzcQB+ALZxAH4AuXEAfgC7dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAbb3JnLnRlbXBsYXRlLmNsYXNzaWZpY2F0aW9uc3EAfgFBdAAMb3JnLnRlbXBsYXRlc3EAfgFBdAADb3Jnc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFROP9wSHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEYvaG9tZS9qaW55YW5nL09mZmljaWFsX3RlbXAvTXlDbGFzc2lmaWNhdGlvbi90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUZ7g2i1YiWYIbz3nFKJL1AyCVbVU=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBRPiJAAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHXjQfF0AAZub3RpZnlzcQB+AAyALWa6dAAEd2FpdHNxAH4ADAgONeh0AA0kYXNJbnN0YW5jZU9mc3EAfgAMqOpuZXQABmVxdWFsc3NxAH4ADPVQHIN0AAxhc0luc3RhbmNlT2ZzcQB+AAyElup2dAAHcHJlcGFyZXNxAH4ADAuYzxl0AAxzeW5jaHJvbml6ZWRzcQB+AAwlNXlBdAANJGlzSW5zdGFuY2VPZnNxAH4ADLx+xYh0AAtwcmVwYXJlQmFzZXNxAH4ADPXxFGR0AAlub3RpZnlBbGxzcQB+AAxpRA8DdAANbGFiZWxlZFBvaW50c3NxAH4ADJ9Bd/10AAxpc0luc3RhbmNlT2ZzcQB+AAzRkDJBdAAGPGluaXQ+c3EAfgAMPKzMdXQAAj09c3EAfgAM2OgW23QADFByZXBhcmVkRGF0YXNxAH4ADDX0Z0B0AAVjbG9uZXNxAH4ADEJ3zmN0AApQcmVwYXJhdG9yc3EAfgAMQsTG4XQACHRvU3RyaW5nc3EAfgAMC+UL83QAAiE9c3EAfgAMQrgwoHQACGdldENsYXNzc3EAfgAMJ2mTKnQAAm5lc3EAfgAMn9FRinQAAmVxc3EAfgAM0F8U9XQAAiMjc3EAfgAMF1eT9nQACGZpbmFsaXplc3EAfgAMGg84GXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ASXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAKG9yZy50ZW1wbGF0ZS5jbGFzc2lmaWNhdGlvbi5QcmVwYXJlZERhdGF1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGJ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGEAcHNxAH4AZnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGpzcQB+AGEAcHNxAH4AZnVxAH4ARAAAAABzcQB+AGEAcHNxAH4AZnVxAH4ARAAAAABzcQB+AGEAcHNxAH4AZnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaXQADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ah3NxAH4AenEAfgB9c3EAfgB+c3EAfgCBdXEAfgCEAAAAA3NxAH4AhnQABGphdmFzcQB+AIZ0AAJpb3EAfgCLc3EAfgB6dAAGT2JqZWN0c3EAfgB+c3EAfgCBdXEAfgCEAAAAA3NxAH4AhnEAfgCRc3EAfgCGdAAEbGFuZ3EAfgCLc3EAfgB6dAADQW55cQB+AIBzcQB+AEZxAH4AU3VxAH4AVAAAAABzcQB+AFYAdAAmb3JnLnRlbXBsYXRlLmNsYXNzaWZpY2F0aW9uLlByZXBhcmF0b3J1cQB+AFkAAAAAcQB+AF11cQB+AF8AAAAAc3EAfgBhAHBzcQB+AGZxAH4Aa3NxAH4AYQBwc3EAfgBmc3EAfgBuc3EAfgBhAHBzcQB+AGZ1cQB+AEQAAAAAc3EAfgBhAHBzcQB+AGZ1cQB+AEQAAAAAc3EAfgBhAHBzcQB+AGZ1cQB+AHgAAAAHc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB7WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBpc3EAfgB6dAALUFByZXBhcmF0b3JzcQB+AH5zcQB+AIF1cQB+AIQAAAAEc3EAfgCGdAACaW9zcQB+AIZ0AApwcmVkaWN0aW9uc3EAfgCGdAAKY29udHJvbGxlcnEAfgCLdXEAfgB4AAAAAnNxAH4AenQADFRyYWluaW5nRGF0YXNxAH4AfnNxAH4AgXVxAH4AhAAAAARzcQB+AIZ0AANvcmdzcQB+AIZ0AAh0ZW1wbGF0ZXNxAH4AhnQADmNsYXNzaWZpY2F0aW9ucQB+AItzcQB+AHp0AAxQcmVwYXJlZERhdGFxAH4Aw3NxAH4AsnNxAH4AenQADkJhc2VQcmVwYXJhdG9yc3EAfgB+c3EAfgCBdXEAfgCEAAAABHNxAH4AhnQAAmlvc3EAfgCGdAAKcHJlZGljdGlvbnNxAH4AhnQABGNvcmVxAH4Ai3VxAH4AeAAAAAJxAH4AwXEAfgDMc3EAfgB6dAAMQWJzdHJhY3REb2VycQB+ANFzcQB+AHpxAH4AfXNxAH4AfnNxAH4AgXVxAH4AhAAAAAJzcQB+AIZxAH4AiXEAfgCLc3EAfgB6cQB+AH1zcQB+AH5zcQB+AIF1cQB+AIQAAAADc3EAfgCGcQB+AJFzcQB+AIZ0AAJpb3EAfgCLc3EAfgB6cQB+AJVzcQB+AH5zcQB+AIF1cQB+AIQAAAADc3EAfgCGcQB+AJFzcQB+AIZxAH4Am3EAfgCLc3EAfgB6cQB+AJ1xAH4A3nVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAG29yZy50ZW1wbGF0ZS5jbGFzc2lmaWNhdGlvbnNxAH4A8nQADG9yZy50ZW1wbGF0ZXNxAH4A8nQAA29yZ3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTj/cEh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABGL2hvbWUvamlueWFuZy9PZmZpY2lhbF90ZW1wL015Q2xhc3NpZmljYXRpb24vdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFNlju5l8HM0gpTiDUeccnGmvNYWk
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAwNK+hAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAM3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPQgr1t0AAZub3RpZnlzcQB+AAw01QtwdAAEd2FpdHNxAH4ADDKlKbx0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADANsJUp0AA0kYXNJbnN0YW5jZU9mc3EAfgAMdxd2B3QADGJhdGNoUHJlZGljdHNxAH4ADEKxFtt0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADAOVaL50AAtwcmVkaWN0QmFzZXNxAH4ADG79Irh0AAxwcm9kdWN0QXJpdHlzcQB+AAxWZlFzdAATbWFrZVBlcnNpc3RlbnRNb2RlbHNxAH4ADBxXFpR0AAZlcXVhbHNzcQB+AAxf71wTdAAMYXNJbnN0YW5jZU9mc3EAfgAMKQJTkHQADHN5bmNocm9uaXplZHNxAH4ADE9Tlgl0AAhpbXB1cml0eXNxAH4ADEbX7Zd0AA0kaXNJbnN0YW5jZU9mc3EAfgAMbc96kXQAEGJhdGNoUHJlZGljdEJhc2VzcQB+AAy8HmUSdAAIbWF4RGVwdGhzcQB+AAy9oS5VdAAVUmFuZG9tRm9yZXN0QWxnb3JpdGhtc3EAfgAMV/1/y3QAAmFwc3EAfgAMah8yp3QAGGdzb25UeXBlQWRhcHRlckZhY3Rvcmllc3NxAH4ADOpGUhF0AAhjYW5FcXVhbHNxAH4ADKcCA/t0AApxdWVyeUNsYXNzc3EAfgAMRfxtpXQADmNvcHkkZGVmYXVsdCQ0c3EAfgAMNkN4nHQAD3F1ZXJ5U2VyaWFsaXplcnNxAH4ADKer2O10AA1wcm9kdWN0UHJlZml4c3EAfgAMmA1BFnQACW5vdGlmeUFsbHNxAH4ADIvaX/t0ABVmZWF0dXJlU3Vic2V0U3RyYXRlZ3lzcQB+AAzfIPcSdAAMaXNJbnN0YW5jZU9mc3EAfgAMWtIVc3QABjxpbml0PnNxAH4ADMDjo4N0AAl0cmFpbkJhc2VzcQB+AAycKYwzdAACPT1zcQB+AAw5WBModAAFY2xvbmVzcQB+AAzLGQ5udAAHbWF4Qmluc3NxAH4ADBvbKK10AA5jb3B5JGRlZmF1bHQkM3NxAH4ADFvD50l0AARjb3B5c3EAfgAM90cUfnQACHRvU3RyaW5nc3EAfgAM6ACnj3QAAiE9c3EAfgAMLdZ4UXQABXRyYWluc3EAfgAMuIWDYHQAB3ByZWRpY3RzcQB+AAyf+OH3dAAIZ2V0Q2xhc3NzcQB+AAznyEBIdAAOY29weSRkZWZhdWx0JDFzcQB+AAwLlTRpdAAOY29weSRkZWZhdWx0JDZzcQB+AAw3NTFjdAACbmVzcQB+AAz2ohtOdAAbUmFuZG9tRm9yZXN0QWxnb3JpdGhtUGFyYW1zc3EAfgAMQ0VhGXQACG51bVRyZWVzc3EAfgAMlgy9xHQAAmVxc3EAfgAMKVZVV3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADNih7O90AAIjI3NxAH4ADOYDU0F0AAhmaW5hbGl6ZXNxAH4ADKeggAV0AA5wcm9kdWN0RWxlbWVudHNxAH4ADHK9rk10AAhoYXNoQ29kZXNxAH4ADLaux2h0AApudW1DbGFzc2Vzc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AfXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAN29yZy50ZW1wbGF0ZS5jbGFzc2lmaWNhdGlvbi5SYW5kb21Gb3Jlc3RBbGdvcml0aG1QYXJhbXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AJZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AJUAcHNxAH4AmnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgB9TAAJaW5oZXJpdGVkcQB+AH1MAAdwYXJlbnRzcQB+AH14cQB+AJ5zcQB+AJUAcHNxAH4AmnVxAH4AeAAAAABzcQB+AJUAcHNxAH4AmnVxAH4AeAAAAABzcQB+AJUAcHNxAH4AmnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAHc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AnXQAB1Byb2R1Y3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJ1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ALtzcQB+AK50AAZFcXVhbHNxAH4AtHNxAH4ArnQABlBhcmFtc3NxAH4AsnNxAH4AtXVxAH4AuAAAAARzcQB+ALp0AAJpb3NxAH4AunQACnByZWRpY3Rpb25zcQB+ALp0AApjb250cm9sbGVycQB+AL9zcQB+AK50AAxTZXJpYWxpemFibGVxAH4AtHNxAH4ArnEAfgDOc3EAfgCyc3EAfgC1dXEAfgC4AAAAA3NxAH4AunQABGphdmFzcQB+ALp0AAJpb3EAfgC/c3EAfgCudAAGT2JqZWN0c3EAfgCyc3EAfgC1dXEAfgC4AAAAA3NxAH4AunEAfgDUc3EAfgC6dAAEbGFuZ3EAfgC/c3EAfgCudAADQW55cQB+ALRzcQB+AHpxAH4Ah3VxAH4AiAAAAABzcQB+AIoAdAAxb3JnLnRlbXBsYXRlLmNsYXNzaWZpY2F0aW9uLlJhbmRvbUZvcmVzdEFsZ29yaXRobXVxAH4AjQAAAABxAH4AkXVxAH4AkwAAAAF0ACVpby5wcmVkaWN0aW9uLmFubm90YXRpb24uRGV2ZWxvcGVyQXBpc3EAfgCVAHBzcQB+AJpxAH4An3NxAH4AlQBwc3EAfgCac3EAfgCic3EAfgCVAHBzcQB+AJp1cQB+AHgAAAAAc3EAfgCVAHBzcQB+AJp1cQB+AHgAAAAAc3EAfgCVAHBzcQB+AJp1cQB+AKwAAAAIc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCvWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCdc3EAfgCudAAMUDJMQWxnb3JpdGhtc3EAfgCyc3EAfgC1dXEAfgC4AAAABHNxAH4AunQAAmlvc3EAfgC6dAAKcHJlZGljdGlvbnNxAH4AunQACmNvbnRyb2xsZXJxAH4Av3VxAH4ArAAAAARzcQB+AK50AAxQcmVwYXJlZERhdGFzcQB+ALJzcQB+ALV1cQB+ALgAAAAEc3EAfgC6dAADb3Jnc3EAfgC6dAAIdGVtcGxhdGVzcQB+ALp0AA5jbGFzc2lmaWNhdGlvbnEAfgC/c3EAfgCudAARUmFuZG9tRm9yZXN0TW9kZWxzcQB+ALJzcQB+ALV1cQB+ALgAAAAHc3EAfgC6dAADb3Jnc3EAfgC6dAAGYXBhY2hlc3EAfgC6dAAFc3BhcmtzcQB+ALp0AAVtbGxpYnNxAH4AunQABHRyZWVzcQB+ALp0AAVtb2RlbHEAfgC/c3EAfgCudAAFUXVlcnlxAH4BB3NxAH4ArnQAD1ByZWRpY3RlZFJlc3VsdHEAfgEHc3EAfgD2c3EAfgCudAANQmFzZUFsZ29yaXRobXNxAH4AsnNxAH4AtXVxAH4AuAAAAARzcQB+ALp0AAJpb3NxAH4AunQACnByZWRpY3Rpb25zcQB+ALp0AARjb3JlcQB+AL91cQB+AKwAAAAEcQB+AQVxAH4BEHEAfgEhcQB+ASNzcQB+AK50ABNCYXNlUXVlcnlTZXJpYWxpemVycQB+AShzcQB+AK50AAxBYnN0cmFjdERvZXJxAH4BKHNxAH4ArnEAfgDOc3EAfgCyc3EAfgC1dXEAfgC4AAAAAnNxAH4AunEAfgC9cQB+AL9zcQB+AK5xAH4AznNxAH4AsnNxAH4AtXVxAH4AuAAAAANzcQB+ALpxAH4A1HNxAH4AunQAAmlvcQB+AL9zcQB+AK5xAH4A2HNxAH4AsnNxAH4AtXVxAH4AuAAAAANzcQB+ALpxAH4A1HNxAH4AunEAfgDecQB+AL9zcQB+AK5xAH4A4HEAfgE3dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAbb3JnLnRlbXBsYXRlLmNsYXNzaWZpY2F0aW9uc3EAfgFLdAAMb3JnLnRlbXBsYXRlc3EAfgFLdAADb3Jnc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFRQ0x2nHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEYvaG9tZS9qaW55YW5nL09mZmljaWFsX3RlbXAvTXlDbGFzc2lmaWNhdGlvbi90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUm22CaACBEYUjMl7f6+JvkEd8abg=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBAChSDAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLidW4x0AAZub3RpZnlzcQB+AAwun1WfdAAKc3VwcGxlbWVudHNxAH4ADGtqfE90AAR3YWl0c3EAfgAMy2ImEHQADSRhc0luc3RhbmNlT2ZzcQB+AAw500tadAAGZXF1YWxzc3EAfgAMLwqU03QABXNlcnZlc3EAfgAMzqoxLnQADGFzSW5zdGFuY2VPZnNxAH4ADOUUa3Z0AAxzeW5jaHJvbml6ZWRzcQB+AAxi7vv7dAANJGlzSW5zdGFuY2VPZnNxAH4ADFbl0pl0AAlub3RpZnlBbGxzcQB+AAz8IgZ2dAAMaXNJbnN0YW5jZU9mc3EAfgAMb5Xf03QADnN1cHBsZW1lbnRCYXNlc3EAfgAMrJ5mSnQABjxpbml0PnNxAH4ADJe/0Zt0AAI9PXNxAH4ADGXL14t0AAVjbG9uZXNxAH4ADLwhOdV0AAh0b1N0cmluZ3NxAH4ADENKx310AAIhPXNxAH4ADGBNCgt0AAlzZXJ2ZUJhc2VzcQB+AAwMgqOwdAAIZ2V0Q2xhc3NzcQB+AAwQi521dAACbmVzcQB+AAx3nnofdAAHU2VydmluZ3NxAH4ADJa30QB0AAJlcXNxAH4ADJzXzmd0AAIjI3NxAH4ADMdoTFN0AAhmaW5hbGl6ZXNxAH4ADPL53VB0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACNvcmcudGVtcGxhdGUuY2xhc3NpZmljYXRpb24uU2VydmluZ3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAJWlvLnByZWRpY3Rpb24uYW5ub3RhdGlvbi5FeHBlcmltZW50YWxzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGN4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGIAcHNxAH4AZ3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGtzcQB+AGIAcHNxAH4AZ3VxAH4ARAAAAABzcQB+AGIAcHNxAH4AZ3VxAH4ARAAAAABzcQB+AGIAcHNxAH4AZ3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAHc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGpzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AfHhxAH4AanQACExTZXJ2aW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBqc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAJpb3NxAH4AinQACnByZWRpY3Rpb25zcQB+AIp0AApjb250cm9sbGVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIt1cQB+AHkAAAACc3EAfgB/dAAFUXVlcnlzcQB+AIJzcQB+AIV1cQB+AIgAAAAEc3EAfgCKdAADb3Jnc3EAfgCKdAAIdGVtcGxhdGVzcQB+AIp0AA5jbGFzc2lmaWNhdGlvbnEAfgCTc3EAfgB/dAAPUHJlZGljdGVkUmVzdWx0cQB+AJdzcQB+AHtzcQB+AH90AAtCYXNlU2VydmluZ3NxAH4AgnNxAH4AhXVxAH4AiAAAAARzcQB+AIp0AAJpb3NxAH4AinQACnByZWRpY3Rpb25zcQB+AIp0AARjb3JlcQB+AJN1cQB+AHkAAAACcQB+AJVxAH4AoHNxAH4Af3QADEFic3RyYWN0RG9lcnEAfgClc3EAfgB/dAAMU2VyaWFsaXphYmxlc3EAfgCCc3EAfgCFdXEAfgCIAAAAAnNxAH4AinQABXNjYWxhcQB+AJNzcQB+AH9xAH4AsnNxAH4AgnNxAH4AhXVxAH4AiAAAAANzcQB+AIp0AARqYXZhc3EAfgCKdAACaW9xAH4Ak3NxAH4Af3QABk9iamVjdHNxAH4AgnNxAH4AhXVxAH4AiAAAAANzcQB+AIpxAH4AvXNxAH4AinQABGxhbmdxAH4Ak3NxAH4Af3QAA0FueXEAfgCzdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAbb3JnLnRlbXBsYXRlLmNsYXNzaWZpY2F0aW9uc3EAfgDMdAAMb3JnLnRlbXBsYXRlc3EAfgDMdAADb3Jnc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFROP9wSHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEYvaG9tZS9qaW55YW5nL09mZmljaWFsX3RlbXAvTXlDbGFzc2lmaWNhdGlvbi90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUyDfj0rZcRHegAIjyaZxgFv8luVg=
+external apis:
+0 items
+source infos:
+9 items
+/home/jinyang/Official_temp/MyClassification/src/main/scala/CompleteEvaluation.scala -> 
+AAAAAAAAAAA=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala -> 
+AAAAAAAAAAA=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala -> 
+AAAAAAAAAAA=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Evaluation.scala -> 
+AAAAAAAAAAA=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/NaiveBayesAlgorithm.scala -> 
+AAAAAAAAAAA=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/PrecisionEvaluation.scala -> 
+AAAAAAAAAAA=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Preparator.scala -> 
+AAAAAAAAAAA=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala -> 
+AAAAAAAAAAA=
+/home/jinyang/Official_temp/MyClassification/src/main/scala/Serving.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTj/cEh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2ppbnlhbmcvT2ZmaWNpYWxfdGVtcC9NeUNsYXNzaWZpY2F0aW9uL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUUNMdpx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARi9ob21lL2ppbnlhbmcvT2ZmaWNpYWxfdGVtcC9NeUNsYXNzaWZpY2F0aW9uL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv

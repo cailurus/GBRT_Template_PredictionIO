@@ -1,0 +1,12 @@
+2015-11-26 02:25:32,104 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-11-26 02:25:32,154 INFO  io.prediction.tools.console.App$ [main] -                Bayes |    5 | RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW | (all)
+2015-11-26 02:25:32,163 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | AOQKXsMZNJnWt5Bjz89AK7ZqC8icYZQvf4PckjsefwawUSCRdb1Ij8h1XkEZrnJi | (all)
+2015-11-26 02:25:32,170 INFO  io.prediction.tools.console.App$ [main] -             NewTest1 |    3 | 6nn0XJyMDFjJ7rHe46kMz1tb8a0shYr1PNDg9nGyaw9GXqtOr5yERxqijU9YBecr | (all)
+2015-11-26 02:25:32,179 INFO  io.prediction.tools.console.App$ [main] -        SentimentTest |    4 | xqSlfuc7yvKr0PHS7qfcCkyAwOodAlPAdZTmWaH6C2XLCEbLvPMgR2g3Sgs3A24F | (all)
+2015-11-26 02:25:32,186 INFO  io.prediction.tools.console.App$ [main] -                  dt1 |    2 | wn0kquxNA17Fh03FcrEYjKOOUZTRie8NuUQj0lPSpRDoCxypCqheNzgRHk1SPZI2 | (all)
+2015-11-26 02:25:32,187 INFO  io.prediction.tools.console.App$ [main] - Finished listing 5 app(s).
+2015-11-26 02:25:41,884 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-11-26 02:25:43,469 ERROR io.prediction.tools.console.Console$ [main] - Engine cqVExyaFAw28Js2QZQXqSAFvqnhPJDz0 3a4d89c384f0bec48cc7584417a9d160d7932da2 cannot be found in the system.
+2015-11-26 02:25:43,469 ERROR io.prediction.tools.console.Console$ [main] - Possible reasons:
+2015-11-26 02:25:43,470 ERROR io.prediction.tools.console.Console$ [main] - - the engine is not yet built by the 'build' command;
+2015-11-26 02:25:43,470 ERROR io.prediction.tools.console.Console$ [main] - - the meta data store is offline.

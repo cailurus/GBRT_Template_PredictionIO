@@ -1,0 +1,1051 @@
+2015-11-24 01:53:07,717 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_5 doesn't exist yet. Creating now...
+2015-11-24 01:53:08,032 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 5.
+2015-11-24 01:53:08,075 INFO  io.prediction.tools.console.App$ [main] - Created new app:
+2015-11-24 01:53:08,076 INFO  io.prediction.tools.console.App$ [main] -       Name: Bayes
+2015-11-24 01:53:08,076 INFO  io.prediction.tools.console.App$ [main] -         ID: 5
+2015-11-24 01:53:08,077 INFO  io.prediction.tools.console.App$ [main] - Access Key: RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW
+2015-11-24 01:53:14,972 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-11-24 01:53:15,034 INFO  io.prediction.tools.console.App$ [main] -                Bayes |    5 | RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW | (all)
+2015-11-24 01:53:15,044 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | AOQKXsMZNJnWt5Bjz89AK7ZqC8icYZQvf4PckjsefwawUSCRdb1Ij8h1XkEZrnJi | (all)
+2015-11-24 01:53:15,054 INFO  io.prediction.tools.console.App$ [main] -             NewTest1 |    3 | 6nn0XJyMDFjJ7rHe46kMz1tb8a0shYr1PNDg9nGyaw9GXqtOr5yERxqijU9YBecr | (all)
+2015-11-24 01:53:15,063 INFO  io.prediction.tools.console.App$ [main] -        SentimentTest |    4 | xqSlfuc7yvKr0PHS7qfcCkyAwOodAlPAdZTmWaH6C2XLCEbLvPMgR2g3Sgs3A24F | (all)
+2015-11-24 01:53:15,073 INFO  io.prediction.tools.console.App$ [main] -                  dt1 |    2 | wn0kquxNA17Fh03FcrEYjKOOUZTRie8NuUQj0lPSpRDoCxypCqheNzgRHk1SPZI2 | (all)
+2015-11-24 01:53:15,074 INFO  io.prediction.tools.console.App$ [main] - Finished listing 5 app(s).
+2015-11-24 02:10:03,317 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-24 02:10:03,319 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-24 02:10:03,320 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-24 02:10:03,321 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-24 02:10:08,408 DEBUG io.prediction.workflow.UpgradeCheckRunner [Thread-0] - Update metainfo not found. http://direct.prediction.io/0.9.5/build/org.template.classification.ClassificationEngine.json
+2015-11-24 02:10:15,935 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mLoading project definition from /home/jinyang/Official_temp/MyClassification/project[0m
+2015-11-24 02:10:16,212 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mUpdating {file:/home/jinyang/Official_temp/MyClassification/project/}myclassification-build...[0m
+2015-11-24 02:10:16,456 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mResolving io.prediction#pio-build;0.9.0 ...[0m
+2015-11-24 02:10:16,577 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,578 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.11.2 ...[0m
+2015-11-24 02:10:16,614 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,614 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+2015-11-24 02:10:16,652 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,653 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.7 ...[0m
+2015-11-24 02:10:16,691 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,691 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main;0.13.7 ...[0m
+2015-11-24 02:10:16,729 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,730 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#actions;0.13.7 ...[0m
+2015-11-24 02:10:16,781 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,781 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classpath;0.13.7 ...[0m
+2015-11-24 02:10:16,825 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,825 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
+2015-11-24 02:10:16,867 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,867 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+2015-11-24 02:10:16,908 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,909 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;0.13.7 ...[0m
+2015-11-24 02:10:16,940 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,940 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#interface;0.13.7 ...[0m
+2015-11-24 02:10:16,969 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:16,969 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#io;0.13.7 ...[0m
+2015-11-24 02:10:16,999 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,000 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#control;0.13.7 ...[0m
+2015-11-24 02:10:17,026 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,026 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#completion;0.13.7 ...[0m
+2015-11-24 02:10:17,055 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,056 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#collections;0.13.7 ...[0m
+2015-11-24 02:10:17,090 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,091 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.11 ...[0m
+2015-11-24 02:10:17,119 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,119 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#api;0.13.7 ...[0m
+2015-11-24 02:10:17,157 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,158 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-integration;0.13.7 ...[0m
+2015-11-24 02:10:17,184 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,184 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#incremental-compiler;0.13.7 ...[0m
+2015-11-24 02:10:17,226 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,227 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logging;0.13.7 ...[0m
+2015-11-24 02:10:17,254 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,255 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#process;0.13.7 ...[0m
+2015-11-24 02:10:17,284 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,284 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#relation;0.13.7 ...[0m
+2015-11-24 02:10:17,309 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,309 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compile;0.13.7 ...[0m
+2015-11-24 02:10:17,342 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,342 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#persist;0.13.7 ...[0m
+2015-11-24 02:10:17,389 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,389 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...[0m
+2015-11-24 02:10:17,410 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,411 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classfile;0.13.7 ...[0m
+2015-11-24 02:10:17,434 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,434 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-ivy-integration;0.13.7 ...[0m
+2015-11-24 02:10:17,454 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,455 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#ivy;0.13.7 ...[0m
+2015-11-24 02:10:17,483 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,483 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cross;0.13.7 ...[0m
+2015-11-24 02:10:17,507 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,507 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f ...[0m
+2015-11-24 02:10:17,527 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,528 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.jcraft#jsch;0.1.46 ...[0m
+2015-11-24 02:10:17,548 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,548 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-native_2.10;3.2.10 ...[0m
+2015-11-24 02:10:17,573 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,574 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.10 ...[0m
+2015-11-24 02:10:17,597 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,597 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.10 ...[0m
+2015-11-24 02:10:17,619 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,619 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+2015-11-24 02:10:17,641 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,641 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.10.0 ...[0m
+2015-11-24 02:10:17,670 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,671 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.spire-math#jawn-parser_2.10;0.6.0 ...[0m
+2015-11-24 02:10:17,689 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,689 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.spire-math#json4s-support_2.10;0.6.0 ...[0m
+2015-11-24 02:10:17,712 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,713 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#run;0.13.7 ...[0m
+2015-11-24 02:10:17,734 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,734 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#task-system;0.13.7 ...[0m
+2015-11-24 02:10:17,754 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,755 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tasks;0.13.7 ...[0m
+2015-11-24 02:10:17,777 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,777 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tracking;0.13.7 ...[0m
+2015-11-24 02:10:17,795 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,795 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cache;0.13.7 ...[0m
+2015-11-24 02:10:17,825 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,825 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#testing;0.13.7 ...[0m
+2015-11-24 02:10:17,848 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,849 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-agent;0.13.7 ...[0m
+2015-11-24 02:10:17,865 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,866 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+2015-11-24 02:10:17,880 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,881 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main-settings;0.13.7 ...[0m
+2015-11-24 02:10:17,901 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,901 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#apply-macro;0.13.7 ...[0m
+2015-11-24 02:10:17,937 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,938 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#command;0.13.7 ...[0m
+2015-11-24 02:10:17,969 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,970 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logic;0.13.7 ...[0m
+2015-11-24 02:10:17,987 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:17,987 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-interface;0.13.7 ...[0m
+2015-11-24 02:10:18,003 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:18,003 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_8_2;0.13.7 ...[0m
+2015-11-24 02:10:18,023 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:18,023 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_9_2;0.13.7 ...[0m
+2015-11-24 02:10:18,041 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:18,042 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#precompiled-2_9_3;0.13.7 ...[0m
+2015-11-24 02:10:18,451 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:18,451 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
+2015-11-24 02:10:18,462 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:18,463 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+2015-11-24 02:10:19,329 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mDone updating.[0m
+2015-11-24 02:10:22,820 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mSet current project to template-scala-parallel-classification (in build file:/home/jinyang/Official_temp/MyClassification/)[0m
+2015-11-24 02:10:23,076 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mUpdating {file:/home/jinyang/Official_temp/MyClassification/}myclassification...[0m
+2015-11-24 02:10:23,088 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+2015-11-24 02:10:23,111 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,112 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.prediction#core_2.10;0.9.5 ...[0m
+2015-11-24 02:10:23,160 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,160 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.5 ...[0m
+2015-11-24 02:10:23,185 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,185 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.prediction#data_2.10;0.9.5 ...[0m
+2015-11-24 02:10:23,204 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,206 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.prediction#common_2.10;0.9.5 ...[0m
+2015-11-24 02:10:23,219 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,220 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.github.nscala-time#nscala-time_2.10;2.0.0 ...[0m
+2015-11-24 02:10:23,233 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,233 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.7 ...[0m
+2015-11-24 02:10:23,248 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,249 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
+2015-11-24 02:10:23,262 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,262 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.9 ...[0m
+2015-11-24 02:10:23,278 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,278 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-can_2.10;1.3.2 ...[0m
+2015-11-24 02:10:23,294 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,295 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-io_2.10;1.3.2 ...[0m
+2015-11-24 02:10:23,312 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,313 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-util_2.10;1.3.2 ...[0m
+2015-11-24 02:10:23,327 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,327 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-http_2.10;1.3.2 ...[0m
+2015-11-24 02:10:23,345 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,346 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-scala_2.10;1.1.6 ...[0m
+2015-11-24 02:10:23,358 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,358 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-core;1.1.6 ...[0m
+2015-11-24 02:10:23,380 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,380 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-routing_2.10;1.3.2 ...[0m
+2015-11-24 02:10:23,397 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,397 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.spray#spray-httpx_2.10;1.3.2 ...[0m
+2015-11-24 02:10:23,413 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,414 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.jvnet.mimepull#mimepull;1.9.4 ...[0m
+2015-11-24 02:10:23,426 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,427 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.chuusai#shapeless_2.10;1.2.4 ...[0m
+2015-11-24 02:10:23,444 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,444 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving mysql#mysql-connector-java;5.1.35 ...[0m
+2015-11-24 02:10:23,455 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,456 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-common;2.5.0 ...[0m
+2015-11-24 02:10:23,484 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,484 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-annotations;2.5.0 ...[0m
+2015-11-24 02:10:23,507 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,508 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-cli#commons-cli;1.2 ...[0m
+2015-11-24 02:10:23,520 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,520 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math3;3.1.1 ...[0m
+2015-11-24 02:10:23,539 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,539 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving xmlenc#xmlenc;0.52 ...[0m
+2015-11-24 02:10:23,552 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,552 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-httpclient#commons-httpclient;3.1 ...[0m
+2015-11-24 02:10:23,572 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,572 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+2015-11-24 02:10:23,587 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,588 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-net#commons-net;3.1 ...[0m
+2015-11-24 02:10:23,602 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,602 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-collections#commons-collections;3.2.1 ...[0m
+2015-11-24 02:10:23,616 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,617 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#jetty;6.1.26 ...[0m
+2015-11-24 02:10:23,634 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,635 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#jetty-util;6.1.26 ...[0m
+2015-11-24 02:10:23,648 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,649 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.sun.jersey#jersey-core;1.9 ...[0m
+2015-11-24 02:10:23,662 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,662 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.sun.jersey#jersey-json;1.9 ...[0m
+2015-11-24 02:10:23,677 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,677 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jettison#jettison;1.1 ...[0m
+2015-11-24 02:10:23,691 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,692 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.sun.xml.bind#jaxb-impl;2.2.3-1 ...[0m
+2015-11-24 02:10:23,705 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,706 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving javax.xml.bind#jaxb-api;2.2.2 ...[0m
+2015-11-24 02:10:23,725 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,725 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving javax.xml.stream#stax-api;1.0-2 ...[0m
+2015-11-24 02:10:23,738 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,738 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving javax.activation#activation;1.1 ...[0m
+2015-11-24 02:10:23,753 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,753 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-core-asl;1.8.3 ...[0m
+2015-11-24 02:10:23,766 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,766 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.8.3 ...[0m
+2015-11-24 02:10:23,779 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,779 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-jaxrs;1.8.3 ...[0m
+2015-11-24 02:10:23,798 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,798 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-xc;1.8.3 ...[0m
+2015-11-24 02:10:23,817 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,818 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.sun.jersey#jersey-server;1.9 ...[0m
+2015-11-24 02:10:23,832 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,832 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving asm#asm;3.1 ...[0m
+2015-11-24 02:10:23,844 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,844 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.3 ...[0m
+2015-11-24 02:10:23,863 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,863 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving log4j#log4j;1.2.17 ...[0m
+2015-11-24 02:10:23,880 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,881 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving net.java.dev.jets3t#jets3t;0.9.0 ...[0m
+2015-11-24 02:10:23,900 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,901 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.1.2 ...[0m
+2015-11-24 02:10:23,921 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,921 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.1.2 ...[0m
+2015-11-24 02:10:23,934 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,934 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.jamesmurty.utils#java-xmlbuilder;0.4 ...[0m
+2015-11-24 02:10:23,945 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,946 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-lang#commons-lang;2.6 ...[0m
+2015-11-24 02:10:23,958 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,959 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-configuration#commons-configuration;1.6 ...[0m
+2015-11-24 02:10:23,978 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,978 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-digester#commons-digester;1.8 ...[0m
+2015-11-24 02:10:23,990 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:23,990 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-beanutils#commons-beanutils;1.7.0 ...[0m
+2015-11-24 02:10:24,004 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,004 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-beanutils#commons-beanutils-core;1.8.0 ...[0m
+2015-11-24 02:10:24,017 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,017 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.5 ...[0m
+2015-11-24 02:10:24,028 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,028 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-core-asl;1.9.13 ...[0m
+2015-11-24 02:10:24,037 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,038 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.9.13 ...[0m
+2015-11-24 02:10:24,050 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,050 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.avro#avro;1.7.4 ...[0m
+2015-11-24 02:10:24,066 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,066 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.3 ...[0m
+2015-11-24 02:10:24,079 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,080 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.xerial.snappy#snappy-java;1.0.4.1 ...[0m
+2015-11-24 02:10:24,093 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,093 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.4.1 ...[0m
+2015-11-24 02:10:24,107 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,108 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.0 ...[0m
+2015-11-24 02:10:24,122 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,122 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.5.0 ...[0m
+2015-11-24 02:10:24,135 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,135 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-auth;2.5.0 ...[0m
+2015-11-24 02:10:24,153 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,154 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.2.5 ...[0m
+2015-11-24 02:10:24,167 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,168 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.2.4 ...[0m
+2015-11-24 02:10:24,188 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,189 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.directory.server#apacheds-kerberos-codec;2.0.0-M15 ...[0m
+2015-11-24 02:10:24,218 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,218 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.directory.server#apacheds-i18n;2.0.0-M15 ...[0m
+2015-11-24 02:10:24,245 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,246 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.directory.api#api-asn1-api;1.0.0-M20 ...[0m
+2015-11-24 02:10:24,273 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,274 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.directory.api#api-util;1.0.0-M20 ...[0m
+2015-11-24 02:10:24,291 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,291 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.jcraft#jsch;0.1.42 ...[0m
+2015-11-24 02:10:24,302 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,302 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.google.code.findbugs#jsr305;1.3.9 ...[0m
+2015-11-24 02:10:24,314 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,315 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-common;0.98.5-hadoop2 ...[0m
+2015-11-24 02:10:24,341 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,341 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.github.stephenc.findbugs#findbugs-annotations;1.3.9-1 ...[0m
+2015-11-24 02:10:24,355 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,356 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving junit#junit;4.11 ...[0m
+2015-11-24 02:10:24,367 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,368 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.3 ...[0m
+2015-11-24 02:10:24,377 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,378 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-client;0.98.5-hadoop2 ...[0m
+2015-11-24 02:10:24,396 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,396 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-protocol;0.98.5-hadoop2 ...[0m
+2015-11-24 02:10:24,422 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,422 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.netty#netty;3.6.6.Final ...[0m
+2015-11-24 02:10:24,434 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,434 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.cloudera.htrace#htrace-core;2.04 ...[0m
+2015-11-24 02:10:24,450 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,451 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-server;0.98.5-hadoop2 ...[0m
+2015-11-24 02:10:24,473 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,474 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.yammer.metrics#metrics-core;2.2.0 ...[0m
+2015-11-24 02:10:24,490 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,490 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.github.stephenc.high-scale-lib#high-scale-lib;1.1.1 ...[0m
+2015-11-24 02:10:24,504 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,504 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math;2.1 ...[0m
+2015-11-24 02:10:24,521 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,521 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#jetty-sslengine;6.1.26 ...[0m
+2015-11-24 02:10:24,537 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,537 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-jaxrs;1.8.8 ...[0m
+2015-11-24 02:10:24,549 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,549 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving tomcat#jasper-compiler;5.5.23 ...[0m
+2015-11-24 02:10:24,562 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,563 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.jamon#jamon-runtime;2.3.1 ...[0m
+2015-11-24 02:10:24,582 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,582 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.zookeeper#zookeeper;3.4.6 ...[0m
+2015-11-24 02:10:24,594 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,595 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving jline#jline;0.9.94 ...[0m
+2015-11-24 02:10:24,608 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,608 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.netty#netty;3.7.0.Final ...[0m
+2015-11-24 02:10:24,621 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,621 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.clapper#grizzled-slf4j_2.10;1.0.2 ...[0m
+2015-11-24 02:10:24,632 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,632 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.7 ...[0m
+2015-11-24 02:10:24,643 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,643 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.elasticsearch#elasticsearch;1.4.4 ...[0m
+2015-11-24 02:10:24,657 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,657 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-core;4.10.3 ...[0m
+2015-11-24 02:10:24,725 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,725 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-analyzers-common;4.10.3 ...[0m
+2015-11-24 02:10:24,791 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,792 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-queries;4.10.3 ...[0m
+2015-11-24 02:10:24,849 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,849 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-memory;4.10.3 ...[0m
+2015-11-24 02:10:24,893 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,893 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-highlighter;4.10.3 ...[0m
+2015-11-24 02:10:24,939 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,939 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-queryparser;4.10.3 ...[0m
+2015-11-24 02:10:24,986 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:24,987 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-sandbox;4.10.3 ...[0m
+2015-11-24 02:10:25,021 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,022 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-suggest;4.10.3 ...[0m
+2015-11-24 02:10:25,298 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,299 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-misc;4.10.3 ...[0m
+2015-11-24 02:10:25,323 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,324 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-join;4.10.3 ...[0m
+2015-11-24 02:10:25,359 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,360 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-grouping;4.10.3 ...[0m
+2015-11-24 02:10:25,388 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,390 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.lucene#lucene-spatial;4.10.3 ...[0m
+2015-11-24 02:10:25,423 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,423 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.spatial4j#spatial4j;0.4.1 ...[0m
+2015-11-24 02:10:25,433 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,433 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.antlr#antlr-runtime;3.5 ...[0m
+2015-11-24 02:10:25,442 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,443 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm;4.1 ...[0m
+2015-11-24 02:10:25,450 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,450 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-commons;4.1 ...[0m
+2015-11-24 02:10:25,469 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,470 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-native_2.10;3.2.10 ...[0m
+2015-11-24 02:10:25,477 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,477 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.10 ...[0m
+2015-11-24 02:10:25,485 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,486 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.10 ...[0m
+2015-11-24 02:10:25,493 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,493 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+2015-11-24 02:10:25,514 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,515 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.10.0 ...[0m
+2015-11-24 02:10:25,522 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,522 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.0 ...[0m
+2015-11-24 02:10:25,531 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,531 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
+2015-11-24 02:10:25,544 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,544 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ext_2.10;3.2.10 ...[0m
+2015-11-24 02:10:25,555 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,555 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.6 ...[0m
+2015-11-24 02:10:25,565 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,566 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.postgresql#postgresql;9.4-1201-jdbc41 ...[0m
+2015-11-24 02:10:25,573 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,574 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scalikejdbc#scalikejdbc_2.10;2.2.6 ...[0m
+2015-11-24 02:10:25,583 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,584 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scalikejdbc#scalikejdbc-core_2.10;2.2.6 ...[0m
+2015-11-24 02:10:25,595 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,595 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-dbcp#commons-dbcp;1.4 ...[0m
+2015-11-24 02:10:25,606 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,606 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-pool#commons-pool;1.5.4 ...[0m
+2015-11-24 02:10:25,613 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,614 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.12 ...[0m
+2015-11-24 02:10:25,623 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,623 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.7 ...[0m
+2015-11-24 02:10:25,632 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,632 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scalikejdbc#scalikejdbc-interpolation_2.10;2.2.6 ...[0m
+2015-11-24 02:10:25,642 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,642 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scalikejdbc#scalikejdbc-interpolation-macro_2.10;2.2.6 ...[0m
+2015-11-24 02:10:25,651 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,652 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.5 ...[0m
+2015-11-24 02:10:25,663 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,663 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-log4j12;1.7.7 ...[0m
+2015-11-24 02:10:25,674 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,675 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.spark-project.akka#akka-actor_2.10;2.3.4-spark ...[0m
+2015-11-24 02:10:25,684 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,684 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+2015-11-24 02:10:25,702 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,702 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.mortbay.jetty#servlet-api;2.5-20081211 ...[0m
+2015-11-24 02:10:25,724 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,724 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving tomcat#jasper-runtime;5.5.23 ...[0m
+2015-11-24 02:10:25,735 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,735 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving commons-el#commons-el;1.0 ...[0m
+2015-11-24 02:10:25,745 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,746 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving javax.servlet.jsp#jsp-api;2.1 ...[0m
+2015-11-24 02:10:25,783 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,784 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hbase#hbase-prefix-tree;0.98.5-hadoop2 ...[0m
+2015-11-24 02:10:25,809 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,810 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.10;1.0.3 ...[0m
+2015-11-24 02:10:25,819 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,820 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.1 ...[0m
+2015-11-24 02:10:25,830 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,831 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.github.scopt#scopt_2.10;3.2.0 ...[0m
+2015-11-24 02:10:25,839 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,840 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.google.code.gson#gson;2.2.4 ...[0m
+2015-11-24 02:10:25,846 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,847 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;18.0 ...[0m
+2015-11-24 02:10:25,855 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,855 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#chill_2.10;0.5.0 ...[0m
+2015-11-24 02:10:25,864 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,865 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#chill-java;0.5.0 ...[0m
+2015-11-24 02:10:25,873 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,873 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware.kryo#kryo;2.21 ...[0m
+2015-11-24 02:10:25,882 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,882 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware.reflectasm#reflectasm;1.07 ...[0m
+2015-11-24 02:10:25,892 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,892 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.objenesis#objenesis;1.2 ...[0m
+2015-11-24 02:10:25,905 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,905 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#chill-bijection_2.10;0.5.0 ...[0m
+2015-11-24 02:10:25,915 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,916 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#bijection-core_2.10;0.7.0 ...[0m
+2015-11-24 02:10:25,925 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,926 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving de.javakaffee#kryo-serializers;0.28 ...[0m
+2015-11-24 02:10:25,934 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,934 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware.kryo#kryo;2.24.0 ...[0m
+2015-11-24 02:10:25,943 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,944 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.esotericsoftware.minlog#minlog;1.2 ...[0m
+2015-11-24 02:10:25,953 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,954 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.objenesis#objenesis;2.1 ...[0m
+2015-11-24 02:10:25,963 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,963 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving net.jodah#typetools;0.3.1 ...[0m
+2015-11-24 02:10:25,972 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,972 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scalaj#scalaj-http_2.10;1.1.0 ...[0m
+2015-11-24 02:10:25,984 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,984 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.3.1 ...[0m
+2015-11-24 02:10:25,987 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:25,987 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.3.1 ...[0m
+2015-11-24 02:10:35,124 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:35,125 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
+2015-11-24 02:10:35,126 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:35,127 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
+2015-11-24 02:10:42,521 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:42,522 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache#apache;14 ...[0m
+2015-11-24 02:10:48,237 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:48,239 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-client;2.2.0 ...[0m
+2015-11-24 02:10:48,258 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:48,258 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-hdfs;2.2.0 ...[0m
+2015-11-24 02:10:48,331 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:48,331 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...[0m
+2015-11-24 02:10:48,346 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:48,346 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...[0m
+2015-11-24 02:10:54,763 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:54,763 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
+2015-11-24 02:10:54,800 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:54,800 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...[0m
+2015-11-24 02:10:54,808 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:10:54,809 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...[0m
+2015-11-24 02:11:00,100 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:00,100 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
+2015-11-24 02:11:00,132 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:00,132 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...[0m
+2015-11-24 02:11:00,148 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:00,148 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...[0m
+2015-11-24 02:11:07,136 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:07,137 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
+2015-11-24 02:11:07,207 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:07,208 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...[0m
+2015-11-24 02:11:07,215 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:07,215 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...[0m
+2015-11-24 02:11:13,557 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:13,557 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
+2015-11-24 02:11:13,768 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:13,769 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.google.inject#guice;3.0 ...[0m
+2015-11-24 02:11:13,810 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:13,811 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving javax.inject#javax.inject;1 ...[0m
+2015-11-24 02:11:13,849 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:13,851 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving aopalliance#aopalliance;1.0 ...[0m
+2015-11-24 02:11:13,889 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:13,891 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.sonatype.sisu.inject#cglib;2.2.1-v20090111 ...[0m
+2015-11-24 02:11:13,940 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:13,941 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving asm#asm;3.2 ...[0m
+2015-11-24 02:11:13,977 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:13,978 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 ...[0m
+2015-11-24 02:11:14,054 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:14,055 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.sun.jersey.contribs#jersey-guice;1.9 ...[0m
+2015-11-24 02:11:14,080 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:14,081 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...[0m
+2015-11-24 02:11:14,087 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:14,088 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...[0m
+2015-11-24 02:11:20,274 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:20,274 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
+2015-11-24 02:11:20,326 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:20,326 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...[0m
+2015-11-24 02:11:20,333 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:20,333 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...[0m
+2015-11-24 02:11:26,714 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:26,715 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
+2015-11-24 02:11:26,740 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:26,741 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...[0m
+2015-11-24 02:11:26,748 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:26,748 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...[0m
+2015-11-24 02:11:32,187 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:32,188 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...[0m
+2015-11-24 02:11:32,195 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:32,196 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...[0m
+2015-11-24 02:11:37,771 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:37,772 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
+2015-11-24 02:11:39,039 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:39,040 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...[0m
+2015-11-24 02:11:39,048 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:39,048 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...[0m
+2015-11-24 02:11:44,335 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:44,336 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
+2015-11-24 02:11:44,352 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:44,353 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...[0m
+2015-11-24 02:11:44,359 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:44,359 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...[0m
+2015-11-24 02:11:51,404 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:51,404 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
+2015-11-24 02:11:51,473 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:51,473 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...[0m
+2015-11-24 02:11:51,480 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:51,480 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...[0m
+2015-11-24 02:11:58,286 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:58,286 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...[0m
+2015-11-24 02:11:58,385 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:58,386 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.10;1.3.1 ...[0m
+2015-11-24 02:11:58,387 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:11:58,387 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.10;1.3.1 ...[0m
+2015-11-24 02:12:03,608 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:03,609 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
+2015-11-24 02:12:05,224 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:05,225 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.netty#netty-all;4.0.23.Final ...[0m
+2015-11-24 02:12:05,235 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:05,236 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.spark-project.spark#unused;1.0.0 ...[0m
+2015-11-24 02:12:05,244 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:05,245 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.10;1.3.1 ...[0m
+2015-11-24 02:12:05,246 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:05,246 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.10;1.3.1 ...[0m
+2015-11-24 02:12:10,984 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:10,984 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
+2015-11-24 02:12:11,931 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:11,931 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-recipes;2.4.0 ...[0m
+2015-11-24 02:12:11,943 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:11,943 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-framework;2.4.0 ...[0m
+2015-11-24 02:12:11,955 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:11,955 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.curator#curator-client;2.4.0 ...[0m
+2015-11-24 02:12:11,975 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:11,976 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...[0m
+2015-11-24 02:12:11,985 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:11,986 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.3.2 ...[0m
+2015-11-24 02:12:12,001 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,002 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#jul-to-slf4j;1.7.10 ...[0m
+2015-11-24 02:12:12,013 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,014 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#jcl-over-slf4j;1.7.10 ...[0m
+2015-11-24 02:12:12,024 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,024 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-log4j12;1.7.10 ...[0m
+2015-11-24 02:12:12,036 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,036 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.ning#compress-lzf;1.0.0 ...[0m
+2015-11-24 02:12:12,046 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,047 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.xerial.snappy#snappy-java;1.1.1.6 ...[0m
+2015-11-24 02:12:12,057 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,057 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving net.jpountz.lz4#lz4;1.2.0 ...[0m
+2015-11-24 02:12:12,067 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,068 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.roaringbitmap#RoaringBitmap;0.4.5 ...[0m
+2015-11-24 02:12:12,080 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,080 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.spark-project.akka#akka-remote_2.10;2.3.4-spark ...[0m
+2015-11-24 02:12:12,095 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,096 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.netty#netty;3.8.0.Final ...[0m
+2015-11-24 02:12:12,106 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,107 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.spark-project.protobuf#protobuf-java;2.5.0-spark ...[0m
+2015-11-24 02:12:12,116 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,117 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.uncommons.maths#uncommons-maths;1.2.2a ...[0m
+2015-11-24 02:12:12,128 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,130 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.spark-project.akka#akka-slf4j_2.10;2.3.4-spark ...[0m
+2015-11-24 02:12:12,143 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,143 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-jackson_2.10;3.2.10 ...[0m
+2015-11-24 02:12:12,155 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,155 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.mesos#mesos;0.21.0 ...[0m
+2015-11-24 02:12:12,166 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,166 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.clearspring.analytics#stream;2.7.0 ...[0m
+2015-11-24 02:12:12,175 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,176 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-core;3.1.0 ...[0m
+2015-11-24 02:12:12,185 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,185 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-jvm;3.1.0 ...[0m
+2015-11-24 02:12:12,196 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,196 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-json;3.1.0 ...[0m
+2015-11-24 02:12:12,210 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,212 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving io.dropwizard.metrics#metrics-graphite;3.1.0 ...[0m
+2015-11-24 02:12:12,220 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,221 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.4.4 ...[0m
+2015-11-24 02:12:12,229 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,230 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.4.0 ...[0m
+2015-11-24 02:12:12,239 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,240 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.4.4 ...[0m
+2015-11-24 02:12:12,249 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,250 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4 ...[0m
+2015-11-24 02:12:12,262 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,263 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.4.4 ...[0m
+2015-11-24 02:12:12,275 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,276 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.ivy#ivy;2.4.0 ...[0m
+2015-11-24 02:12:12,285 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,287 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving oro#oro;2.0.8 ...[0m
+2015-11-24 02:12:12,295 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,296 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon-client;0.5.0 ...[0m
+2015-11-24 02:12:12,304 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,305 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.tachyonproject#tachyon;0.5.0 ...[0m
+2015-11-24 02:12:12,319 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,320 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.spark-project#pyrolite;2.0.1 ...[0m
+2015-11-24 02:12:12,328 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,329 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving net.sf.py4j#py4j;0.8.2.1 ...[0m
+2015-11-24 02:12:12,342 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,343 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib_2.10;1.3.1 ...[0m
+2015-11-24 02:12:12,344 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:12,344 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib_2.10;1.3.1 ...[0m
+2015-11-24 02:12:19,156 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:19,157 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
+2015-11-24 02:12:20,416 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:20,416 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.10;1.3.1 ...[0m
+2015-11-24 02:12:20,417 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:20,417 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.10;1.3.1 ...[0m
+2015-11-24 02:12:26,116 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:26,116 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
+2015-11-24 02:12:27,762 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:27,762 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sql_2.10;1.3.1 ...[0m
+2015-11-24 02:12:27,763 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:27,763 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sql_2.10;1.3.1 ...[0m
+2015-11-24 02:12:33,104 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:33,104 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
+2015-11-24 02:12:34,719 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:34,719 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.10;1.3.1 ...[0m
+2015-11-24 02:12:34,720 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:34,720 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.10;1.3.1 ...[0m
+2015-11-24 02:12:41,278 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:41,279 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
+2015-11-24 02:12:42,245 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,245 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
+2015-11-24 02:12:42,258 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,258 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scalamacros#quasiquotes_2.10;2.0.1 ...[0m
+2015-11-24 02:12:42,272 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,273 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#parquet-column;1.6.0rc3 ...[0m
+2015-11-24 02:12:42,283 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,284 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#parquet-common;1.6.0rc3 ...[0m
+2015-11-24 02:12:42,296 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,297 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#parquet-encoding;1.6.0rc3 ...[0m
+2015-11-24 02:12:42,308 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,309 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#parquet-generator;1.6.0rc3 ...[0m
+2015-11-24 02:12:42,321 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,322 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#parquet-hadoop;1.6.0rc3 ...[0m
+2015-11-24 02:12:42,334 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,335 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#parquet-format;2.2.0-rc1 ...[0m
+2015-11-24 02:12:42,344 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,345 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.twitter#parquet-jackson;1.6.0rc3 ...[0m
+2015-11-24 02:12:42,359 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,360 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.jodd#jodd-core;3.6.3 ...[0m
+2015-11-24 02:12:42,383 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,384 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;1.3.1 ...[0m
+2015-11-24 02:12:42,385 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:42,387 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;1.3.1 ...[0m
+2015-11-24 02:12:48,236 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:48,236 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
+2015-11-24 02:12:49,104 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:49,105 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.jblas#jblas;1.2.3 ...[0m
+2015-11-24 02:12:49,114 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:49,114 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scalanlp#breeze_2.10;0.11.2 ...[0m
+2015-11-24 02:12:49,115 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:49,115 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scalanlp#breeze_2.10;0.11.2 ...[0m
+2015-11-24 02:12:57,655 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:57,655 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scalanlp#breeze-macros_2.10;0.11.2 ...[0m
+2015-11-24 02:12:57,656 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:12:57,657 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scalanlp#breeze-macros_2.10;0.11.2 ...[0m
+2015-11-24 02:13:04,505 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:04,505 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.github.fommil.netlib#core;1.1.2 ...[0m
+2015-11-24 02:13:04,514 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:04,515 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving net.sourceforge.f2j#arpack_combined_all;0.1 ...[0m
+2015-11-24 02:13:04,524 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:04,524 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving net.sf.opencsv#opencsv;2.3 ...[0m
+2015-11-24 02:13:04,532 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:04,533 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.github.rwl#jtransforms;2.4.0 ...[0m
+2015-11-24 02:13:04,543 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:04,544 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.spire-math#spire_2.10;0.7.4 ...[0m
+2015-11-24 02:13:04,553 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:04,553 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.spire-math#spire-macros_2.10;0.7.4 ...[0m
+2015-11-24 02:13:04,940 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:04,941 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;12.0.1 ...[0m
+2015-11-24 02:13:05,871 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:05,872 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;14.0.1 ...[0m
+2015-11-24 02:13:07,409 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:07,409 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+2015-11-24 02:13:07,416 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:07,417 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
+2015-11-24 02:13:07,422 INFO  io.prediction.tools.console.Console$ [Thread-2] - 
+2015-11-24 02:13:07,422 INFO  io.prediction.tools.console.Console$ [Thread-2] - M[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+2015-11-24 02:13:07,483 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.jar ...[0m
+2015-11-24 02:14:00,390 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;1.3.1!spark-core_2.10.jar (52907ms)[0m
+2015-11-24 02:14:00,392 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.jar ...[0m
+2015-11-24 02:14:11,404 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.3.1!spark-mllib_2.10.jar (11012ms)[0m
+2015-11-24 02:14:11,684 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.jar ...[0m
+2015-11-24 02:14:23,516 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.10;1.3.1!spark-network-common_2.10.jar (11833ms)[0m
+2015-11-24 02:14:23,518 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.jar ...[0m
+2015-11-24 02:14:27,621 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.10;1.3.1!spark-network-shuffle_2.10.jar (4103ms)[0m
+2015-11-24 02:14:27,680 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.jar ...[0m
+2015-11-24 02:14:42,134 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.10;1.3.1!spark-streaming_2.10.jar (14455ms)[0m
+2015-11-24 02:14:42,136 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.jar ...[0m
+2015-11-24 02:15:00,564 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;1.3.1!spark-sql_2.10.jar (18428ms)[0m
+2015-11-24 02:15:00,566 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.jar ...[0m
+2015-11-24 02:15:08,338 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.3.1!spark-graphx_2.10.jar (7773ms)[0m
+2015-11-24 02:15:08,340 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar ...[0m
+2015-11-24 02:17:03,932 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalanlp#breeze_2.10;0.11.2!breeze_2.10.jar (115591ms)[0m
+2015-11-24 02:17:03,935 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.jar ...[0m
+2015-11-24 02:17:17,392 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;1.3.1!spark-catalyst_2.10.jar (13458ms)[0m
+2015-11-24 02:17:17,404 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar ...[0m
+2015-11-24 02:17:22,752 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalanlp#breeze-macros_2.10;0.11.2!breeze-macros_2.10.jar (5348ms)[0m
+2015-11-24 02:17:23,119 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mDone updating.[0m
+2015-11-24 02:17:23,274 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mCompiling 8 Scala sources to /home/jinyang/Official_temp/MyClassification/target/scala-2.10/classes...[0m
+2015-11-24 02:17:30,051 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[33mwarn[0m] [0mNo main class detected[0m
+2015-11-24 02:17:30,071 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mPackaging /home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar ...[0m
+2015-11-24 02:17:30,099 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mDone packaging.[0m
+2015-11-24 02:17:30,121 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[32msuccess[0m] [0mTotal time: 427 s, completed 24/11/2015 2:17:30 AM[0m
+2015-11-24 02:17:30,466 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[33mwarn[0m] [0mNo main class detected[0m
+2015-11-24 02:17:32,098 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mIncluding: scala-library.jar[0m
+2015-11-24 02:17:33,527 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+2015-11-24 02:17:33,560 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mMerging files...[0m
+2015-11-24 02:17:34,686 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[33mwarn[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+2015-11-24 02:17:34,774 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[33mwarn[0m] [0mStrategy 'discard' was applied to a file[0m
+2015-11-24 02:17:34,849 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mSHA-1: 1ae0d7a9c433e439e81ce947659bf05aa62a2892[0m
+2015-11-24 02:17:34,850 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mPackaging /home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar ...[0m
+2015-11-24 02:17:36,229 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mDone packaging.[0m
+2015-11-24 02:17:36,247 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[32msuccess[0m] [0mTotal time: 6 s, completed 24/11/2015 2:17:36 AM[0m
+2015-11-24 02:17:36,274 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-24 02:17:36,275 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-24 02:17:36,285 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-24 02:17:36,285 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-24 02:17:37,072 INFO  org.elasticsearch.plugins [main] - [Thunderclap] loaded [], sites []
+2015-11-24 02:17:37,982 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine DDhzpQfJrbhWAzW3X6kpNJmu0xyOt0qE b010e3929af46d6aef4615ac499a8d4e6d0edeb5
+2015-11-24 02:17:38,009 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-26 02:12:20,016 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:12:20,291 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 02:12:20,291 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 02:12:20,293 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 02:12:20,293 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 02:12:31,907 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala:26: ')' expected but string literal found.[0m
+2015-11-26 02:12:31,909 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m          "randomforest" -> classOf[RandomForestAlgorithm]),[0m
+2015-11-26 02:12:31,910 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m          ^[0m
+2015-11-26 02:12:31,911 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/Engine.scala:28: ')' expected but '}' found.[0m
+2015-11-26 02:12:31,912 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m  }[0m
+2015-11-26 02:12:31,912 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m  ^[0m
+2015-11-26 02:12:31,942 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala:46: ':' expected but identifier found.[0m
+2015-11-26 02:12:31,943 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    def predict(model: RandomForestModel, query Query): PredictedResult = {[0m
+2015-11-26 02:12:31,944 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                                                ^[0m
+2015-11-26 02:12:31,945 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala:52: identifier expected but '}' found.[0m
+2015-11-26 02:12:31,946 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m}[0m
+2015-11-26 02:12:31,946 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m^[0m
+2015-11-26 02:12:31,956 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mfour errors found[0m
+2015-11-26 02:12:31,986 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+2015-11-26 02:12:31,996 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 3 s, completed 26/11/2015 2:12:31 AM[0m
+2015-11-26 02:12:32,010 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-11-26 02:13:02,401 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:13:02,480 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 02:13:02,481 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 02:13:02,482 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 02:13:02,483 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 02:13:09,344 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala:46: ':' expected but identifier found.[0m
+2015-11-26 02:13:09,345 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    def predict(model: RandomForestModel, query Query): PredictedResult = {[0m
+2015-11-26 02:13:09,346 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                                                ^[0m
+2015-11-26 02:13:09,347 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala:52: identifier expected but '}' found.[0m
+2015-11-26 02:13:09,348 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m}[0m
+2015-11-26 02:13:09,349 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m^[0m
+2015-11-26 02:13:09,356 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mtwo errors found[0m
+2015-11-26 02:13:09,387 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+2015-11-26 02:13:09,398 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 1 s, completed 26/11/2015 2:13:09 AM[0m
+2015-11-26 02:13:09,413 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-11-26 02:13:59,875 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:13:59,958 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 02:13:59,959 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 02:13:59,960 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 02:13:59,961 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 02:14:08,027 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/RandomForestAlgorithm.scala:30: not found: type RandomForestAlgorithmPrams[0m
+2015-11-26 02:14:08,028 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mclass RandomForestAlgorithm(val ap: RandomForestAlgorithmPrams)[0m
+2015-11-26 02:14:08,029 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                                    ^[0m
+2015-11-26 02:14:08,235 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mone error found[0m
+2015-11-26 02:14:08,270 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+2015-11-26 02:14:08,284 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 3 s, completed 26/11/2015 2:14:08 AM[0m
+2015-11-26 02:14:08,302 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-11-26 02:17:36,765 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:17:36,849 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 02:17:36,851 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 02:17:36,852 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 02:17:36,854 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 02:17:50,721 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-26 02:17:50,722 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-26 02:17:50,732 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-26 02:17:50,733 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-26 02:17:52,464 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine DDhzpQfJrbhWAzW3X6kpNJmu0xyOt0qE b010e3929af46d6aef4615ac499a8d4e6d0edeb5
+2015-11-26 02:18:22,150 INFO  io.prediction.tools.console.Console$ [main] - Creating Event Server at 0.0.0.0:7070
+2015-11-26 02:18:25,306 INFO  io.prediction.tools.console.Console$ [main] - Inspecting PredictionIO...
+2015-11-26 02:18:25,315 INFO  io.prediction.tools.console.Console$ [main] - PredictionIO 0.9.5 is installed at /home/jinyang/PredictionIO
+2015-11-26 02:18:25,316 INFO  io.prediction.tools.console.Console$ [main] - Inspecting Apache Spark...
+2015-11-26 02:18:25,338 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark is installed at /home/jinyang/PredictionIO/vendors/spark-1.4.1
+2015-11-26 02:18:25,393 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark 1.4.1 detected (meets minimum requirement of 1.3.0)
+2015-11-26 02:18:25,395 INFO  io.prediction.tools.console.Console$ [main] - Inspecting storage backend connections...
+2015-11-26 02:18:25,425 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Meta Data Backend (Source: ELASTICSEARCH)...
+2015-11-26 02:18:27,226 INFO  spray.can.server.HttpListener [EventServerSystem-akka.actor.default-dispatcher-3] - Bound to /0.0.0.0:7070
+2015-11-26 02:18:27,227 INFO  io.prediction.data.api.EventServerActor [EventServerSystem-akka.actor.default-dispatcher-3] - Bound received. EventServer is ready.
+2015-11-26 02:18:28,246 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Model Data Backend (Source: LOCALFS)...
+2015-11-26 02:18:28,257 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Event Data Backend (Source: HBASE)...
+2015-11-26 02:18:29,671 INFO  io.prediction.data.storage.Storage$ [main] - Test writing to Event Store (App Id 0)...
+2015-11-26 02:18:30,344 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_0 doesn't exist yet. Creating now...
+2015-11-26 02:18:31,060 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_0...
+2015-11-26 02:18:32,591 INFO  io.prediction.tools.console.Console$ [main] - (sleeping 5 seconds for all messages to show up...)
+2015-11-26 02:18:37,592 INFO  io.prediction.tools.console.Console$ [main] - Your system is all ready to go.
+2015-11-26 02:18:47,703 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:18:47,783 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 02:18:47,785 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 02:18:47,786 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 02:18:47,788 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 02:18:57,232 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-26 02:18:57,234 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-26 02:18:57,242 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-26 02:18:57,243 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-26 02:18:58,643 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine DDhzpQfJrbhWAzW3X6kpNJmu0xyOt0qE b010e3929af46d6aef4615ac499a8d4e6d0edeb5
+2015-11-26 02:18:58,758 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-26 02:19:03,407 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:19:04,932 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id DDhzpQfJrbhWAzW3X6kpNJmu0xyOt0qE --engine-version b010e3929af46d6aef4615ac499a8d4e6d0edeb5 --engine-variant file:/home/jinyang/Official_temp/MyClassification/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-26 02:19:07,774 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-26 02:19:07,907 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-26 02:19:08,184 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(INVALID_APP_NAME,None))
+2015-11-26 02:19:08,185 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-26 02:19:08,187 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-26 02:19:08,197 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-26 02:19:08,198 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-26 02:19:09,365 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-26 02:19:09,366 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-26 02:19:10,203 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Starting remoting
+2015-11-26 02:19:10,487 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:35906]
+2015-11-26 02:19:13,321 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-26 02:19:13,322 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@1b8c4d16
+2015-11-26 02:19:13,322 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@3bcd1fb6
+2015-11-26 02:19:13,323 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.RandomForestAlgorithm@189dd4f4)
+2015-11-26 02:19:13,324 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-26 02:19:13,496 ERROR io.prediction.data.store.Common$ [main] - Invalid app name INVALID_APP_NAME
+2015-11-26 02:19:27,327 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-11-26 02:19:27,389 INFO  io.prediction.tools.console.App$ [main] -                Bayes |    5 | RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW | (all)
+2015-11-26 02:19:27,399 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | AOQKXsMZNJnWt5Bjz89AK7ZqC8icYZQvf4PckjsefwawUSCRdb1Ij8h1XkEZrnJi | (all)
+2015-11-26 02:19:27,409 INFO  io.prediction.tools.console.App$ [main] -             NewTest1 |    3 | 6nn0XJyMDFjJ7rHe46kMz1tb8a0shYr1PNDg9nGyaw9GXqtOr5yERxqijU9YBecr | (all)
+2015-11-26 02:19:27,419 INFO  io.prediction.tools.console.App$ [main] -        SentimentTest |    4 | xqSlfuc7yvKr0PHS7qfcCkyAwOodAlPAdZTmWaH6C2XLCEbLvPMgR2g3Sgs3A24F | (all)
+2015-11-26 02:19:27,430 INFO  io.prediction.tools.console.App$ [main] -                  dt1 |    2 | wn0kquxNA17Fh03FcrEYjKOOUZTRie8NuUQj0lPSpRDoCxypCqheNzgRHk1SPZI2 | (all)
+2015-11-26 02:19:27,431 INFO  io.prediction.tools.console.App$ [main] - Finished listing 5 app(s).
+2015-11-26 02:20:17,338 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:20:18,853 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id DDhzpQfJrbhWAzW3X6kpNJmu0xyOt0qE --engine-version b010e3929af46d6aef4615ac499a8d4e6d0edeb5 --engine-variant file:/home/jinyang/Official_temp/MyClassification/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-26 02:20:21,172 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-26 02:20:21,261 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-26 02:20:21,505 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(INVALID_APP_NAME,None))
+2015-11-26 02:20:21,505 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-26 02:20:21,507 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-26 02:20:21,516 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-26 02:20:21,516 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-26 02:20:22,584 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-26 02:20:22,584 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-26 02:20:23,240 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Starting remoting
+2015-11-26 02:20:23,436 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:37434]
+2015-11-26 02:20:24,480 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-26 02:20:24,482 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@5065d8c4
+2015-11-26 02:20:24,483 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@205ad6bc
+2015-11-26 02:20:24,484 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.RandomForestAlgorithm@41517568)
+2015-11-26 02:20:24,484 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-26 02:20:24,561 ERROR io.prediction.data.store.Common$ [main] - Invalid app name INVALID_APP_NAME
+2015-11-26 02:25:53,233 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:25:54,732 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id DDhzpQfJrbhWAzW3X6kpNJmu0xyOt0qE --engine-version b010e3929af46d6aef4615ac499a8d4e6d0edeb5 --engine-variant file:/home/jinyang/Official_temp/MyClassification/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-26 02:25:57,082 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-26 02:25:57,176 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-26 02:25:57,426 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(INVALID_APP_NAME,None))
+2015-11-26 02:25:57,427 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-26 02:25:57,429 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-26 02:25:57,438 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-26 02:25:57,439 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-26 02:25:58,496 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-26 02:25:58,497 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-26 02:25:59,155 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Starting remoting
+2015-11-26 02:25:59,356 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:32890]
+2015-11-26 02:26:00,298 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-26 02:26:00,298 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@46215c85
+2015-11-26 02:26:00,299 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@79529793
+2015-11-26 02:26:00,300 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.RandomForestAlgorithm@599c293d)
+2015-11-26 02:26:00,300 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-26 02:26:00,384 ERROR io.prediction.data.store.Common$ [main] - Invalid app name INVALID_APP_NAME
+2015-11-26 02:26:13,595 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-11-26 02:26:13,644 INFO  io.prediction.tools.console.App$ [main] -                Bayes |    5 | RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW | (all)
+2015-11-26 02:26:13,654 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | AOQKXsMZNJnWt5Bjz89AK7ZqC8icYZQvf4PckjsefwawUSCRdb1Ij8h1XkEZrnJi | (all)
+2015-11-26 02:26:13,663 INFO  io.prediction.tools.console.App$ [main] -             NewTest1 |    3 | 6nn0XJyMDFjJ7rHe46kMz1tb8a0shYr1PNDg9nGyaw9GXqtOr5yERxqijU9YBecr | (all)
+2015-11-26 02:26:13,670 INFO  io.prediction.tools.console.App$ [main] -        SentimentTest |    4 | xqSlfuc7yvKr0PHS7qfcCkyAwOodAlPAdZTmWaH6C2XLCEbLvPMgR2g3Sgs3A24F | (all)
+2015-11-26 02:26:13,678 INFO  io.prediction.tools.console.App$ [main] -                  dt1 |    2 | wn0kquxNA17Fh03FcrEYjKOOUZTRie8NuUQj0lPSpRDoCxypCqheNzgRHk1SPZI2 | (all)
+2015-11-26 02:26:13,680 INFO  io.prediction.tools.console.App$ [main] - Finished listing 5 app(s).
+2015-11-26 02:26:56,343 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:26:56,429 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 02:26:56,431 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 02:26:56,432 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 02:26:56,434 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 02:27:05,128 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-26 02:27:05,129 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-26 02:27:05,138 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-26 02:27:05,138 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-26 02:27:06,560 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine DDhzpQfJrbhWAzW3X6kpNJmu0xyOt0qE b010e3929af46d6aef4615ac499a8d4e6d0edeb5
+2015-11-26 02:27:06,585 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-26 02:27:21,253 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-11-26 02:27:21,303 INFO  io.prediction.tools.console.App$ [main] -                Bayes |    5 | RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW | (all)
+2015-11-26 02:27:21,315 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | AOQKXsMZNJnWt5Bjz89AK7ZqC8icYZQvf4PckjsefwawUSCRdb1Ij8h1XkEZrnJi | (all)
+2015-11-26 02:27:21,322 INFO  io.prediction.tools.console.App$ [main] -             NewTest1 |    3 | 6nn0XJyMDFjJ7rHe46kMz1tb8a0shYr1PNDg9nGyaw9GXqtOr5yERxqijU9YBecr | (all)
+2015-11-26 02:27:21,330 INFO  io.prediction.tools.console.App$ [main] -        SentimentTest |    4 | xqSlfuc7yvKr0PHS7qfcCkyAwOodAlPAdZTmWaH6C2XLCEbLvPMgR2g3Sgs3A24F | (all)
+2015-11-26 02:27:21,340 INFO  io.prediction.tools.console.App$ [main] -                  dt1 |    2 | wn0kquxNA17Fh03FcrEYjKOOUZTRie8NuUQj0lPSpRDoCxypCqheNzgRHk1SPZI2 | (all)
+2015-11-26 02:27:21,341 INFO  io.prediction.tools.console.App$ [main] - Finished listing 5 app(s).
+2015-11-26 02:31:15,047 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-11-26 02:31:15,097 INFO  io.prediction.tools.console.App$ [main] -                Bayes |    5 | RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW | (all)
+2015-11-26 02:31:15,107 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | AOQKXsMZNJnWt5Bjz89AK7ZqC8icYZQvf4PckjsefwawUSCRdb1Ij8h1XkEZrnJi | (all)
+2015-11-26 02:31:15,115 INFO  io.prediction.tools.console.App$ [main] -             NewTest1 |    3 | 6nn0XJyMDFjJ7rHe46kMz1tb8a0shYr1PNDg9nGyaw9GXqtOr5yERxqijU9YBecr | (all)
+2015-11-26 02:31:15,123 INFO  io.prediction.tools.console.App$ [main] -        SentimentTest |    4 | xqSlfuc7yvKr0PHS7qfcCkyAwOodAlPAdZTmWaH6C2XLCEbLvPMgR2g3Sgs3A24F | (all)
+2015-11-26 02:31:15,131 INFO  io.prediction.tools.console.App$ [main] -                  dt1 |    2 | wn0kquxNA17Fh03FcrEYjKOOUZTRie8NuUQj0lPSpRDoCxypCqheNzgRHk1SPZI2 | (all)
+2015-11-26 02:31:15,132 INFO  io.prediction.tools.console.App$ [main] - Finished listing 5 app(s).
+2015-11-26 02:31:22,230 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:31:23,722 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id DDhzpQfJrbhWAzW3X6kpNJmu0xyOt0qE --engine-version b010e3929af46d6aef4615ac499a8d4e6d0edeb5 --engine-variant file:/home/jinyang/Official_temp/MyClassification/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-26 02:31:26,031 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-26 02:31:26,123 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-26 02:31:26,414 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(null,null))
+2015-11-26 02:31:26,415 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-26 02:31:26,417 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-26 02:31:26,426 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-26 02:31:26,427 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-26 02:31:27,464 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-26 02:31:27,464 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-26 02:31:28,142 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Starting remoting
+2015-11-26 02:31:28,341 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:50692]
+2015-11-26 02:31:29,293 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-26 02:31:29,294 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@2cf4908c
+2015-11-26 02:31:29,295 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@1f480d4c
+2015-11-26 02:31:29,295 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.RandomForestAlgorithm@723e8b20)
+2015-11-26 02:31:29,296 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-26 02:31:29,426 ERROR io.prediction.data.storage.elasticsearch.ESApps [main] - Failed to execute phase [query], all shards failed; shardFailures {[0Tkl6CBERa2uzRUVlNQf_g][pio_meta][0]: SearchParseException[[pio_meta][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"post_filter":{"term":{"name":null}}}]]]; nested: QueryParsingException[[pio_meta] No field specified for term filter]; }{[0Tkl6CBERa2uzRUVlNQf_g][pio_meta][1]: SearchParseException[[pio_meta][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"post_filter":{"term":{"name":null}}}]]]; nested: QueryParsingException[[pio_meta] No field specified for term filter]; }{[0Tkl6CBERa2uzRUVlNQf_g][pio_meta][2]: SearchParseException[[pio_meta][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"post_filter":{"term":{"name":null}}}]]]; nested: QueryParsingException[[pio_meta] No field specified for term filter]; }{[0Tkl6CBERa2uzRUVlNQf_g][pio_meta][3]: SearchParseException[[pio_meta][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"post_filter":{"term":{"name":null}}}]]]; nested: QueryParsingException[[pio_meta] No field specified for term filter]; }{[0Tkl6CBERa2uzRUVlNQf_g][pio_meta][4]: SearchParseException[[pio_meta][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"post_filter":{"term":{"name":null}}}]]]; nested: QueryParsingException[[pio_meta] No field specified for term filter]; }
+2015-11-26 02:31:29,428 ERROR io.prediction.data.store.Common$ [main] - Invalid app name null
+2015-11-26 02:32:08,648 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:32:10,136 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/Official_temp/MyClassification/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id DDhzpQfJrbhWAzW3X6kpNJmu0xyOt0qE --engine-version b010e3929af46d6aef4615ac499a8d4e6d0edeb5 --engine-variant file:/home/jinyang/Official_temp/MyClassification/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-26 02:32:12,483 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-26 02:32:12,571 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-26 02:32:12,813 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(Bayes,None))
+2015-11-26 02:32:12,815 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-26 02:32:12,817 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-26 02:32:12,825 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-26 02:32:12,827 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-26 02:32:13,898 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-26 02:32:13,899 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-26 02:32:14,589 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Starting remoting
+2015-11-26 02:32:14,782 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:54371]
+2015-11-26 02:32:15,698 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-26 02:32:15,699 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@43f4655e
+2015-11-26 02:32:15,700 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@6c565737
+2015-11-26 02:32:15,700 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.RandomForestAlgorithm@50bba944)
+2015-11-26 02:32:15,701 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-26 02:32:17,523 WARN  org.apache.hadoop.hbase.mapreduce.TableInputFormatBase [main] - Cannot resolve the host name for ubuntu/127.0.1.1 because of javax.naming.NameNotFoundException: DNS name not found [response code 3]; remaining name '1.1.0.127.in-addr.arpa'
+2015-11-26 02:32:17,629 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.TrainingData does not support data sanity check. Skipping check.
+2015-11-26 02:32:17,631 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.PreparedData does not support data sanity check. Skipping check.
+2015-11-26 02:32:19,512 ERROR org.apache.spark.executor.Executor [Executor task launch worker-0] - Exception in task 0.0 in stage 7.0 (TID 4)
+java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires label < numClasses (= 3).
+	at org.apache.spark.mllib.tree.impurity.GiniAggregator.update(Gini.scala:90)
+	at org.apache.spark.mllib.tree.impl.DTStatsAggregator.update(DTStatsAggregator.scala:100)
+	at org.apache.spark.mllib.tree.DecisionTree$.orderedBinSeqOp(DecisionTree.scala:406)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$nodeBinSeqOp$1(DecisionTree.scala:507)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:532)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:529)
+	at scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:224)
+	at scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:403)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1(DecisionTree.scala:529)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:613)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:70)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:41)
+	at org.apache.spark.scheduler.Task.run(Task.scala:70)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:213)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-26 02:32:19,523 WARN  org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Lost task 0.0 in stage 7.0 (TID 4, localhost): java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires label < numClasses (= 3).
+	at org.apache.spark.mllib.tree.impurity.GiniAggregator.update(Gini.scala:90)
+	at org.apache.spark.mllib.tree.impl.DTStatsAggregator.update(DTStatsAggregator.scala:100)
+	at org.apache.spark.mllib.tree.DecisionTree$.orderedBinSeqOp(DecisionTree.scala:406)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$nodeBinSeqOp$1(DecisionTree.scala:507)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:532)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:529)
+	at scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:224)
+	at scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:403)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1(DecisionTree.scala:529)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:613)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:70)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:41)
+	at org.apache.spark.scheduler.Task.run(Task.scala:70)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:213)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-11-26 02:32:19,528 ERROR org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Task 0 in stage 7.0 failed 1 times; aborting job
+2015-11-26 02:45:20,668 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/Official_temp/MyClassification/manifest.json
+2015-11-26 02:45:20,757 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 02:45:20,758 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 02:45:20,759 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 02:45:20,760 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 02:45:29,637 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala:32: value appName is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 02:45:29,639 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m      appName = dsp.appName,[0m
+2015-11-26 02:45:29,641 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 02:45:29,664 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala:62: value evalK is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 02:45:29,665 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    require(dsp.evalK.nonEmpty, "DataSourceParams.evalK must not be None")[0m
+2015-11-26 02:45:29,665 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                ^[0m
+2015-11-26 02:45:29,682 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala:70: value appName is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 02:45:29,684 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m      appName = dsp.appName,[0m
+2015-11-26 02:45:29,685 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 02:45:29,692 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/Official_temp/MyClassification/src/main/scala/DataSource.scala:96: value evalK is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 02:45:29,694 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    val evalK = dsp.evalK.get[0m
+2015-11-26 02:45:29,695 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 02:45:30,101 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mfour errors found[0m
+2015-11-26 02:45:30,134 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+2015-11-26 02:45:30,146 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 4 s, completed 26/11/2015 2:45:30 AM[0m
+2015-11-26 02:45:30,166 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.

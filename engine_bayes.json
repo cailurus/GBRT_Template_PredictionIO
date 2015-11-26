@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "org.template.classification.ClassificationEngine",
+  "datasource": {
+    "params": {
+      "appName": "INVALID_APP_NAME"
+    }
+  },
+  "algorithms": [
+    {
+      "name": "naive",
+      "params": {
+        "lambda": 1.0
+      }
+    }
+  ]
+}
