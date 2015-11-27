@@ -1049,3 +1049,1248 @@ java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires 
 2015-11-26 02:45:30,134 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
 2015-11-26 02:45:30,146 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 4 s, completed 26/11/2015 2:45:30 AM[0m
 2015-11-26 02:45:30,166 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-11-26 23:26:50,180 INFO  io.prediction.tools.console.Console$ [main] - Inspecting PredictionIO...
+2015-11-26 23:26:50,185 INFO  io.prediction.tools.console.Console$ [main] - PredictionIO 0.9.5 is installed at /home/jinyang/PredictionIO
+2015-11-26 23:26:50,187 INFO  io.prediction.tools.console.Console$ [main] - Inspecting Apache Spark...
+2015-11-26 23:26:50,208 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark is installed at /home/jinyang/PredictionIO/vendors/spark-1.4.1
+2015-11-26 23:26:50,270 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark 1.4.1 detected (meets minimum requirement of 1.3.0)
+2015-11-26 23:26:50,271 INFO  io.prediction.tools.console.Console$ [main] - Inspecting storage backend connections...
+2015-11-26 23:26:50,304 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Meta Data Backend (Source: ELASTICSEARCH)...
+2015-11-26 23:26:51,918 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Model Data Backend (Source: LOCALFS)...
+2015-11-26 23:26:51,925 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Event Data Backend (Source: HBASE)...
+2015-11-26 23:26:53,562 ERROR org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - ZooKeeper exists failed after 1 attempts
+2015-11-26 23:26:53,563 ERROR org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher [main] - hconnection-0x24fc9cde, quorum=localhost:2181, baseZNode=/hbase Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:199)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:479)
+	at org.apache.hadoop.hbase.zookeeper.ZKClusterId.readClusterIdZNode(ZKClusterId.java:65)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(ZooKeeperRegistry.java:83)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.retrieveClusterId(HConnectionManager.java:852)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.<init>(HConnectionManager.java:657)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.hbase.client.HConnectionManager.createConnection(HConnectionManager.java:409)
+	at org.apache.hadoop.hbase.client.HConnectionManager.createConnection(HConnectionManager.java:388)
+	at org.apache.hadoop.hbase.client.HConnectionManager.getConnection(HConnectionManager.java:269)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.checkHBaseAvailable(HBaseAdmin.java:2338)
+	at io.prediction.data.storage.hbase.StorageClient.<init>(StorageClient.scala:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at io.prediction.data.storage.Storage$.getClient(Storage.scala:217)
+	at io.prediction.data.storage.Storage$.io$prediction$data$storage$Storage$$updateS2CM(Storage.scala:248)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at scala.collection.mutable.MapLike$class.getOrElseUpdate(MapLike.scala:189)
+	at scala.collection.mutable.AbstractMap.getOrElseUpdate(Map.scala:91)
+	at io.prediction.data.storage.Storage$.sourcesToClientMeta(Storage.scala:209)
+	at io.prediction.data.storage.Storage$.getDataObject(Storage.scala:278)
+	at io.prediction.data.storage.Storage$.getDataObjectFromRepo(Storage.scala:263)
+	at io.prediction.data.storage.Storage$.getLEvents(Storage.scala:385)
+	at io.prediction.data.storage.Storage$.verifyAllDataObjects(Storage.scala:348)
+	at io.prediction.tools.console.Console$.status(Console.scala:1082)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:725)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:684)
+	at scala.Option.map(Option.scala:145)
+	at io.prediction.tools.console.Console$.main(Console.scala:684)
+	at io.prediction.tools.console.Console.main(Console.scala)
+2015-11-26 23:26:53,567 WARN  org.apache.hadoop.hbase.client.ZooKeeperRegistry [main] - Can't retrieve clusterId from Zookeeper
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:199)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:479)
+	at org.apache.hadoop.hbase.zookeeper.ZKClusterId.readClusterIdZNode(ZKClusterId.java:65)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(ZooKeeperRegistry.java:83)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.retrieveClusterId(HConnectionManager.java:852)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.<init>(HConnectionManager.java:657)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.hbase.client.HConnectionManager.createConnection(HConnectionManager.java:409)
+	at org.apache.hadoop.hbase.client.HConnectionManager.createConnection(HConnectionManager.java:388)
+	at org.apache.hadoop.hbase.client.HConnectionManager.getConnection(HConnectionManager.java:269)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.checkHBaseAvailable(HBaseAdmin.java:2338)
+	at io.prediction.data.storage.hbase.StorageClient.<init>(StorageClient.scala:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at io.prediction.data.storage.Storage$.getClient(Storage.scala:217)
+	at io.prediction.data.storage.Storage$.io$prediction$data$storage$Storage$$updateS2CM(Storage.scala:248)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at scala.collection.mutable.MapLike$class.getOrElseUpdate(MapLike.scala:189)
+	at scala.collection.mutable.AbstractMap.getOrElseUpdate(Map.scala:91)
+	at io.prediction.data.storage.Storage$.sourcesToClientMeta(Storage.scala:209)
+	at io.prediction.data.storage.Storage$.getDataObject(Storage.scala:278)
+	at io.prediction.data.storage.Storage$.getDataObjectFromRepo(Storage.scala:263)
+	at io.prediction.data.storage.Storage$.getLEvents(Storage.scala:385)
+	at io.prediction.data.storage.Storage$.verifyAllDataObjects(Storage.scala:348)
+	at io.prediction.tools.console.Console$.status(Console.scala:1082)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:725)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:684)
+	at scala.Option.map(Option.scala:145)
+	at io.prediction.tools.console.Console$.main(Console.scala:684)
+	at io.prediction.tools.console.Console.main(Console.scala)
+2015-11-26 23:26:55,768 ERROR io.prediction.data.storage.hbase.StorageClient [main] - Cannot connect to ZooKeeper (ZooKeeper ensemble: localhost). Please make sure that the configuration is pointing at the correct ZooKeeper ensemble. By default, HBase manages its own ZooKeeper, so if you have not configured HBase to use an external ZooKeeper, that means your HBase is not started or configured properly.
+2015-11-26 23:26:55,769 ERROR io.prediction.data.storage.Storage$ [main] - Error initializing storage client for source HBASE
+org.apache.hadoop.hbase.ZooKeeperConnectionException: Can't connect to ZooKeeper
+	at org.apache.hadoop.hbase.client.HBaseAdmin.checkHBaseAvailable(HBaseAdmin.java:2358)
+	at io.prediction.data.storage.hbase.StorageClient.<init>(StorageClient.scala:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at io.prediction.data.storage.Storage$.getClient(Storage.scala:217)
+	at io.prediction.data.storage.Storage$.io$prediction$data$storage$Storage$$updateS2CM(Storage.scala:248)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at scala.collection.mutable.MapLike$class.getOrElseUpdate(MapLike.scala:189)
+	at scala.collection.mutable.AbstractMap.getOrElseUpdate(Map.scala:91)
+	at io.prediction.data.storage.Storage$.sourcesToClientMeta(Storage.scala:209)
+	at io.prediction.data.storage.Storage$.getDataObject(Storage.scala:278)
+	at io.prediction.data.storage.Storage$.getDataObjectFromRepo(Storage.scala:263)
+	at io.prediction.data.storage.Storage$.getLEvents(Storage.scala:385)
+	at io.prediction.data.storage.Storage$.verifyAllDataObjects(Storage.scala:348)
+	at io.prediction.tools.console.Console$.status(Console.scala:1082)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:725)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:684)
+	at scala.Option.map(Option.scala:145)
+	at io.prediction.tools.console.Console$.main(Console.scala:684)
+	at io.prediction.tools.console.Console.main(Console.scala)
+Caused by: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1073)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.checkHBaseAvailable(HBaseAdmin.java:2349)
+	... 22 more
+2015-11-26 23:26:55,776 ERROR io.prediction.tools.console.Console$ [main] - Unable to connect to all storage backends successfully. The following shows the error message from the storage backend.
+2015-11-26 23:26:55,777 ERROR io.prediction.tools.console.Console$ [main] - Data source HBASE was not properly initialized. (io.prediction.data.storage.StorageClientException)
+io.prediction.data.storage.StorageClientException: Data source HBASE was not properly initialized.
+	at io.prediction.data.storage.Storage$$anonfun$10.apply(Storage.scala:279)
+	at io.prediction.data.storage.Storage$$anonfun$10.apply(Storage.scala:279)
+	at scala.Option.getOrElse(Option.scala:120)
+	at io.prediction.data.storage.Storage$.getDataObject(Storage.scala:278)
+	at io.prediction.data.storage.Storage$.getDataObjectFromRepo(Storage.scala:263)
+	at io.prediction.data.storage.Storage$.getLEvents(Storage.scala:385)
+	at io.prediction.data.storage.Storage$.verifyAllDataObjects(Storage.scala:348)
+	at io.prediction.tools.console.Console$.status(Console.scala:1082)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:725)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:684)
+	at scala.Option.map(Option.scala:145)
+	at io.prediction.tools.console.Console$.main(Console.scala:684)
+	at io.prediction.tools.console.Console.main(Console.scala)
+2015-11-26 23:26:55,778 ERROR io.prediction.tools.console.Console$ [main] - Dumping configuration of initialized storage backend sources. Please make sure they are correct.
+2015-11-26 23:26:55,782 ERROR io.prediction.tools.console.Console$ [main] - Source Name: ELASTICSEARCH; Type: elasticsearch; Configuration: TYPE -> elasticsearch, HOME -> /home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4
+2015-11-26 23:26:55,783 ERROR io.prediction.tools.console.Console$ [main] - Source Name: LOCALFS; Type: localfs; Configuration: PATH -> /home/jinyang/.pio_store/models, TYPE -> localfs
+2015-11-26 23:26:55,783 ERROR io.prediction.tools.console.Console$ [main] - Source Name: HBASE; Type: (error); Configuration: (error)
+2015-11-26 23:27:08,870 INFO  io.prediction.tools.console.Console$ [main] - Inspecting PredictionIO...
+2015-11-26 23:27:08,875 INFO  io.prediction.tools.console.Console$ [main] - PredictionIO 0.9.5 is installed at /home/jinyang/PredictionIO
+2015-11-26 23:27:08,876 INFO  io.prediction.tools.console.Console$ [main] - Inspecting Apache Spark...
+2015-11-26 23:27:08,891 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark is installed at /home/jinyang/PredictionIO/vendors/spark-1.4.1
+2015-11-26 23:27:08,947 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark 1.4.1 detected (meets minimum requirement of 1.3.0)
+2015-11-26 23:27:08,948 INFO  io.prediction.tools.console.Console$ [main] - Inspecting storage backend connections...
+2015-11-26 23:27:08,979 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Meta Data Backend (Source: ELASTICSEARCH)...
+2015-11-26 23:27:10,359 ERROR io.prediction.tools.console.Console$ [main] - Unable to connect to all storage backends successfully. The following shows the error message from the storage backend.
+2015-11-26 23:27:10,361 ERROR io.prediction.tools.console.Console$ [main] - None of the configured nodes are available: [] (org.elasticsearch.client.transport.NoNodeAvailableException)
+org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: []
+	at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:278)
+	at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:197)
+	at org.elasticsearch.client.transport.support.InternalTransportIndicesAdminClient.execute(InternalTransportIndicesAdminClient.java:86)
+	at org.elasticsearch.client.support.AbstractIndicesAdminClient.exists(AbstractIndicesAdminClient.java:170)
+	at org.elasticsearch.action.admin.indices.exists.indices.IndicesExistsRequestBuilder.doExecute(IndicesExistsRequestBuilder.java:53)
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:91)
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:65)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:73)
+	at io.prediction.data.storage.elasticsearch.ESEngineInstances.<init>(ESEngineInstances.scala:39)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at io.prediction.data.storage.Storage$.getDataObject(Storage.scala:303)
+	at io.prediction.data.storage.Storage$.getDataObjectFromRepo(Storage.scala:263)
+	at io.prediction.data.storage.Storage$.getMetaDataEngineInstances(Storage.scala:364)
+	at io.prediction.data.storage.Storage$.verifyAllDataObjects(Storage.scala:339)
+	at io.prediction.tools.console.Console$.status(Console.scala:1082)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:725)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:684)
+	at scala.Option.map(Option.scala:145)
+	at io.prediction.tools.console.Console$.main(Console.scala:684)
+	at io.prediction.tools.console.Console.main(Console.scala)
+2015-11-26 23:27:10,363 ERROR io.prediction.tools.console.Console$ [main] - Dumping configuration of initialized storage backend sources. Please make sure they are correct.
+2015-11-26 23:27:10,367 ERROR io.prediction.tools.console.Console$ [main] - Source Name: ELASTICSEARCH; Type: elasticsearch; Configuration: TYPE -> elasticsearch, HOME -> /home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4
+2015-11-26 23:27:28,825 INFO  io.prediction.tools.console.Console$ [main] - Creating Event Server at 0.0.0.0:7070
+2015-11-26 23:27:33,160 INFO  spray.can.server.HttpListener [EventServerSystem-akka.actor.default-dispatcher-4] - Bound to /0.0.0.0:7070
+2015-11-26 23:27:33,160 INFO  io.prediction.data.api.EventServerActor [EventServerSystem-akka.actor.default-dispatcher-4] - Bound received. EventServer is ready.
+2015-11-26 23:27:43,208 INFO  io.prediction.tools.console.Console$ [main] - Inspecting PredictionIO...
+2015-11-26 23:27:43,213 INFO  io.prediction.tools.console.Console$ [main] - PredictionIO 0.9.5 is installed at /home/jinyang/PredictionIO
+2015-11-26 23:27:43,214 INFO  io.prediction.tools.console.Console$ [main] - Inspecting Apache Spark...
+2015-11-26 23:27:43,230 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark is installed at /home/jinyang/PredictionIO/vendors/spark-1.4.1
+2015-11-26 23:27:43,295 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark 1.4.1 detected (meets minimum requirement of 1.3.0)
+2015-11-26 23:27:43,296 INFO  io.prediction.tools.console.Console$ [main] - Inspecting storage backend connections...
+2015-11-26 23:27:43,328 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Meta Data Backend (Source: ELASTICSEARCH)...
+2015-11-26 23:27:45,102 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Model Data Backend (Source: LOCALFS)...
+2015-11-26 23:27:45,109 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Event Data Backend (Source: HBASE)...
+2015-11-26 23:27:46,876 ERROR org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper [main] - ZooKeeper exists failed after 1 attempts
+2015-11-26 23:27:46,877 ERROR org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher [main] - hconnection-0x122aa8ef, quorum=localhost:2181, baseZNode=/hbase Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:199)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:479)
+	at org.apache.hadoop.hbase.zookeeper.ZKClusterId.readClusterIdZNode(ZKClusterId.java:65)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(ZooKeeperRegistry.java:83)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.retrieveClusterId(HConnectionManager.java:852)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.<init>(HConnectionManager.java:657)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.hbase.client.HConnectionManager.createConnection(HConnectionManager.java:409)
+	at org.apache.hadoop.hbase.client.HConnectionManager.createConnection(HConnectionManager.java:388)
+	at org.apache.hadoop.hbase.client.HConnectionManager.getConnection(HConnectionManager.java:269)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.checkHBaseAvailable(HBaseAdmin.java:2338)
+	at io.prediction.data.storage.hbase.StorageClient.<init>(StorageClient.scala:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at io.prediction.data.storage.Storage$.getClient(Storage.scala:217)
+	at io.prediction.data.storage.Storage$.io$prediction$data$storage$Storage$$updateS2CM(Storage.scala:248)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at scala.collection.mutable.MapLike$class.getOrElseUpdate(MapLike.scala:189)
+	at scala.collection.mutable.AbstractMap.getOrElseUpdate(Map.scala:91)
+	at io.prediction.data.storage.Storage$.sourcesToClientMeta(Storage.scala:209)
+	at io.prediction.data.storage.Storage$.getDataObject(Storage.scala:278)
+	at io.prediction.data.storage.Storage$.getDataObjectFromRepo(Storage.scala:263)
+	at io.prediction.data.storage.Storage$.getLEvents(Storage.scala:385)
+	at io.prediction.data.storage.Storage$.verifyAllDataObjects(Storage.scala:348)
+	at io.prediction.tools.console.Console$.status(Console.scala:1082)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:725)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:684)
+	at scala.Option.map(Option.scala:145)
+	at io.prediction.tools.console.Console$.main(Console.scala:684)
+	at io.prediction.tools.console.Console.main(Console.scala)
+2015-11-26 23:27:46,880 WARN  org.apache.hadoop.hbase.client.ZooKeeperRegistry [main] - Can't retrieve clusterId from Zookeeper
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:199)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:479)
+	at org.apache.hadoop.hbase.zookeeper.ZKClusterId.readClusterIdZNode(ZKClusterId.java:65)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(ZooKeeperRegistry.java:83)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.retrieveClusterId(HConnectionManager.java:852)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.<init>(HConnectionManager.java:657)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.hbase.client.HConnectionManager.createConnection(HConnectionManager.java:409)
+	at org.apache.hadoop.hbase.client.HConnectionManager.createConnection(HConnectionManager.java:388)
+	at org.apache.hadoop.hbase.client.HConnectionManager.getConnection(HConnectionManager.java:269)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.checkHBaseAvailable(HBaseAdmin.java:2338)
+	at io.prediction.data.storage.hbase.StorageClient.<init>(StorageClient.scala:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at io.prediction.data.storage.Storage$.getClient(Storage.scala:217)
+	at io.prediction.data.storage.Storage$.io$prediction$data$storage$Storage$$updateS2CM(Storage.scala:248)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at scala.collection.mutable.MapLike$class.getOrElseUpdate(MapLike.scala:189)
+	at scala.collection.mutable.AbstractMap.getOrElseUpdate(Map.scala:91)
+	at io.prediction.data.storage.Storage$.sourcesToClientMeta(Storage.scala:209)
+	at io.prediction.data.storage.Storage$.getDataObject(Storage.scala:278)
+	at io.prediction.data.storage.Storage$.getDataObjectFromRepo(Storage.scala:263)
+	at io.prediction.data.storage.Storage$.getLEvents(Storage.scala:385)
+	at io.prediction.data.storage.Storage$.verifyAllDataObjects(Storage.scala:348)
+	at io.prediction.tools.console.Console$.status(Console.scala:1082)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:725)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:684)
+	at scala.Option.map(Option.scala:145)
+	at io.prediction.tools.console.Console$.main(Console.scala:684)
+	at io.prediction.tools.console.Console.main(Console.scala)
+2015-11-26 23:27:49,080 ERROR io.prediction.data.storage.hbase.StorageClient [main] - Cannot connect to ZooKeeper (ZooKeeper ensemble: localhost). Please make sure that the configuration is pointing at the correct ZooKeeper ensemble. By default, HBase manages its own ZooKeeper, so if you have not configured HBase to use an external ZooKeeper, that means your HBase is not started or configured properly.
+2015-11-26 23:27:49,081 ERROR io.prediction.data.storage.Storage$ [main] - Error initializing storage client for source HBASE
+org.apache.hadoop.hbase.ZooKeeperConnectionException: Can't connect to ZooKeeper
+	at org.apache.hadoop.hbase.client.HBaseAdmin.checkHBaseAvailable(HBaseAdmin.java:2358)
+	at io.prediction.data.storage.hbase.StorageClient.<init>(StorageClient.scala:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at io.prediction.data.storage.Storage$.getClient(Storage.scala:217)
+	at io.prediction.data.storage.Storage$.io$prediction$data$storage$Storage$$updateS2CM(Storage.scala:248)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at io.prediction.data.storage.Storage$$anonfun$sourcesToClientMeta$1.apply(Storage.scala:209)
+	at scala.collection.mutable.MapLike$class.getOrElseUpdate(MapLike.scala:189)
+	at scala.collection.mutable.AbstractMap.getOrElseUpdate(Map.scala:91)
+	at io.prediction.data.storage.Storage$.sourcesToClientMeta(Storage.scala:209)
+	at io.prediction.data.storage.Storage$.getDataObject(Storage.scala:278)
+	at io.prediction.data.storage.Storage$.getDataObjectFromRepo(Storage.scala:263)
+	at io.prediction.data.storage.Storage$.getLEvents(Storage.scala:385)
+	at io.prediction.data.storage.Storage$.verifyAllDataObjects(Storage.scala:348)
+	at io.prediction.tools.console.Console$.status(Console.scala:1082)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:725)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:684)
+	at scala.Option.map(Option.scala:145)
+	at io.prediction.tools.console.Console$.main(Console.scala:684)
+	at io.prediction.tools.console.Console.main(Console.scala)
+Caused by: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1073)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.checkHBaseAvailable(HBaseAdmin.java:2349)
+	... 22 more
+2015-11-26 23:27:49,083 ERROR io.prediction.tools.console.Console$ [main] - Unable to connect to all storage backends successfully. The following shows the error message from the storage backend.
+2015-11-26 23:27:49,084 ERROR io.prediction.tools.console.Console$ [main] - Data source HBASE was not properly initialized. (io.prediction.data.storage.StorageClientException)
+io.prediction.data.storage.StorageClientException: Data source HBASE was not properly initialized.
+	at io.prediction.data.storage.Storage$$anonfun$10.apply(Storage.scala:279)
+	at io.prediction.data.storage.Storage$$anonfun$10.apply(Storage.scala:279)
+	at scala.Option.getOrElse(Option.scala:120)
+	at io.prediction.data.storage.Storage$.getDataObject(Storage.scala:278)
+	at io.prediction.data.storage.Storage$.getDataObjectFromRepo(Storage.scala:263)
+	at io.prediction.data.storage.Storage$.getLEvents(Storage.scala:385)
+	at io.prediction.data.storage.Storage$.verifyAllDataObjects(Storage.scala:348)
+	at io.prediction.tools.console.Console$.status(Console.scala:1082)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:725)
+	at io.prediction.tools.console.Console$$anonfun$main$1.apply(Console.scala:684)
+	at scala.Option.map(Option.scala:145)
+	at io.prediction.tools.console.Console$.main(Console.scala:684)
+	at io.prediction.tools.console.Console.main(Console.scala)
+2015-11-26 23:27:49,085 ERROR io.prediction.tools.console.Console$ [main] - Dumping configuration of initialized storage backend sources. Please make sure they are correct.
+2015-11-26 23:27:49,089 ERROR io.prediction.tools.console.Console$ [main] - Source Name: ELASTICSEARCH; Type: elasticsearch; Configuration: TYPE -> elasticsearch, HOME -> /home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4
+2015-11-26 23:27:49,089 ERROR io.prediction.tools.console.Console$ [main] - Source Name: LOCALFS; Type: localfs; Configuration: PATH -> /home/jinyang/.pio_store/models, TYPE -> localfs
+2015-11-26 23:27:49,089 ERROR io.prediction.tools.console.Console$ [main] - Source Name: HBASE; Type: (error); Configuration: (error)
+2015-11-26 23:41:48,408 WARN  io.prediction.tools.console.Console$ [main] - This engine project directory contains an auto-generated manifest that has been copied/moved from another location. 
+2015-11-26 23:41:48,410 WARN  io.prediction.tools.console.Console$ [main] - Regenerating the manifest to reflect the updated location. This will dissociate with all previous engine instances.
+2015-11-26 23:41:48,529 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 23:41:48,537 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 23:41:48,539 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 23:41:48,540 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 23:43:19,927 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:32: value appName is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:43:19,928 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m      appName = dsp.appName,[0m
+2015-11-26 23:43:19,928 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 23:43:19,939 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:62: value evalK is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:43:19,940 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    require(dsp.evalK.nonEmpty, "DataSourceParams.evalK must not be None")[0m
+2015-11-26 23:43:19,941 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                ^[0m
+2015-11-26 23:43:19,952 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:70: value appName is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:43:19,953 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m      appName = dsp.appName,[0m
+2015-11-26 23:43:19,954 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 23:43:19,958 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:96: value evalK is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:43:19,958 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    val evalK = dsp.evalK.get[0m
+2015-11-26 23:43:19,959 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 23:43:20,252 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/Evaluation.scala:27: too many arguments for method apply: (appId: Int)org.template.classification.DataSourceParams in object DataSourceParams[0m
+2015-11-26 23:43:20,253 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    dataSourceParams = DataSourceParams(appName = "INVALID_APP_NAME", evalK = Some(5)))[0m
+2015-11-26 23:43:20,254 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                                       ^[0m
+2015-11-26 23:43:20,535 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m5 errors found[0m
+2015-11-26 23:43:20,568 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+2015-11-26 23:43:20,573 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 74 s, completed 26/11/2015 11:43:20 PM[0m
+2015-11-26 23:43:20,596 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-11-26 23:48:25,224 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-26 23:48:25,303 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 23:48:25,304 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 23:48:25,305 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 23:48:25,305 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 23:48:33,796 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:32: value appName is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:48:33,797 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m      appName = dsp.appName,[0m
+2015-11-26 23:48:33,797 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 23:48:33,817 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:62: value evalK is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:48:33,818 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    require(dsp.evalK.nonEmpty, "DataSourceParams.evalK must not be None")[0m
+2015-11-26 23:48:33,818 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                ^[0m
+2015-11-26 23:48:33,832 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:70: value appName is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:48:33,832 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m      appName = dsp.appName,[0m
+2015-11-26 23:48:33,833 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 23:48:33,838 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:96: value evalK is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:48:33,838 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    val evalK = dsp.evalK.get[0m
+2015-11-26 23:48:33,838 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 23:48:34,153 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/Evaluation.scala:27: too many arguments for method apply: (appId: Int)org.template.classification.DataSourceParams in object DataSourceParams[0m
+2015-11-26 23:48:34,153 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    dataSourceParams = DataSourceParams(appName = "INVALID_APP_NAME", evalK = Some(5)))[0m
+2015-11-26 23:48:34,154 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                                       ^[0m
+2015-11-26 23:48:34,447 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m5 errors found[0m
+2015-11-26 23:48:34,483 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+2015-11-26 23:48:34,495 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 3 s, completed 26/11/2015 11:48:34 PM[0m
+2015-11-26 23:48:34,512 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-11-26 23:49:03,897 INFO  io.prediction.tools.console.Console$ [main] - Inspecting PredictionIO...
+2015-11-26 23:49:03,901 INFO  io.prediction.tools.console.Console$ [main] - PredictionIO 0.9.5 is installed at /home/jinyang/PredictionIO
+2015-11-26 23:49:03,902 INFO  io.prediction.tools.console.Console$ [main] - Inspecting Apache Spark...
+2015-11-26 23:49:03,918 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark is installed at /home/jinyang/PredictionIO/vendors/spark-1.4.1
+2015-11-26 23:49:03,973 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark 1.4.1 detected (meets minimum requirement of 1.3.0)
+2015-11-26 23:49:03,974 INFO  io.prediction.tools.console.Console$ [main] - Inspecting storage backend connections...
+2015-11-26 23:49:04,008 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Meta Data Backend (Source: ELASTICSEARCH)...
+2015-11-26 23:49:05,499 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Model Data Backend (Source: LOCALFS)...
+2015-11-26 23:49:05,505 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Event Data Backend (Source: HBASE)...
+2015-11-26 23:49:06,511 INFO  io.prediction.data.storage.Storage$ [main] - Test writing to Event Store (App Id 0)...
+2015-11-26 23:49:06,804 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_0 doesn't exist yet. Creating now...
+2015-11-26 23:49:07,369 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_0...
+2015-11-26 23:49:08,758 INFO  io.prediction.tools.console.Console$ [main] - (sleeping 5 seconds for all messages to show up...)
+2015-11-26 23:49:13,760 INFO  io.prediction.tools.console.Console$ [main] - Your system is all ready to go.
+2015-11-26 23:49:51,079 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-11-26 23:49:51,174 INFO  io.prediction.tools.console.App$ [main] -                Bayes |    5 | RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW | (all)
+2015-11-26 23:49:51,184 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | AOQKXsMZNJnWt5Bjz89AK7ZqC8icYZQvf4PckjsefwawUSCRdb1Ij8h1XkEZrnJi | (all)
+2015-11-26 23:49:51,194 INFO  io.prediction.tools.console.App$ [main] -             NewTest1 |    3 | 6nn0XJyMDFjJ7rHe46kMz1tb8a0shYr1PNDg9nGyaw9GXqtOr5yERxqijU9YBecr | (all)
+2015-11-26 23:49:51,202 INFO  io.prediction.tools.console.App$ [main] -        SentimentTest |    4 | xqSlfuc7yvKr0PHS7qfcCkyAwOodAlPAdZTmWaH6C2XLCEbLvPMgR2g3Sgs3A24F | (all)
+2015-11-26 23:49:51,212 INFO  io.prediction.tools.console.App$ [main] -                  dt1 |    2 | wn0kquxNA17Fh03FcrEYjKOOUZTRie8NuUQj0lPSpRDoCxypCqheNzgRHk1SPZI2 | (all)
+2015-11-26 23:49:51,213 INFO  io.prediction.tools.console.App$ [main] - Finished listing 5 app(s).
+2015-11-26 23:50:35,742 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-26 23:50:35,818 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 23:50:35,818 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 23:50:35,820 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 23:50:35,821 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 23:50:45,222 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:32: value appName is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:50:45,224 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m      appName = dsp.appName,[0m
+2015-11-26 23:50:45,225 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 23:50:45,252 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:62: value evalK is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:50:45,253 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    require(dsp.evalK.nonEmpty, "DataSourceParams.evalK must not be None")[0m
+2015-11-26 23:50:45,254 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                ^[0m
+2015-11-26 23:50:45,274 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:70: value appName is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:50:45,275 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m      appName = dsp.appName,[0m
+2015-11-26 23:50:45,275 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 23:50:45,280 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/DataSource.scala:96: value evalK is not a member of org.template.classification.DataSourceParams[0m
+2015-11-26 23:50:45,281 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    val evalK = dsp.evalK.get[0m
+2015-11-26 23:50:45,282 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                    ^[0m
+2015-11-26 23:50:45,678 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/Evaluation.scala:27: too many arguments for method apply: (appId: Int)org.template.classification.DataSourceParams in object DataSourceParams[0m
+2015-11-26 23:50:45,680 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m    dataSourceParams = DataSourceParams(appName = "INVALID_APP_NAME", evalK = Some(5)))[0m
+2015-11-26 23:50:45,680 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m                                       ^[0m
+2015-11-26 23:50:46,027 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m5 errors found[0m
+2015-11-26 23:50:46,061 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+2015-11-26 23:50:46,068 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 4 s, completed 26/11/2015 11:50:46 PM[0m
+2015-11-26 23:50:46,089 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-11-26 23:52:10,982 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-26 23:52:11,063 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-26 23:52:11,064 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-26 23:52:11,065 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-26 23:52:11,065 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-26 23:52:30,471 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-26 23:52:30,472 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-26 23:52:30,480 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-26 23:52:30,480 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-26 23:52:31,903 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine SvY1dV1YUIHztDJjRszl19oK2qICq0fB 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe
+2015-11-26 23:52:31,998 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-26 23:52:48,713 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-26 23:52:50,298 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id SvY1dV1YUIHztDJjRszl19oK2qICq0fB --engine-version 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe --engine-variant file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-26 23:52:53,129 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-26 23:52:53,257 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-26 23:52:53,544 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(INVALID_APP_NAME,None))
+2015-11-26 23:52:53,544 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-26 23:52:53,546 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-26 23:52:53,555 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-26 23:52:53,556 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-26 23:52:54,748 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-26 23:52:54,749 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-26 23:52:55,594 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Starting remoting
+2015-11-26 23:52:55,847 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:44143]
+2015-11-26 23:52:57,453 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-26 23:52:57,454 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@78da42b4
+2015-11-26 23:52:57,455 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@21ff9c03
+2015-11-26 23:52:57,456 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.NaiveBayesAlgorithm@3e102c90)
+2015-11-26 23:52:57,456 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-26 23:52:57,537 ERROR io.prediction.data.store.Common$ [main] - Invalid app name INVALID_APP_NAME
+2015-11-27 00:22:37,219 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 00:22:37,300 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-27 00:22:37,301 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-27 00:22:37,303 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-27 00:22:37,303 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-27 00:22:46,781 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-27 00:22:46,782 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-27 00:22:46,790 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-27 00:22:46,790 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-27 00:22:48,207 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine SvY1dV1YUIHztDJjRszl19oK2qICq0fB 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe
+2015-11-27 00:22:48,234 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-27 01:49:02,958 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-11-27 01:49:03,008 INFO  io.prediction.tools.console.App$ [main] -                Bayes |    5 | RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW | (all)
+2015-11-27 01:49:03,019 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | AOQKXsMZNJnWt5Bjz89AK7ZqC8icYZQvf4PckjsefwawUSCRdb1Ij8h1XkEZrnJi | (all)
+2015-11-27 01:49:03,028 INFO  io.prediction.tools.console.App$ [main] -             NewTest1 |    3 | 6nn0XJyMDFjJ7rHe46kMz1tb8a0shYr1PNDg9nGyaw9GXqtOr5yERxqijU9YBecr | (all)
+2015-11-27 01:49:03,038 INFO  io.prediction.tools.console.App$ [main] -            Official1 |    6 | rkjvg47I4K6kDfqRSMnCfPToVFCZj6xjcn2xzotnY3mGZMWuXwhESQXdUHO8YSf0 | (all)
+2015-11-27 01:49:03,049 INFO  io.prediction.tools.console.App$ [main] -        SentimentTest |    4 | xqSlfuc7yvKr0PHS7qfcCkyAwOodAlPAdZTmWaH6C2XLCEbLvPMgR2g3Sgs3A24F | (all)
+2015-11-27 01:49:03,061 INFO  io.prediction.tools.console.App$ [main] -                  dt1 |    2 | wn0kquxNA17Fh03FcrEYjKOOUZTRie8NuUQj0lPSpRDoCxypCqheNzgRHk1SPZI2 | (all)
+2015-11-27 01:49:03,062 INFO  io.prediction.tools.console.App$ [main] - Finished listing 6 app(s).
+2015-11-27 01:49:26,103 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-11-27 01:49:26,150 INFO  io.prediction.tools.console.App$ [main] -                Bayes |    5 | RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW | (all)
+2015-11-27 01:49:26,159 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | AOQKXsMZNJnWt5Bjz89AK7ZqC8icYZQvf4PckjsefwawUSCRdb1Ij8h1XkEZrnJi | (all)
+2015-11-27 01:49:26,167 INFO  io.prediction.tools.console.App$ [main] -             NewTest1 |    3 | 6nn0XJyMDFjJ7rHe46kMz1tb8a0shYr1PNDg9nGyaw9GXqtOr5yERxqijU9YBecr | (all)
+2015-11-27 01:49:26,175 INFO  io.prediction.tools.console.App$ [main] -            Official1 |    6 | rkjvg47I4K6kDfqRSMnCfPToVFCZj6xjcn2xzotnY3mGZMWuXwhESQXdUHO8YSf0 | (all)
+2015-11-27 01:49:26,185 INFO  io.prediction.tools.console.App$ [main] -        SentimentTest |    4 | xqSlfuc7yvKr0PHS7qfcCkyAwOodAlPAdZTmWaH6C2XLCEbLvPMgR2g3Sgs3A24F | (all)
+2015-11-27 01:49:26,197 INFO  io.prediction.tools.console.App$ [main] -                  dt1 |    2 | wn0kquxNA17Fh03FcrEYjKOOUZTRie8NuUQj0lPSpRDoCxypCqheNzgRHk1SPZI2 | (all)
+2015-11-27 01:49:26,199 INFO  io.prediction.tools.console.App$ [main] - Finished listing 6 app(s).
+2015-11-27 01:50:00,389 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 01:50:00,472 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-27 01:50:00,472 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-27 01:50:00,474 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-27 01:50:00,474 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-27 01:50:07,941 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-27 01:50:07,942 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-27 01:50:07,950 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-27 01:50:07,951 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-27 01:50:09,348 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine SvY1dV1YUIHztDJjRszl19oK2qICq0fB 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe
+2015-11-27 01:50:09,371 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-27 01:50:27,669 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 01:50:29,345 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id SvY1dV1YUIHztDJjRszl19oK2qICq0fB --engine-version 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe --engine-variant file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-27 01:50:31,945 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-27 01:50:32,042 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-27 01:50:32,325 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(Bayes,None))
+2015-11-27 01:50:32,326 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-27 01:50:32,328 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-27 01:50:32,335 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-27 01:50:32,336 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-27 01:50:33,782 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-27 01:50:33,783 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-27 01:50:34,827 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Starting remoting
+2015-11-27 01:50:35,124 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:46177]
+2015-11-27 01:50:36,402 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-27 01:50:36,403 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@3f7a485b
+2015-11-27 01:50:36,404 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@6d2e2b26
+2015-11-27 01:50:36,405 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.NaiveBayesAlgorithm@5f9c03e7)
+2015-11-27 01:50:36,405 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-27 01:50:40,390 WARN  org.apache.hadoop.hbase.mapreduce.TableInputFormatBase [main] - Cannot resolve the host name for ubuntu/127.0.1.1 because of javax.naming.NameNotFoundException: DNS name not found [response code 3]; remaining name '1.1.0.127.in-addr.arpa'
+2015-11-27 01:50:40,523 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.TrainingData does not support data sanity check. Skipping check.
+2015-11-27 01:50:40,524 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.PreparedData does not support data sanity check. Skipping check.
+2015-11-27 01:50:42,836 WARN  com.github.fommil.netlib.BLAS [Executor task launch worker-0] - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2015-11-27 01:50:42,837 WARN  com.github.fommil.netlib.BLAS [Executor task launch worker-0] - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2015-11-27 01:50:42,962 INFO  io.prediction.controller.Engine$ [main] - org.apache.spark.mllib.classification.NaiveBayesModel does not support data sanity check. Skipping check.
+2015-11-27 01:50:42,963 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train completed
+2015-11-27 01:50:42,964 INFO  io.prediction.controller.Engine [main] - engineInstanceId=AVFIWfTRqshZmwSLFk7W
+2015-11-27 01:50:43,022 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Inserting persistent model
+2015-11-27 01:50:43,205 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Updating engine instance
+2015-11-27 01:50:43,241 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Training completed successfully.
+2015-11-27 02:02:26,397 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:02:27,914 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id SvY1dV1YUIHztDJjRszl19oK2qICq0fB --engine-version 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe --engine-variant file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-27 02:02:30,264 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-27 02:02:30,361 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-27 02:02:30,613 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(Bayes,None))
+2015-11-27 02:02:30,615 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-27 02:02:30,616 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-27 02:02:30,623 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-27 02:02:30,624 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-27 02:02:31,720 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-27 02:02:31,722 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-27 02:02:32,391 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Starting remoting
+2015-11-27 02:02:32,607 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:52672]
+2015-11-27 02:02:33,584 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-27 02:02:33,585 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@83ba9fc
+2015-11-27 02:02:33,585 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@4b12e2ed
+2015-11-27 02:02:33,586 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.NaiveBayesAlgorithm@9fd4200)
+2015-11-27 02:02:33,587 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-27 02:02:35,343 WARN  org.apache.hadoop.hbase.mapreduce.TableInputFormatBase [main] - Cannot resolve the host name for ubuntu/127.0.1.1 because of javax.naming.NameNotFoundException: DNS name not found [response code 3]; remaining name '1.1.0.127.in-addr.arpa'
+2015-11-27 02:02:35,441 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.TrainingData does not support data sanity check. Skipping check.
+2015-11-27 02:02:35,442 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.PreparedData does not support data sanity check. Skipping check.
+2015-11-27 02:02:37,291 WARN  com.github.fommil.netlib.BLAS [Executor task launch worker-0] - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2015-11-27 02:02:37,292 WARN  com.github.fommil.netlib.BLAS [Executor task launch worker-0] - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2015-11-27 02:02:37,353 INFO  io.prediction.controller.Engine$ [main] - org.apache.spark.mllib.classification.NaiveBayesModel does not support data sanity check. Skipping check.
+2015-11-27 02:02:37,354 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train completed
+2015-11-27 02:02:37,355 INFO  io.prediction.controller.Engine [main] - engineInstanceId=AVFIZOlrqshZmwSLFk7X
+2015-11-27 02:02:37,391 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Inserting persistent model
+2015-11-27 02:02:37,522 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Updating engine instance
+2015-11-27 02:02:37,540 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Training completed successfully.
+2015-11-27 02:03:11,942 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:03:12,024 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-27 02:03:12,025 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-27 02:03:12,026 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-27 02:03:12,027 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-27 02:03:20,205 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-27 02:03:20,206 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-27 02:03:20,215 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-27 02:03:20,215 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-27 02:03:21,738 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine SvY1dV1YUIHztDJjRszl19oK2qICq0fB 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe
+2015-11-27 02:03:21,763 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-27 02:04:17,496 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:04:19,016 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id SvY1dV1YUIHztDJjRszl19oK2qICq0fB --engine-version 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe --engine-variant file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-27 02:04:21,300 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-27 02:04:21,392 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-27 02:04:21,639 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(Bayes,None))
+2015-11-27 02:04:21,640 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-27 02:04:21,642 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-27 02:04:21,651 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-27 02:04:21,651 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-27 02:04:22,746 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-27 02:04:22,747 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-27 02:04:23,415 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Starting remoting
+2015-11-27 02:04:23,614 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:42261]
+2015-11-27 02:04:24,560 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-27 02:04:24,561 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@7344adea
+2015-11-27 02:04:24,562 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@4e7a5518
+2015-11-27 02:04:24,563 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.RandomForestAlgorithm@2bc7e13c)
+2015-11-27 02:04:24,563 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-27 02:04:26,316 WARN  org.apache.hadoop.hbase.mapreduce.TableInputFormatBase [main] - Cannot resolve the host name for ubuntu/127.0.1.1 because of javax.naming.NameNotFoundException: DNS name not found [response code 3]; remaining name '1.1.0.127.in-addr.arpa'
+2015-11-27 02:04:26,413 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.TrainingData does not support data sanity check. Skipping check.
+2015-11-27 02:04:26,414 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.PreparedData does not support data sanity check. Skipping check.
+2015-11-27 02:04:28,449 ERROR org.apache.spark.executor.Executor [Executor task launch worker-0] - Exception in task 0.0 in stage 7.0 (TID 4)
+java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires label < numClasses (= 3).
+	at org.apache.spark.mllib.tree.impurity.GiniAggregator.update(Gini.scala:90)
+	at org.apache.spark.mllib.tree.impl.DTStatsAggregator.update(DTStatsAggregator.scala:100)
+	at org.apache.spark.mllib.tree.DecisionTree$.orderedBinSeqOp(DecisionTree.scala:406)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$nodeBinSeqOp$1(DecisionTree.scala:507)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:532)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:529)
+	at scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:224)
+	at scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:403)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1(DecisionTree.scala:529)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:613)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:70)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:41)
+	at org.apache.spark.scheduler.Task.run(Task.scala:70)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:213)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-27 02:04:28,460 WARN  org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Lost task 0.0 in stage 7.0 (TID 4, localhost): java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires label < numClasses (= 3).
+	at org.apache.spark.mllib.tree.impurity.GiniAggregator.update(Gini.scala:90)
+	at org.apache.spark.mllib.tree.impl.DTStatsAggregator.update(DTStatsAggregator.scala:100)
+	at org.apache.spark.mllib.tree.DecisionTree$.orderedBinSeqOp(DecisionTree.scala:406)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$nodeBinSeqOp$1(DecisionTree.scala:507)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:532)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:529)
+	at scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:224)
+	at scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:403)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1(DecisionTree.scala:529)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:613)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:70)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:41)
+	at org.apache.spark.scheduler.Task.run(Task.scala:70)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:213)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-11-27 02:04:28,463 ERROR org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Task 0 in stage 7.0 failed 1 times; aborting job
+2015-11-27 02:04:33,312 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:04:33,396 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-27 02:04:33,396 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-27 02:04:33,397 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-27 02:04:33,398 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-27 02:04:40,699 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-27 02:04:40,700 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-27 02:04:40,709 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-27 02:04:40,709 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-27 02:04:42,136 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine SvY1dV1YUIHztDJjRszl19oK2qICq0fB 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe
+2015-11-27 02:04:42,159 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-27 02:04:50,901 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:04:52,560 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id SvY1dV1YUIHztDJjRszl19oK2qICq0fB --engine-version 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe --engine-variant file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-27 02:04:55,016 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-27 02:04:55,147 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-27 02:04:55,460 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(Bayes,None))
+2015-11-27 02:04:55,461 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-27 02:04:55,464 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-27 02:04:55,477 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-27 02:04:55,478 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-27 02:04:56,616 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-27 02:04:56,617 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-27 02:04:57,374 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Starting remoting
+2015-11-27 02:04:57,578 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:39711]
+2015-11-27 02:04:58,580 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-27 02:04:58,581 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@5a0584f0
+2015-11-27 02:04:58,582 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@78da42b4
+2015-11-27 02:04:58,583 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.RandomForestAlgorithm@21ff9c03)
+2015-11-27 02:04:58,583 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-27 02:05:00,465 WARN  org.apache.hadoop.hbase.mapreduce.TableInputFormatBase [main] - Cannot resolve the host name for ubuntu/127.0.1.1 because of javax.naming.NameNotFoundException: DNS name not found [response code 3]; remaining name '1.1.0.127.in-addr.arpa'
+2015-11-27 02:05:00,584 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.TrainingData does not support data sanity check. Skipping check.
+2015-11-27 02:05:00,586 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.PreparedData does not support data sanity check. Skipping check.
+2015-11-27 02:05:02,706 ERROR org.apache.spark.executor.Executor [Executor task launch worker-0] - Exception in task 0.0 in stage 7.0 (TID 4)
+java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires label < numClasses (= 3).
+	at org.apache.spark.mllib.tree.impurity.GiniAggregator.update(Gini.scala:90)
+	at org.apache.spark.mllib.tree.impl.DTStatsAggregator.update(DTStatsAggregator.scala:100)
+	at org.apache.spark.mllib.tree.DecisionTree$.orderedBinSeqOp(DecisionTree.scala:406)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$nodeBinSeqOp$1(DecisionTree.scala:507)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:532)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:529)
+	at scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:224)
+	at scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:403)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1(DecisionTree.scala:529)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:613)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:70)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:41)
+	at org.apache.spark.scheduler.Task.run(Task.scala:70)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:213)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-27 02:05:02,719 WARN  org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Lost task 0.0 in stage 7.0 (TID 4, localhost): java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires label < numClasses (= 3).
+	at org.apache.spark.mllib.tree.impurity.GiniAggregator.update(Gini.scala:90)
+	at org.apache.spark.mllib.tree.impl.DTStatsAggregator.update(DTStatsAggregator.scala:100)
+	at org.apache.spark.mllib.tree.DecisionTree$.orderedBinSeqOp(DecisionTree.scala:406)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$nodeBinSeqOp$1(DecisionTree.scala:507)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:532)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:529)
+	at scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:224)
+	at scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:403)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1(DecisionTree.scala:529)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:613)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:70)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:41)
+	at org.apache.spark.scheduler.Task.run(Task.scala:70)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:213)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-11-27 02:05:02,725 ERROR org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Task 0 in stage 7.0 failed 1 times; aborting job
+2015-11-27 02:06:44,617 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:06:44,696 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-27 02:06:44,697 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-27 02:06:44,698 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-27 02:06:44,699 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-27 02:06:45,556 DEBUG io.prediction.workflow.UpgradeCheckRunner [Thread-0] - Update metainfo not found. http://direct.prediction.io/0.9.5/build/org.template.classification.ClassificationEngine.json
+2015-11-27 02:06:48,684 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mLoading project definition from /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/project[0m
+2015-11-27 02:06:50,288 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mSet current project to template-scala-parallel-classification (in build file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/)[0m
+2015-11-27 02:06:51,203 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[33mwarn[0m] [0mNo main class detected[0m
+2015-11-27 02:06:51,237 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[32msuccess[0m] [0mTotal time: 1 s, completed 27/11/2015 2:06:51 AM[0m
+2015-11-27 02:06:51,509 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[33mwarn[0m] [0mNo main class detected[0m
+2015-11-27 02:06:51,649 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mIncluding from cache: scala-library.jar[0m
+2015-11-27 02:06:51,756 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+2015-11-27 02:06:51,789 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mMerging files...[0m
+2015-11-27 02:06:52,149 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[33mwarn[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+2015-11-27 02:06:52,238 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[33mwarn[0m] [0mStrategy 'discard' was applied to a file[0m
+2015-11-27 02:06:52,331 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[0minfo[0m] [0mAssembly up to date: /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar[0m
+2015-11-27 02:06:52,372 INFO  io.prediction.tools.console.Console$ [Thread-2] - [0m[[32msuccess[0m] [0mTotal time: 1 s, completed 27/11/2015 2:06:52 AM[0m
+2015-11-27 02:06:52,406 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-27 02:06:52,407 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-27 02:06:52,417 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-27 02:06:52,417 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-27 02:06:53,163 INFO  org.elasticsearch.plugins [main] - [Spoor] loaded [], sites []
+2015-11-27 02:06:53,938 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine SvY1dV1YUIHztDJjRszl19oK2qICq0fB 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe
+2015-11-27 02:06:53,963 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-27 02:07:00,275 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:07:01,050 INFO  org.elasticsearch.plugins [main] - [Bedlam II] loaded [], sites []
+2015-11-27 02:07:01,841 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id SvY1dV1YUIHztDJjRszl19oK2qICq0fB --engine-version 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe --engine-variant file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/engine.json --verbosity 0 --verbose --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs --verbose
+2015-11-27 02:07:04,156 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-27 02:07:04,249 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-27 02:07:04,499 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(Bayes,None))
+2015-11-27 02:07:04,500 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-27 02:07:04,502 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-27 02:07:04,511 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-27 02:07:04,511 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-27 02:07:04,787 INFO  org.elasticsearch.plugins [main] - [Tommy] loaded [], sites []
+2015-11-27 02:07:05,558 DEBUG io.prediction.workflow.CoreWorkflow$ [main] - Starting SparkContext
+2015-11-27 02:07:05,576 DEBUG io.prediction.workflow.WorkflowContext$ [main] - Executor environment received: Map(PIO_STORAGE_SOURCES_HBASE_TYPE -> hbase, PIO_ENV_LOADED -> 1, PIO_STORAGE_REPOSITORIES_METADATA_NAME -> pio_meta, PIO_FS_BASEDIR -> /home/jinyang/.pio_store, PIO_STORAGE_SOURCES_HBASE_HOME -> /home/jinyang/PredictionIO/vendors/hbase-1.0.0, PIO_HOME -> /home/jinyang/PredictionIO, PIO_FS_ENGINESDIR -> /home/jinyang/.pio_store/engines, PIO_STORAGE_SOURCES_LOCALFS_PATH -> /home/jinyang/.pio_store/models, PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE -> elasticsearch, PIO_STORAGE_REPOSITORIES_METADATA_SOURCE -> ELASTICSEARCH, PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE -> LOCALFS, PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME -> pio_event, PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME -> /home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4, PIO_FS_TMPDIR -> /home/jinyang/.pio_store/tmp, PIO_STORAGE_REPOSITORIES_MODELDATA_NAME -> pio_model, PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE -> HBASE, PIO_CONF_DIR -> /home/jinyang/PredictionIO/conf, PIO_STORAGE_SOURCES_LOCALFS_TYPE -> localfs)
+2015-11-27 02:07:05,581 DEBUG io.prediction.workflow.WorkflowContext$ [main] - SparkConf executor environment: ArraySeq((PIO_STORAGE_SOURCES_LOCALFS_TYPE,localfs), (PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE,LOCALFS), (PIO_FS_ENGINESDIR,/home/jinyang/.pio_store/engines), (PIO_STORAGE_REPOSITORIES_METADATA_NAME,pio_meta), (PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE,elasticsearch), (PIO_STORAGE_SOURCES_HBASE_HOME,/home/jinyang/PredictionIO/vendors/hbase-1.0.0), (PIO_CONF_DIR,/home/jinyang/PredictionIO/conf), (PIO_STORAGE_SOURCES_HBASE_TYPE,hbase), (PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME,pio_event), (PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME,/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4), (PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE,HBASE), (PIO_STORAGE_REPOSITORIES_MODELDATA_NAME,pio_model), (PIO_ENV_LOADED,1), (PIO_FS_TMPDIR,/home/jinyang/.pio_store/tmp), (PIO_HOME,/home/jinyang/PredictionIO), (PIO_STORAGE_REPOSITORIES_METADATA_SOURCE,ELASTICSEARCH), (PIO_FS_BASEDIR,/home/jinyang/.pio_store), (PIO_STORAGE_SOURCES_LOCALFS_PATH,/home/jinyang/.pio_store/models))
+2015-11-27 02:07:05,582 DEBUG io.prediction.workflow.WorkflowContext$ [main] - Application environment received: Map(spark.executor.extraClassPath -> .)
+2015-11-27 02:07:05,583 DEBUG io.prediction.workflow.WorkflowContext$ [main] - SparkConf environment: WrappedArray((spark.executorEnv.PIO_STORAGE_SOURCES_LOCALFS_TYPE,localfs), (spark.executorEnv.PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE,LOCALFS), (spark.jars,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar,file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar), (spark.executorEnv.PIO_FS_ENGINESDIR,/home/jinyang/.pio_store/engines), (spark.executorEnv.PIO_STORAGE_REPOSITORIES_METADATA_NAME,pio_meta), (spark.executorEnv.PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE,elasticsearch), (spark.executorEnv.PIO_STORAGE_SOURCES_HBASE_HOME,/home/jinyang/PredictionIO/vendors/hbase-1.0.0), (spark.executorEnv.PIO_CONF_DIR,/home/jinyang/PredictionIO/conf), (spark.executorEnv.PIO_STORAGE_SOURCES_HBASE_TYPE,hbase), (spark.executorEnv.PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME,pio_event), (spark.executorEnv.PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME,/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4), (spark.executor.extraClassPath,.), (spark.executorEnv.PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE,HBASE), (spark.executorEnv.PIO_STORAGE_REPOSITORIES_MODELDATA_NAME,pio_model), (spark.executorEnv.PIO_ENV_LOADED,1), (spark.app.name,PredictionIO Training: org.template.classification.ClassificationEngine), (spark.executorEnv.PIO_FS_TMPDIR,/home/jinyang/.pio_store/tmp), (spark.executorEnv.PIO_HOME,/home/jinyang/PredictionIO), (spark.driver.extraClassPath,/home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf), (spark.executorEnv.PIO_STORAGE_REPOSITORIES_METADATA_SOURCE,ELASTICSEARCH), (spark.files,file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml), (spark.master,local[*]), (spark.executorEnv.PIO_FS_BASEDIR,/home/jinyang/.pio_store), (spark.executorEnv.PIO_STORAGE_SOURCES_LOCALFS_PATH,/home/jinyang/.pio_store/models))
+2015-11-27 02:07:05,599 INFO  org.apache.spark.SparkContext [main] - Running Spark version 1.4.1
+2015-11-27 02:07:05,622 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-27 02:07:05,623 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-27 02:07:05,638 INFO  org.apache.spark.SecurityManager [main] - Changing view acls to: jinyang
+2015-11-27 02:07:05,638 INFO  org.apache.spark.SecurityManager [main] - Changing modify acls to: jinyang
+2015-11-27 02:07:05,639 INFO  org.apache.spark.SecurityManager [main] - SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(jinyang); users with modify permissions: Set(jinyang)
+2015-11-27 02:07:06,265 INFO  akka.event.slf4j.Slf4jLogger [sparkDriver-akka.actor.default-dispatcher-2] - Slf4jLogger started
+2015-11-27 02:07:06,295 DEBUG io.prediction.workflow.UpgradeCheckRunner [Thread-3] - Update metainfo not found. http://direct.prediction.io/0.9.5/training/org.template.classification.ClassificationEngine.json
+2015-11-27 02:07:06,307 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Starting remoting
+2015-11-27 02:07:06,515 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:55454]
+2015-11-27 02:07:06,520 INFO  org.apache.spark.util.Utils [main] - Successfully started service 'sparkDriver' on port 55454.
+2015-11-27 02:07:06,535 INFO  org.apache.spark.SparkEnv [main] - Registering MapOutputTracker
+2015-11-27 02:07:06,550 INFO  org.apache.spark.SparkEnv [main] - Registering BlockManagerMaster
+2015-11-27 02:07:06,575 INFO  org.apache.spark.storage.DiskBlockManager [main] - Created local directory at /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/blockmgr-612691f4-dfa8-4a7d-a3c1-601bbd0c5815
+2015-11-27 02:07:06,582 INFO  org.apache.spark.storage.MemoryStore [main] - MemoryStore started with capacity 265.4 MB
+2015-11-27 02:07:06,641 INFO  org.apache.spark.HttpFileServer [main] - HTTP File server directory is /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/httpd-f044d6d4-abdf-4799-abd2-40870b434afe
+2015-11-27 02:07:06,646 INFO  org.apache.spark.HttpServer [main] - Starting HTTP Server
+2015-11-27 02:07:06,733 INFO  org.apache.spark.util.Utils [main] - Successfully started service 'HTTP file server' on port 55069.
+2015-11-27 02:07:06,750 INFO  org.apache.spark.SparkEnv [main] - Registering OutputCommitCoordinator
+2015-11-27 02:07:06,877 INFO  org.apache.spark.util.Utils [main] - Successfully started service 'SparkUI' on port 4040.
+2015-11-27 02:07:06,880 INFO  org.apache.spark.ui.SparkUI [main] - Started SparkUI at http://192.168.162.134:4040
+2015-11-27 02:07:06,928 INFO  org.apache.spark.SparkContext [main] - Added JAR file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar at http://192.168.162.134:55069/jars/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar with timestamp 1448618826927
+2015-11-27 02:07:06,942 INFO  org.apache.spark.SparkContext [main] - Added JAR file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar at http://192.168.162.134:55069/jars/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar with timestamp 1448618826942
+2015-11-27 02:07:07,127 INFO  org.apache.spark.SparkContext [main] - Added JAR file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar at http://192.168.162.134:55069/jars/pio-assembly-0.9.5.jar with timestamp 1448618827127
+2015-11-27 02:07:07,132 INFO  org.apache.spark.util.Utils [main] - Copying /home/jinyang/PredictionIO/conf/log4j.properties to /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/userFiles-14c2e4dd-95c2-41f5-b8e4-950a27c80284/log4j.properties
+2015-11-27 02:07:07,140 INFO  org.apache.spark.SparkContext [main] - Added file file:/home/jinyang/PredictionIO/conf/log4j.properties at file:/home/jinyang/PredictionIO/conf/log4j.properties with timestamp 1448618827129
+2015-11-27 02:07:07,142 INFO  org.apache.spark.util.Utils [main] - Copying /home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml to /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/userFiles-14c2e4dd-95c2-41f5-b8e4-950a27c80284/hbase-site.xml
+2015-11-27 02:07:07,147 INFO  org.apache.spark.SparkContext [main] - Added file file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml at file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml with timestamp 1448618827141
+2015-11-27 02:07:07,187 INFO  org.apache.spark.executor.Executor [main] - Starting executor ID driver on host localhost
+2015-11-27 02:07:07,219 DEBUG io.netty.util.internal.logging.InternalLoggerFactory [main] - Using SLF4J as the default logging framework
+2015-11-27 02:07:07,222 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.Buffer.address: available
+2015-11-27 02:07:07,223 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe.theUnsafe: available
+2015-11-27 02:07:07,223 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe.copyMemory: available
+2015-11-27 02:07:07,223 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.Bits.unaligned: true
+2015-11-27 02:07:07,228 DEBUG io.netty.util.internal.PlatformDependent [main] - UID: 1000
+2015-11-27 02:07:07,229 DEBUG io.netty.util.internal.PlatformDependent [main] - Java version: 7
+2015-11-27 02:07:07,229 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.noUnsafe: false
+2015-11-27 02:07:07,229 DEBUG io.netty.util.internal.PlatformDependent [main] - sun.misc.Unsafe: available
+2015-11-27 02:07:07,230 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.noJavassist: false
+2015-11-27 02:07:07,232 DEBUG io.netty.util.internal.PlatformDependent [main] - Javassist: unavailable
+2015-11-27 02:07:07,232 DEBUG io.netty.util.internal.PlatformDependent [main] - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-11-27 02:07:07,233 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2015-11-27 02:07:07,233 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-27 02:07:07,233 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.noPreferDirect: false
+2015-11-27 02:07:07,248 DEBUG io.netty.channel.MultithreadEventLoopGroup [main] - -Dio.netty.eventLoopThreads: 8
+2015-11-27 02:07:07,270 DEBUG io.netty.channel.nio.NioEventLoop [main] - -Dio.netty.noKeySetOptimization: false
+2015-11-27 02:07:07,270 DEBUG io.netty.channel.nio.NioEventLoop [main] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-27 02:07:07,276 TRACE io.netty.channel.nio.NioEventLoop [main] - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@322786b2
+2015-11-27 02:07:07,276 TRACE io.netty.channel.nio.NioEventLoop [main] - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@40fc29d7
+2015-11-27 02:07:07,277 TRACE io.netty.channel.nio.NioEventLoop [main] - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b1f0395
+2015-11-27 02:07:07,277 TRACE io.netty.channel.nio.NioEventLoop [main] - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@41246224
+2015-11-27 02:07:07,288 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.numHeapArenas: 4
+2015-11-27 02:07:07,288 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.numDirectArenas: 4
+2015-11-27 02:07:07,288 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.pageSize: 8192
+2015-11-27 02:07:07,288 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxOrder: 11
+2015-11-27 02:07:07,289 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-27 02:07:07,289 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-27 02:07:07,289 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-27 02:07:07,289 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-27 02:07:07,289 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-27 02:07:07,289 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-27 02:07:07,297 TRACE io.netty.channel.nio.NioEventLoop [main] - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@b079117
+2015-11-27 02:07:07,297 TRACE io.netty.channel.nio.NioEventLoop [main] - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1dc682a9
+2015-11-27 02:07:07,298 TRACE io.netty.channel.nio.NioEventLoop [main] - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@53ac3484
+2015-11-27 02:07:07,298 TRACE io.netty.channel.nio.NioEventLoop [main] - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@4eabf106
+2015-11-27 02:07:07,311 DEBUG io.netty.util.internal.ThreadLocalRandom [main] - -Dio.netty.initialSeedUniquifier: 0xc42c97a2c616dd9c (took 1 ms)
+2015-11-27 02:07:07,330 DEBUG io.netty.buffer.ByteBufUtil [main] - -Dio.netty.allocator.type: unpooled
+2015-11-27 02:07:07,330 DEBUG io.netty.buffer.ByteBufUtil [main] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-27 02:07:07,332 DEBUG io.netty.util.NetUtil [main] - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%1)
+2015-11-27 02:07:07,333 DEBUG io.netty.util.NetUtil [main] - /proc/sys/net/core/somaxconn: 128
+2015-11-27 02:07:07,346 INFO  org.apache.spark.util.Utils [main] - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45401.
+2015-11-27 02:07:07,347 INFO  org.apache.spark.network.netty.NettyBlockTransferService [main] - Server created on 45401
+2015-11-27 02:07:07,348 INFO  org.apache.spark.storage.BlockManagerMaster [main] - Trying to register BlockManager
+2015-11-27 02:07:07,354 INFO  org.apache.spark.storage.BlockManagerMasterEndpoint [sparkDriver-akka.actor.default-dispatcher-2] - Registering block manager localhost:45401 with 265.4 MB RAM, BlockManagerId(driver, localhost, 45401)
+2015-11-27 02:07:07,358 INFO  org.apache.spark.storage.BlockManagerMaster [main] - Registered BlockManager
+2015-11-27 02:07:07,523 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-27 02:07:07,524 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@4d0e6977
+2015-11-27 02:07:07,525 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@6bb026c
+2015-11-27 02:07:07,525 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.RandomForestAlgorithm@622b212c)
+2015-11-27 02:07:07,526 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-27 02:07:08,094 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing master protocol: MasterService
+2015-11-27 02:07:08,095 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x15147defbcc0053
+2015-11-27 02:07:08,329 INFO  org.apache.hadoop.conf.Configuration.deprecation [main] - hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+2015-11-27 02:07:08,508 INFO  org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation [main] - Closing zookeeper sessionid=0x15147defbcc0055
+2015-11-27 02:07:09,015 INFO  org.apache.spark.storage.MemoryStore [main] - ensureFreeSpace(278232) called with curMem=0, maxMem=278302556
+2015-11-27 02:07:09,018 INFO  org.apache.spark.storage.MemoryStore [main] - Block broadcast_0 stored as values in memory (estimated size 271.7 KB, free 265.1 MB)
+2015-11-27 02:07:09,105 INFO  org.apache.spark.storage.MemoryStore [main] - ensureFreeSpace(25258) called with curMem=278232, maxMem=278302556
+2015-11-27 02:07:09,106 INFO  org.apache.spark.storage.MemoryStore [main] - Block broadcast_0_piece0 stored as bytes in memory (estimated size 24.7 KB, free 265.1 MB)
+2015-11-27 02:07:09,109 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-2] - Added broadcast_0_piece0 in memory on localhost:45401 (size: 24.7 KB, free: 265.4 MB)
+2015-11-27 02:07:09,113 INFO  org.apache.spark.SparkContext [main] - Created broadcast 0 from newAPIHadoopRDD at HBPEvents.scala:83
+2015-11-27 02:07:09,183 INFO  org.apache.hadoop.hbase.util.RegionSizeCalculator [main] - Calculating region sizes for table "pio_event:events_5".
+2015-11-27 02:07:09,260 WARN  org.apache.hadoop.hbase.mapreduce.TableInputFormatBase [main] - Cannot resolve the host name for ubuntu/127.0.1.1 because of javax.naming.NameNotFoundException: DNS name not found [response code 3]; remaining name '1.1.0.127.in-addr.arpa'
+2015-11-27 02:07:09,357 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.TrainingData does not support data sanity check. Skipping check.
+2015-11-27 02:07:09,359 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.PreparedData does not support data sanity check. Skipping check.
+2015-11-27 02:07:09,395 INFO  org.apache.spark.SparkContext [main] - Starting job: take at DecisionTreeMetadata.scala:110
+2015-11-27 02:07:09,424 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Registering RDD 2 (map at PEventAggregator.scala:197)
+2015-11-27 02:07:09,427 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Got job 0 (take at DecisionTreeMetadata.scala:110) with 1 output partitions (allowLocal=true)
+2015-11-27 02:07:09,427 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Final stage: ResultStage 1(take at DecisionTreeMetadata.scala:110)
+2015-11-27 02:07:09,428 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Parents of final stage: List(ShuffleMapStage 0)
+2015-11-27 02:07:09,437 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Missing parents: List(ShuffleMapStage 0)
+2015-11-27 02:07:09,448 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Submitting ShuffleMapStage 0 (MapPartitionsRDD[2] at map at PEventAggregator.scala:197), which has no missing parents
+2015-11-27 02:07:09,455 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - ensureFreeSpace(5232) called with curMem=303490, maxMem=278302556
+2015-11-27 02:07:09,457 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - Block broadcast_1 stored as values in memory (estimated size 5.1 KB, free 265.1 MB)
+2015-11-27 02:07:09,460 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - ensureFreeSpace(2724) called with curMem=308722, maxMem=278302556
+2015-11-27 02:07:09,461 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.7 KB, free 265.1 MB)
+2015-11-27 02:07:09,463 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-2] - Added broadcast_1_piece0 in memory on localhost:45401 (size: 2.7 KB, free: 265.4 MB)
+2015-11-27 02:07:09,464 INFO  org.apache.spark.SparkContext [dag-scheduler-event-loop] - Created broadcast 1 from broadcast at DAGScheduler.scala:874
+2015-11-27 02:07:09,477 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Submitting 1 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[2] at map at PEventAggregator.scala:197)
+2015-11-27 02:07:09,478 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [dag-scheduler-event-loop] - Adding task set 0.0 with 1 tasks
+2015-11-27 02:07:09,521 INFO  org.apache.spark.scheduler.TaskSetManager [sparkDriver-akka.actor.default-dispatcher-2] - Starting task 0.0 in stage 0.0 (TID 0, localhost, ANY, 1829 bytes)
+2015-11-27 02:07:09,532 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Running task 0.0 in stage 0.0 (TID 0)
+2015-11-27 02:07:09,538 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Fetching file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml with timestamp 1448618827141
+2015-11-27 02:07:09,553 INFO  org.apache.spark.util.Utils [Executor task launch worker-0] - /home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml has been previously copied to /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/userFiles-14c2e4dd-95c2-41f5-b8e4-950a27c80284/hbase-site.xml
+2015-11-27 02:07:09,563 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Fetching file:/home/jinyang/PredictionIO/conf/log4j.properties with timestamp 1448618827129
+2015-11-27 02:07:09,564 INFO  org.apache.spark.util.Utils [Executor task launch worker-0] - /home/jinyang/PredictionIO/conf/log4j.properties has been previously copied to /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/userFiles-14c2e4dd-95c2-41f5-b8e4-950a27c80284/log4j.properties
+2015-11-27 02:07:09,574 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Fetching http://192.168.162.134:55069/jars/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar with timestamp 1448618826942
+2015-11-27 02:07:09,618 INFO  org.apache.spark.util.Utils [Executor task launch worker-0] - Fetching http://192.168.162.134:55069/jars/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar to /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/userFiles-14c2e4dd-95c2-41f5-b8e4-950a27c80284/fetchFileTemp1978654948706130680.tmp
+2015-11-27 02:07:09,646 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Adding file:/tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/userFiles-14c2e4dd-95c2-41f5-b8e4-950a27c80284/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar to class loader
+2015-11-27 02:07:09,647 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Fetching http://192.168.162.134:55069/jars/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar with timestamp 1448618826927
+2015-11-27 02:07:09,650 INFO  org.apache.spark.util.Utils [Executor task launch worker-0] - Fetching http://192.168.162.134:55069/jars/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar to /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/userFiles-14c2e4dd-95c2-41f5-b8e4-950a27c80284/fetchFileTemp4070417818295914879.tmp
+2015-11-27 02:07:09,655 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Adding file:/tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/userFiles-14c2e4dd-95c2-41f5-b8e4-950a27c80284/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar to class loader
+2015-11-27 02:07:09,656 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Fetching http://192.168.162.134:55069/jars/pio-assembly-0.9.5.jar with timestamp 1448618827127
+2015-11-27 02:07:09,658 INFO  org.apache.spark.util.Utils [Executor task launch worker-0] - Fetching http://192.168.162.134:55069/jars/pio-assembly-0.9.5.jar to /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/userFiles-14c2e4dd-95c2-41f5-b8e4-950a27c80284/fetchFileTemp7464776502883385190.tmp
+2015-11-27 02:07:09,965 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Adding file:/tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/userFiles-14c2e4dd-95c2-41f5-b8e4-950a27c80284/pio-assembly-0.9.5.jar to class loader
+2015-11-27 02:07:09,986 INFO  org.apache.spark.rdd.NewHadoopRDD [Executor task launch worker-0] - Input split: ubuntu:,
+2015-11-27 02:07:09,994 INFO  org.apache.hadoop.hbase.mapreduce.TableInputFormatBase [Executor task launch worker-0] - Input split length: 0 bytes.
+2015-11-27 02:07:10,737 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Finished task 0.0 in stage 0.0 (TID 0). 2001 bytes result sent to driver
+2015-11-27 02:07:10,749 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - ShuffleMapStage 0 (map at PEventAggregator.scala:197) finished in 1.256 s
+2015-11-27 02:07:10,752 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - looking for newly runnable stages
+2015-11-27 02:07:10,753 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - running: Set()
+2015-11-27 02:07:10,754 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - waiting: Set(ResultStage 1)
+2015-11-27 02:07:10,755 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - failed: Set()
+2015-11-27 02:07:10,747 INFO  org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Finished task 0.0 in stage 0.0 (TID 0) in 1239 ms on localhost (1/1)
+2015-11-27 02:07:10,759 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [task-result-getter-0] - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2015-11-27 02:07:10,767 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Missing parents for ResultStage 1: List()
+2015-11-27 02:07:10,772 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Submitting ResultStage 1 (MapPartitionsRDD[9] at retag at RandomForest.scala:137), which is now runnable
+2015-11-27 02:07:10,780 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - ensureFreeSpace(7520) called with curMem=311446, maxMem=278302556
+2015-11-27 02:07:10,782 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - Block broadcast_2 stored as values in memory (estimated size 7.3 KB, free 265.1 MB)
+2015-11-27 02:07:10,785 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - ensureFreeSpace(3666) called with curMem=318966, maxMem=278302556
+2015-11-27 02:07:10,786 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - Block broadcast_2_piece0 stored as bytes in memory (estimated size 3.6 KB, free 265.1 MB)
+2015-11-27 02:07:10,788 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-2] - Added broadcast_2_piece0 in memory on localhost:45401 (size: 3.6 KB, free: 265.4 MB)
+2015-11-27 02:07:10,790 INFO  org.apache.spark.SparkContext [dag-scheduler-event-loop] - Created broadcast 2 from broadcast at DAGScheduler.scala:874
+2015-11-27 02:07:10,792 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[9] at retag at RandomForest.scala:137)
+2015-11-27 02:07:10,793 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [dag-scheduler-event-loop] - Adding task set 1.0 with 1 tasks
+2015-11-27 02:07:10,797 INFO  org.apache.spark.scheduler.TaskSetManager [sparkDriver-akka.actor.default-dispatcher-2] - Starting task 0.0 in stage 1.0 (TID 1, localhost, PROCESS_LOCAL, 1592 bytes)
+2015-11-27 02:07:10,800 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Running task 0.0 in stage 1.0 (TID 1)
+2015-11-27 02:07:10,813 INFO  org.apache.spark.CacheManager [Executor task launch worker-0] - Partition rdd_8_0 not found, computing it
+2015-11-27 02:07:10,830 INFO  org.apache.spark.storage.ShuffleBlockFetcherIterator [Executor task launch worker-0] - Getting 1 non-empty blocks out of 1 blocks
+2015-11-27 02:07:10,832 INFO  org.apache.spark.storage.ShuffleBlockFetcherIterator [Executor task launch worker-0] - Started 0 remote fetches in 6 ms
+2015-11-27 02:07:11,055 INFO  org.apache.spark.storage.MemoryStore [Executor task launch worker-0] - ensureFreeSpace(12872) called with curMem=322632, maxMem=278302556
+2015-11-27 02:07:11,056 INFO  org.apache.spark.storage.MemoryStore [Executor task launch worker-0] - Block rdd_8_0 stored as values in memory (estimated size 12.6 KB, free 265.1 MB)
+2015-11-27 02:07:11,058 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-2] - Added rdd_8_0 in memory on localhost:45401 (size: 12.6 KB, free: 265.4 MB)
+2015-11-27 02:07:11,065 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Finished task 0.0 in stage 1.0 (TID 1). 1749 bytes result sent to driver
+2015-11-27 02:07:11,069 INFO  org.apache.spark.scheduler.TaskSetManager [task-result-getter-1] - Finished task 0.0 in stage 1.0 (TID 1) in 274 ms on localhost (1/1)
+2015-11-27 02:07:11,070 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [task-result-getter-1] - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2015-11-27 02:07:11,070 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - ResultStage 1 (take at DecisionTreeMetadata.scala:110) finished in 0.271 s
+2015-11-27 02:07:11,077 INFO  org.apache.spark.scheduler.DAGScheduler [main] - Job 0 finished: take at DecisionTreeMetadata.scala:110, took 1.682236 s
+2015-11-27 02:07:11,087 INFO  org.apache.spark.SparkContext [main] - Starting job: count at DecisionTreeMetadata.scala:111
+2015-11-27 02:07:11,093 INFO  org.apache.spark.MapOutputTrackerMaster [dag-scheduler-event-loop] - Size of output statuses for shuffle 0 is 143 bytes
+2015-11-27 02:07:11,097 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Got job 1 (count at DecisionTreeMetadata.scala:111) with 1 output partitions (allowLocal=false)
+2015-11-27 02:07:11,097 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Final stage: ResultStage 3(count at DecisionTreeMetadata.scala:111)
+2015-11-27 02:07:11,098 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Parents of final stage: List(ShuffleMapStage 2)
+2015-11-27 02:07:11,101 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Missing parents: List()
+2015-11-27 02:07:11,103 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Submitting ResultStage 3 (MapPartitionsRDD[9] at retag at RandomForest.scala:137), which has no missing parents
+2015-11-27 02:07:11,105 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - ensureFreeSpace(7352) called with curMem=335504, maxMem=278302556
+2015-11-27 02:07:11,106 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - Block broadcast_3 stored as values in memory (estimated size 7.2 KB, free 265.1 MB)
+2015-11-27 02:07:11,108 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - ensureFreeSpace(3597) called with curMem=342856, maxMem=278302556
+2015-11-27 02:07:11,109 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - Block broadcast_3_piece0 stored as bytes in memory (estimated size 3.5 KB, free 265.1 MB)
+2015-11-27 02:07:11,110 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-2] - Added broadcast_3_piece0 in memory on localhost:45401 (size: 3.5 KB, free: 265.4 MB)
+2015-11-27 02:07:11,111 INFO  org.apache.spark.SparkContext [dag-scheduler-event-loop] - Created broadcast 3 from broadcast at DAGScheduler.scala:874
+2015-11-27 02:07:11,112 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[9] at retag at RandomForest.scala:137)
+2015-11-27 02:07:11,112 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [dag-scheduler-event-loop] - Adding task set 3.0 with 1 tasks
+2015-11-27 02:07:11,116 INFO  org.apache.spark.scheduler.TaskSetManager [sparkDriver-akka.actor.default-dispatcher-2] - Starting task 0.0 in stage 3.0 (TID 2, localhost, PROCESS_LOCAL, 1592 bytes)
+2015-11-27 02:07:11,117 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Running task 0.0 in stage 3.0 (TID 2)
+2015-11-27 02:07:11,125 INFO  org.apache.spark.storage.BlockManager [Executor task launch worker-0] - Found block rdd_8_0 locally
+2015-11-27 02:07:11,127 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Finished task 0.0 in stage 3.0 (TID 2). 1830 bytes result sent to driver
+2015-11-27 02:07:11,131 INFO  org.apache.spark.scheduler.TaskSetManager [task-result-getter-2] - Finished task 0.0 in stage 3.0 (TID 2) in 17 ms on localhost (1/1)
+2015-11-27 02:07:11,132 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - ResultStage 3 (count at DecisionTreeMetadata.scala:111) finished in 0.015 s
+2015-11-27 02:07:11,133 INFO  org.apache.spark.scheduler.DAGScheduler [main] - Job 1 finished: count at DecisionTreeMetadata.scala:111, took 0.045085 s
+2015-11-27 02:07:11,133 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [task-result-getter-2] - Removed TaskSet 3.0, whose tasks have all completed, from pool 
+2015-11-27 02:07:11,163 INFO  org.apache.spark.SparkContext [main] - Starting job: collect at DecisionTree.scala:977
+2015-11-27 02:07:11,165 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Got job 2 (collect at DecisionTree.scala:977) with 1 output partitions (allowLocal=false)
+2015-11-27 02:07:11,165 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Final stage: ResultStage 5(collect at DecisionTree.scala:977)
+2015-11-27 02:07:11,165 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Parents of final stage: List(ShuffleMapStage 4)
+2015-11-27 02:07:11,168 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Missing parents: List()
+2015-11-27 02:07:11,169 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Submitting ResultStage 5 (PartitionwiseSampledRDD[10] at sample at DecisionTree.scala:977), which has no missing parents
+2015-11-27 02:07:11,172 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - ensureFreeSpace(8088) called with curMem=346453, maxMem=278302556
+2015-11-27 02:07:11,173 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - Block broadcast_4 stored as values in memory (estimated size 7.9 KB, free 265.1 MB)
+2015-11-27 02:07:11,210 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - ensureFreeSpace(3942) called with curMem=354541, maxMem=278302556
+2015-11-27 02:07:11,210 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - Block broadcast_4_piece0 stored as bytes in memory (estimated size 3.8 KB, free 265.1 MB)
+2015-11-27 02:07:11,219 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-2] - Added broadcast_4_piece0 in memory on localhost:45401 (size: 3.8 KB, free: 265.4 MB)
+2015-11-27 02:07:11,222 INFO  org.apache.spark.SparkContext [dag-scheduler-event-loop] - Created broadcast 4 from broadcast at DAGScheduler.scala:874
+2015-11-27 02:07:11,223 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Submitting 1 missing tasks from ResultStage 5 (PartitionwiseSampledRDD[10] at sample at DecisionTree.scala:977)
+2015-11-27 02:07:11,223 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [dag-scheduler-event-loop] - Adding task set 5.0 with 1 tasks
+2015-11-27 02:07:11,231 INFO  org.apache.spark.scheduler.TaskSetManager [sparkDriver-akka.actor.default-dispatcher-3] - Starting task 0.0 in stage 5.0 (TID 3, localhost, PROCESS_LOCAL, 1701 bytes)
+2015-11-27 02:07:11,232 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Running task 0.0 in stage 5.0 (TID 3)
+2015-11-27 02:07:11,244 INFO  org.apache.spark.storage.BlockManager [Executor task launch worker-0] - Found block rdd_8_0 locally
+2015-11-27 02:07:11,246 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Finished task 0.0 in stage 5.0 (TID 3). 10323 bytes result sent to driver
+2015-11-27 02:07:11,249 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-2] - Removed broadcast_3_piece0 on localhost:45401 in memory (size: 3.5 KB, free: 265.4 MB)
+2015-11-27 02:07:11,255 INFO  org.apache.spark.scheduler.TaskSetManager [task-result-getter-3] - Finished task 0.0 in stage 5.0 (TID 3) in 30 ms on localhost (1/1)
+2015-11-27 02:07:11,257 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [task-result-getter-3] - Removed TaskSet 5.0, whose tasks have all completed, from pool 
+2015-11-27 02:07:11,255 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-4] - Removed broadcast_2_piece0 on localhost:45401 in memory (size: 3.6 KB, free: 265.4 MB)
+2015-11-27 02:07:11,257 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - ResultStage 5 (collect at DecisionTree.scala:977) finished in 0.030 s
+2015-11-27 02:07:11,260 INFO  org.apache.spark.scheduler.DAGScheduler [main] - Job 2 finished: collect at DecisionTree.scala:977, took 0.096661 s
+2015-11-27 02:07:11,262 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-4] - Removed broadcast_1_piece0 on localhost:45401 in memory (size: 2.7 KB, free: 265.4 MB)
+2015-11-27 02:07:11,313 INFO  org.apache.spark.storage.MemoryStore [main] - ensureFreeSpace(584) called with curMem=328392, maxMem=278302556
+2015-11-27 02:07:11,314 INFO  org.apache.spark.storage.MemoryStore [main] - Block broadcast_5 stored as values in memory (estimated size 584.0 B, free 265.1 MB)
+2015-11-27 02:07:11,326 INFO  org.apache.spark.storage.MemoryStore [main] - ensureFreeSpace(307) called with curMem=328976, maxMem=278302556
+2015-11-27 02:07:11,327 INFO  org.apache.spark.storage.MemoryStore [main] - Block broadcast_5_piece0 stored as bytes in memory (estimated size 307.0 B, free 265.1 MB)
+2015-11-27 02:07:11,329 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-4] - Added broadcast_5_piece0 in memory on localhost:45401 (size: 307.0 B, free: 265.4 MB)
+2015-11-27 02:07:11,330 INFO  org.apache.spark.SparkContext [main] - Created broadcast 5 from broadcast at DecisionTree.scala:592
+2015-11-27 02:07:11,374 INFO  org.apache.spark.SparkContext [main] - Starting job: collectAsMap at DecisionTree.scala:642
+2015-11-27 02:07:11,377 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Registering RDD 13 (mapPartitions at DecisionTree.scala:613)
+2015-11-27 02:07:11,378 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Got job 3 (collectAsMap at DecisionTree.scala:642) with 1 output partitions (allowLocal=false)
+2015-11-27 02:07:11,378 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Final stage: ResultStage 8(collectAsMap at DecisionTree.scala:642)
+2015-11-27 02:07:11,378 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Parents of final stage: List(ShuffleMapStage 7)
+2015-11-27 02:07:11,381 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Missing parents: List(ShuffleMapStage 7)
+2015-11-27 02:07:11,388 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Submitting ShuffleMapStage 7 (MapPartitionsRDD[13] at mapPartitions at DecisionTree.scala:613), which has no missing parents
+2015-11-27 02:07:11,394 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - ensureFreeSpace(17216) called with curMem=329283, maxMem=278302556
+2015-11-27 02:07:11,396 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - Block broadcast_6 stored as values in memory (estimated size 16.8 KB, free 265.1 MB)
+2015-11-27 02:07:11,399 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - ensureFreeSpace(7243) called with curMem=346499, maxMem=278302556
+2015-11-27 02:07:11,401 INFO  org.apache.spark.storage.MemoryStore [dag-scheduler-event-loop] - Block broadcast_6_piece0 stored as bytes in memory (estimated size 7.1 KB, free 265.1 MB)
+2015-11-27 02:07:11,403 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-4] - Added broadcast_6_piece0 in memory on localhost:45401 (size: 7.1 KB, free: 265.4 MB)
+2015-11-27 02:07:11,404 INFO  org.apache.spark.SparkContext [dag-scheduler-event-loop] - Created broadcast 6 from broadcast at DAGScheduler.scala:874
+2015-11-27 02:07:11,406 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - Submitting 1 missing tasks from ShuffleMapStage 7 (MapPartitionsRDD[13] at mapPartitions at DecisionTree.scala:613)
+2015-11-27 02:07:11,407 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [dag-scheduler-event-loop] - Adding task set 7.0 with 1 tasks
+2015-11-27 02:07:11,409 INFO  org.apache.spark.scheduler.TaskSetManager [sparkDriver-akka.actor.default-dispatcher-4] - Starting task 0.0 in stage 7.0 (TID 4, localhost, PROCESS_LOCAL, 1581 bytes)
+2015-11-27 02:07:11,410 INFO  org.apache.spark.executor.Executor [Executor task launch worker-0] - Running task 0.0 in stage 7.0 (TID 4)
+2015-11-27 02:07:11,433 INFO  org.apache.spark.CacheManager [Executor task launch worker-0] - Partition rdd_12_0 not found, computing it
+2015-11-27 02:07:11,435 INFO  org.apache.spark.storage.BlockManager [Executor task launch worker-0] - Found block rdd_8_0 locally
+2015-11-27 02:07:11,476 INFO  org.apache.spark.storage.MemoryStore [Executor task launch worker-0] - ensureFreeSpace(21440) called with curMem=353742, maxMem=278302556
+2015-11-27 02:07:11,477 INFO  org.apache.spark.storage.MemoryStore [Executor task launch worker-0] - Block rdd_12_0 stored as values in memory (estimated size 20.9 KB, free 265.1 MB)
+2015-11-27 02:07:11,480 INFO  org.apache.spark.storage.BlockManagerInfo [sparkDriver-akka.actor.default-dispatcher-4] - Added rdd_12_0 in memory on localhost:45401 (size: 20.9 KB, free: 265.3 MB)
+2015-11-27 02:07:11,495 ERROR org.apache.spark.executor.Executor [Executor task launch worker-0] - Exception in task 0.0 in stage 7.0 (TID 4)
+java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires label < numClasses (= 3).
+	at org.apache.spark.mllib.tree.impurity.GiniAggregator.update(Gini.scala:90)
+	at org.apache.spark.mllib.tree.impl.DTStatsAggregator.update(DTStatsAggregator.scala:100)
+	at org.apache.spark.mllib.tree.DecisionTree$.orderedBinSeqOp(DecisionTree.scala:406)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$nodeBinSeqOp$1(DecisionTree.scala:507)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:532)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:529)
+	at scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:224)
+	at scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:403)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1(DecisionTree.scala:529)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:613)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:70)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:41)
+	at org.apache.spark.scheduler.Task.run(Task.scala:70)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:213)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-27 02:07:11,507 WARN  org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Lost task 0.0 in stage 7.0 (TID 4, localhost): java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires label < numClasses (= 3).
+	at org.apache.spark.mllib.tree.impurity.GiniAggregator.update(Gini.scala:90)
+	at org.apache.spark.mllib.tree.impl.DTStatsAggregator.update(DTStatsAggregator.scala:100)
+	at org.apache.spark.mllib.tree.DecisionTree$.orderedBinSeqOp(DecisionTree.scala:406)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$nodeBinSeqOp$1(DecisionTree.scala:507)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:532)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:529)
+	at scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:224)
+	at scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:403)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1(DecisionTree.scala:529)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:613)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:70)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:41)
+	at org.apache.spark.scheduler.Task.run(Task.scala:70)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:213)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-11-27 02:07:11,513 ERROR org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Task 0 in stage 7.0 failed 1 times; aborting job
+2015-11-27 02:07:11,514 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [task-result-getter-0] - Removed TaskSet 7.0, whose tasks have all completed, from pool 
+2015-11-27 02:07:11,523 INFO  org.apache.spark.scheduler.TaskSchedulerImpl [dag-scheduler-event-loop] - Cancelling stage 7
+2015-11-27 02:07:11,526 INFO  org.apache.spark.scheduler.DAGScheduler [dag-scheduler-event-loop] - ShuffleMapStage 7 (mapPartitions at DecisionTree.scala:613) failed in 0.117 s
+2015-11-27 02:07:11,529 INFO  org.apache.spark.scheduler.DAGScheduler [main] - Job 3 failed: collectAsMap at DecisionTree.scala:642, took 0.153933 s
+2015-11-27 02:07:11,529 DEBUG io.prediction.workflow.CoreWorkflow$ [main] - Stopping SparkContext
+2015-11-27 02:07:11,599 INFO  org.apache.spark.ui.SparkUI [main] - Stopped Spark web UI at http://192.168.162.134:4040
+2015-11-27 02:07:11,602 INFO  org.apache.spark.scheduler.DAGScheduler [main] - Stopping DAGScheduler
+2015-11-27 02:07:11,687 INFO  org.apache.spark.MapOutputTrackerMasterEndpoint [sparkDriver-akka.actor.default-dispatcher-3] - MapOutputTrackerMasterEndpoint stopped!
+2015-11-27 02:07:11,695 INFO  org.apache.spark.util.Utils [main] - path = /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b/blockmgr-612691f4-dfa8-4a7d-a3c1-601bbd0c5815, already present as root for deletion.
+2015-11-27 02:07:11,696 INFO  org.apache.spark.storage.MemoryStore [main] - MemoryStore cleared
+2015-11-27 02:07:11,697 INFO  org.apache.spark.storage.BlockManager [main] - BlockManager stopped
+2015-11-27 02:07:11,700 INFO  org.apache.spark.storage.BlockManagerMaster [main] - BlockManagerMaster stopped
+2015-11-27 02:07:11,703 INFO  org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint [sparkDriver-akka.actor.default-dispatcher-3] - OutputCommitCoordinator stopped!
+2015-11-27 02:07:11,704 INFO  org.apache.spark.SparkContext [main] - Successfully stopped SparkContext
+2015-11-27 02:07:11,708 INFO  org.apache.spark.util.Utils [Thread-0] - Shutdown hook called
+2015-11-27 02:07:11,709 INFO  org.apache.spark.util.Utils [Thread-0] - Deleting directory /tmp/spark-572001c7-ca03-416e-9f97-ff4d0674eb1b
+2015-11-27 02:45:03,998 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:45:04,083 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-27 02:45:04,084 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-27 02:45:04,086 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-27 02:45:04,087 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-27 02:45:14,086 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/RandomForestAlgorithm.scala:38: not found: value categoricalFeatureInfo[0m
+2015-11-27 02:45:14,087 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m            categoricalFeatureInfo,[0m
+2015-11-27 02:45:14,087 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m            ^[0m
+2015-11-27 02:45:14,449 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mone error found[0m
+2015-11-27 02:45:14,496 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+2015-11-27 02:45:14,507 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 3 s, completed 27/11/2015 2:45:14 AM[0m
+2015-11-27 02:45:14,531 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-11-27 02:45:59,608 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:45:59,687 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-27 02:45:59,689 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-27 02:45:59,690 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-27 02:45:59,691 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-27 02:46:07,186 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/src/main/scala/RandomForestAlgorithm.scala:38: not found: value categoricalFeatureInfo[0m
+2015-11-27 02:46:07,188 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m            categoricalFeatureInfo,[0m
+2015-11-27 02:46:07,188 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m            ^[0m
+2015-11-27 02:46:07,419 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mone error found[0m
+2015-11-27 02:46:07,457 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+2015-11-27 02:46:07,469 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 2 s, completed 27/11/2015 2:46:07 AM[0m
+2015-11-27 02:46:07,487 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-11-27 02:46:38,153 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:46:38,235 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-27 02:46:38,237 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-27 02:46:38,239 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-27 02:46:38,240 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-27 02:46:49,644 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-27 02:46:49,646 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-27 02:46:49,654 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-27 02:46:49,655 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-27 02:46:51,075 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine SvY1dV1YUIHztDJjRszl19oK2qICq0fB 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe
+2015-11-27 02:46:51,101 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-27 02:47:06,741 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:47:08,829 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id SvY1dV1YUIHztDJjRszl19oK2qICq0fB --engine-version 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe --engine-variant file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-27 02:47:11,795 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-27 02:47:11,888 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-27 02:47:12,134 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(Bayes,None))
+2015-11-27 02:47:12,135 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-27 02:47:12,137 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-27 02:47:12,145 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-27 02:47:12,146 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-27 02:47:13,268 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-27 02:47:13,268 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-27 02:47:14,030 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Starting remoting
+2015-11-27 02:47:14,271 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:41429]
+2015-11-27 02:47:15,509 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-27 02:47:15,510 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@145b9a65
+2015-11-27 02:47:15,511 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@17ddc1c5
+2015-11-27 02:47:15,512 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.RandomForestAlgorithm@1818ed7b)
+2015-11-27 02:47:15,512 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-27 02:47:17,435 WARN  org.apache.hadoop.hbase.mapreduce.TableInputFormatBase [main] - Cannot resolve the host name for ubuntu/127.0.1.1 because of javax.naming.NameNotFoundException: DNS name not found [response code 3]; remaining name '1.1.0.127.in-addr.arpa'
+2015-11-27 02:47:17,598 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.TrainingData does not support data sanity check. Skipping check.
+2015-11-27 02:47:17,601 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.PreparedData does not support data sanity check. Skipping check.
+2015-11-27 02:47:20,254 ERROR org.apache.spark.executor.Executor [Executor task launch worker-0] - Exception in task 0.0 in stage 7.0 (TID 4)
+java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires label < numClasses (= 3).
+	at org.apache.spark.mllib.tree.impurity.GiniAggregator.update(Gini.scala:90)
+	at org.apache.spark.mllib.tree.impl.DTStatsAggregator.update(DTStatsAggregator.scala:100)
+	at org.apache.spark.mllib.tree.DecisionTree$.orderedBinSeqOp(DecisionTree.scala:406)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$nodeBinSeqOp$1(DecisionTree.scala:507)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:532)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:529)
+	at scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:224)
+	at scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:403)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1(DecisionTree.scala:529)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:613)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:70)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:41)
+	at org.apache.spark.scheduler.Task.run(Task.scala:70)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:213)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-27 02:47:20,270 WARN  org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Lost task 0.0 in stage 7.0 (TID 4, localhost): java.lang.IllegalArgumentException: GiniAggregator given label 3.0 but requires label < numClasses (= 3).
+	at org.apache.spark.mllib.tree.impurity.GiniAggregator.update(Gini.scala:90)
+	at org.apache.spark.mllib.tree.impl.DTStatsAggregator.update(DTStatsAggregator.scala:100)
+	at org.apache.spark.mllib.tree.DecisionTree$.orderedBinSeqOp(DecisionTree.scala:406)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$nodeBinSeqOp$1(DecisionTree.scala:507)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:532)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1$1.apply(DecisionTree.scala:529)
+	at scala.collection.immutable.HashMap$HashMap1.foreach(HashMap.scala:224)
+	at scala.collection.immutable.HashMap$HashTrieMap.foreach(HashMap.scala:403)
+	at org.apache.spark.mllib.tree.DecisionTree$.org$apache$spark$mllib$tree$DecisionTree$$binSeqOp$1(DecisionTree.scala:529)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6$$anonfun$apply$8.apply(DecisionTree.scala:624)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:624)
+	at org.apache.spark.mllib.tree.DecisionTree$$anonfun$6.apply(DecisionTree.scala:613)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$17.apply(RDD.scala:686)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:70)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:41)
+	at org.apache.spark.scheduler.Task.run(Task.scala:70)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:213)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-11-27 02:47:20,274 ERROR org.apache.spark.scheduler.TaskSetManager [task-result-getter-0] - Task 0 in stage 7.0 failed 1 times; aborting job
+2015-11-27 02:57:02,719 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:57:02,799 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/jinyang/PredictionIO/sbt/sbt' at the current working directory to build.
+2015-11-27 02:57:02,800 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-11-27 02:57:02,801 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.5.jar is absent.
+2015-11-27 02:57:02,801 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/jinyang/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2015-11-27 02:57:10,113 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-11-27 02:57:10,114 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-11-27 02:57:10,121 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar
+2015-11-27 02:57:10,121 INFO  io.prediction.tools.console.Console$ [main] - Found template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar
+2015-11-27 02:57:11,535 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine SvY1dV1YUIHztDJjRszl19oK2qICq0fB 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe
+2015-11-27 02:57:11,558 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-11-27 02:57:15,268 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/manifest.json
+2015-11-27 02:57:16,744 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engine-id SvY1dV1YUIHztDJjRszl19oK2qICq0fB --engine-version 66a2b31aef2cafc86f1e62ddda73a8f9a756d5fe --engine-variant file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/engine.json --verbosity 0 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-27 02:57:19,014 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-11-27 02:57:19,103 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-11-27 02:57:19,342 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(Bayes,None))
+2015-11-27 02:57:19,343 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-11-27 02:57:19,345 INFO  io.prediction.controller.Engine [main] - Preparator params: (,Empty)
+2015-11-27 02:57:19,352 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-11-27 02:57:19,353 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-11-27 02:57:20,406 WARN  org.apache.spark.util.Utils [main] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-27 02:57:20,407 WARN  org.apache.spark.util.Utils [main] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-27 02:57:21,065 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Starting remoting
+2015-11-27 02:57:21,253 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:45154]
+2015-11-27 02:57:22,274 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-11-27 02:57:22,275 INFO  io.prediction.controller.Engine$ [main] - DataSource: org.template.classification.DataSource@5a0584f0
+2015-11-27 02:57:22,276 INFO  io.prediction.controller.Engine$ [main] - Preparator: org.template.classification.Preparator@78da42b4
+2015-11-27 02:57:22,277 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(org.template.classification.RandomForestAlgorithm@21ff9c03)
+2015-11-27 02:57:22,277 INFO  io.prediction.controller.Engine$ [main] - Data sanity check is on.
+2015-11-27 02:57:24,797 WARN  org.apache.hadoop.hbase.mapreduce.TableInputFormatBase [main] - Cannot resolve the host name for ubuntu/127.0.1.1 because of javax.naming.NameNotFoundException: DNS name not found [response code 3]; remaining name '1.1.0.127.in-addr.arpa'
+2015-11-27 02:57:24,897 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.TrainingData does not support data sanity check. Skipping check.
+2015-11-27 02:57:24,898 INFO  io.prediction.controller.Engine$ [main] - org.template.classification.PreparedData does not support data sanity check. Skipping check.
+2015-11-27 02:57:27,063 INFO  io.prediction.controller.Engine$ [main] - org.apache.spark.mllib.tree.model.RandomForestModel does not support data sanity check. Skipping check.
+2015-11-27 02:57:27,064 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train completed
+2015-11-27 02:57:27,066 INFO  io.prediction.controller.Engine [main] - engineInstanceId=AVFIlxfZqshZmwSLFk7c
+2015-11-27 02:57:27,103 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Inserting persistent model
+2015-11-27 02:57:27,255 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Updating engine instance
+2015-11-27 02:57:27,285 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Training completed successfully.
+2015-11-27 02:58:04,185 INFO  io.prediction.tools.Runner$ [main] - Submission command: /home/jinyang/PredictionIO/vendors/spark-1.4.1/bin/spark-submit --class io.prediction.workflow.CreateServer --jars file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification_2.10-0.1-SNAPSHOT.jar,file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/scala-2.10/template-scala-parallel-classification-assembly-0.1-SNAPSHOT-deps.jar --files file:/home/jinyang/PredictionIO/conf/log4j.properties,file:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf/hbase-site.xml --driver-class-path /home/jinyang/PredictionIO/conf:/home/jinyang/PredictionIO/vendors/hbase-1.0.0/conf file:/home/jinyang/PredictionIO/lib/pio-assembly-0.9.5.jar --engineInstanceId AVFIlxfZqshZmwSLFk7c --engine-variant file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/engine.json --ip 0.0.0.0 --port 8000 --event-server-ip 0.0.0.0 --event-server-port 7070 --json-extractor Both --env PIO_STORAGE_SOURCES_HBASE_TYPE=hbase,PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/home/jinyang/.pio_store,PIO_STORAGE_SOURCES_HBASE_HOME=/home/jinyang/PredictionIO/vendors/hbase-1.0.0,PIO_HOME=/home/jinyang/PredictionIO,PIO_FS_ENGINESDIR=/home/jinyang/.pio_store/engines,PIO_STORAGE_SOURCES_LOCALFS_PATH=/home/jinyang/.pio_store/models,PIO_STORAGE_SOURCES_ELASTICSEARCH_TYPE=elasticsearch,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=ELASTICSEARCH,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=LOCALFS,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_ELASTICSEARCH_HOME=/home/jinyang/PredictionIO/vendors/elasticsearch-1.4.4,PIO_FS_TMPDIR=/home/jinyang/.pio_store/tmp,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=HBASE,PIO_CONF_DIR=/home/jinyang/PredictionIO/conf,PIO_STORAGE_SOURCES_LOCALFS_TYPE=localfs
+2015-11-27 02:58:07,697 WARN  io.prediction.workflow.WorkflowUtils$ [pio-server-akka.actor.default-dispatcher-3] - Non-empty parameters supplied to org.template.classification.Preparator, but its constructor does not accept any arguments. Stubbing with empty parameters.
+2015-11-27 02:58:07,707 WARN  io.prediction.workflow.WorkflowUtils$ [pio-server-akka.actor.default-dispatcher-3] - Non-empty parameters supplied to org.template.classification.Serving, but its constructor does not accept any arguments. Stubbing with empty parameters.
+2015-11-27 02:58:08,321 WARN  org.apache.spark.util.Utils [pio-server-akka.actor.default-dispatcher-3] - Your hostname, ubuntu resolves to a loopback address: 127.0.1.1; using 192.168.162.134 instead (on interface eth0)
+2015-11-27 02:58:08,321 WARN  org.apache.spark.util.Utils [pio-server-akka.actor.default-dispatcher-3] - Set SPARK_LOCAL_IP if you need to bind to another address
+2015-11-27 02:58:08,697 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Starting remoting
+2015-11-27 02:58:08,890 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.162.134:60808]
+2015-11-27 02:58:09,969 INFO  io.prediction.controller.Engine [pio-server-akka.actor.default-dispatcher-3] - Using persisted model
+2015-11-27 02:58:09,972 INFO  io.prediction.controller.Engine [pio-server-akka.actor.default-dispatcher-3] - Loaded model org.apache.spark.mllib.tree.model.RandomForestModel for algorithm org.template.classification.RandomForestAlgorithm
+2015-11-27 02:58:09,990 INFO  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-4] - Undeploying any existing engine instance at http://0.0.0.0:8000
+2015-11-27 02:58:10,019 WARN  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-4] - Nothing at http://0.0.0.0:8000
+2015-11-27 02:58:10,700 INFO  spray.can.server.HttpListener [pio-server-akka.actor.default-dispatcher-5] - Bound to /0.0.0.0:8000
+2015-11-27 02:58:10,700 INFO  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-5] - Engine is deployed and running. Engine API is live at http://0.0.0.0:8000.

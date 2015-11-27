@@ -10,3 +10,20 @@
 2015-11-26 02:25:43,469 ERROR io.prediction.tools.console.Console$ [main] - Possible reasons:
 2015-11-26 02:25:43,470 ERROR io.prediction.tools.console.Console$ [main] - - the engine is not yet built by the 'build' command;
 2015-11-26 02:25:43,470 ERROR io.prediction.tools.console.Console$ [main] - - the meta data store is offline.
+2015-11-27 02:56:22,088 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2015-11-27 02:56:22,091 INFO  io.prediction.tools.console.App$ [main] -     App Name: Bayes
+2015-11-27 02:56:22,092 INFO  io.prediction.tools.console.App$ [main] -       App ID: 5
+2015-11-27 02:56:22,093 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2015-11-27 02:56:26,448 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_5...
+2015-11-27 02:56:27,736 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 5
+2015-11-27 02:56:27,877 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_5 doesn't exist yet. Creating now...
+2015-11-27 02:56:28,165 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 5.
+2015-11-27 02:56:28,271 INFO  io.prediction.tools.console.App$ [main] - Done.
+2015-11-27 02:56:35,535 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2015-11-27 02:56:35,585 INFO  io.prediction.tools.console.App$ [main] -                Bayes |    5 | RkuzV9kTjwEBO8ulHawTWDXSNV5DnxIti0lvtY92f7aPILNzod5MMn41hCX727GW | (all)
+2015-11-27 02:56:35,594 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | AOQKXsMZNJnWt5Bjz89AK7ZqC8icYZQvf4PckjsefwawUSCRdb1Ij8h1XkEZrnJi | (all)
+2015-11-27 02:56:35,601 INFO  io.prediction.tools.console.App$ [main] -             NewTest1 |    3 | 6nn0XJyMDFjJ7rHe46kMz1tb8a0shYr1PNDg9nGyaw9GXqtOr5yERxqijU9YBecr | (all)
+2015-11-27 02:56:35,611 INFO  io.prediction.tools.console.App$ [main] -            Official1 |    6 | rkjvg47I4K6kDfqRSMnCfPToVFCZj6xjcn2xzotnY3mGZMWuXwhESQXdUHO8YSf0 | (all)
+2015-11-27 02:56:35,620 INFO  io.prediction.tools.console.App$ [main] -        SentimentTest |    4 | xqSlfuc7yvKr0PHS7qfcCkyAwOodAlPAdZTmWaH6C2XLCEbLvPMgR2g3Sgs3A24F | (all)
+2015-11-27 02:56:35,630 INFO  io.prediction.tools.console.App$ [main] -                  dt1 |    2 | wn0kquxNA17Fh03FcrEYjKOOUZTRie8NuUQj0lPSpRDoCxypCqheNzgRHk1SPZI2 | (all)
+2015-11-27 02:56:35,631 INFO  io.prediction.tools.console.App$ [main] - Finished listing 6 app(s).

@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/jinyang/Official_temp/MyClassification/}myclassification...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/}gbrt_template_predictionio...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25c8abbe[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fce3baa[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -2951,41 +2951,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.3.1 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-core_2.10;1.3.1 {provided=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-core_2.10;1.3.1 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-core_2.10/1.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-core_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.spark#spark-core_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.pom (1.3.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;1.3.1!spark-core_2.10.pom(pom.original) (6142ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.1 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.1 {}[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-parent_2.10/1.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-parent_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.3.1/spark-parent_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.spark#spark-parent_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.3.1/spark-parent_2.10-1.3.1.pom (1.3.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.3.1/spark-parent_2.10-1.3.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.3.1/spark-parent_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.3.1/spark-parent_2.10-1.3.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.3.1/spark-parent_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-parent_2.10;1.3.1!spark-parent_2.10.pom(pom.original) (6106ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;14 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;14 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;14[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-parent_2.10/1.3.1/jars/spark-parent_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.3.1/spark-parent_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.3.1/spark-parent_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-core_2.10/1.3.1/jars/spark-core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-core_2.10;1.3.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-core_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-core_2.10;1.3.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.3.1 [provided->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.3.1 [provided->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.3.1->com.twitter#chill_2.10;0.5.0 [compile->compile(*)][0m
@@ -3150,7 +3117,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.pom(pom.original) (5316ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.pom(pom.original) (3614ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -3209,7 +3176,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.pom(pom.original) (4108ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.pom(pom.original) (4095ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -3271,7 +3238,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.pom(pom.original) (5403ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.pom(pom.original) (4288ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -3349,7 +3316,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.pom(pom.original) (5255ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.pom(pom.original) (4093ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -4048,7 +4015,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-client;2.2.0!hadoop-yarn-client.pom(pom.original) (4616ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-client;2.2.0!hadoop-yarn-client.pom(pom.original) (4100ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -4171,7 +4138,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0!hadoop-mapreduce-client-core.pom(pom.original) (5320ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0!hadoop-mapreduce-client-core.pom(pom.original) (4591ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -4262,7 +4229,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.pom(pom.original) (3829ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.pom(pom.original) (4912ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...[0m
@@ -4276,7 +4243,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server;2.2.0!hadoop-yarn-server.pom(pom.original) (4710ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server;2.2.0!hadoop-yarn-server.pom(pom.original) (3999ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0[0m
@@ -4404,7 +4371,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.pom(pom.original) (4090ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.pom(pom.original) (4533ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -4476,7 +4443,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.pom(pom.original) (5430ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.pom(pom.original) (4217ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0[0m
@@ -4803,7 +4770,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.pom(pom.original) (5760ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.pom(pom.original) (4053ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server;2.2.0[0m
@@ -5028,24 +4995,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.3.1->org.apache.spark#spark-network-common_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.10;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-network-common_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-network-common_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-network-common_2.10/1.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-network-common_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.spark#spark-network-common_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.pom (1.3.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.10;1.3.1!spark-network-common_2.10.pom(pom.original) (3693ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-network-common_2.10/1.3.1/jars/spark-network-common_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-common_2.10;1.3.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-network-common_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-common_2.10;1.3.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-network-common_2.10;1.3.1->io.netty#netty-all;4.0.23.Final [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving io.netty#netty-all;4.0.23.Final ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty-all;4.0.23.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -5072,24 +5023,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.3.1->org.apache.spark#spark-network-shuffle_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.10;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-network-shuffle_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-network-shuffle_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-network-shuffle_2.10/1.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-network-shuffle_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.spark#spark-network-shuffle_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.pom (1.3.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.10;1.3.1!spark-network-shuffle_2.10.pom(pom.original) (4456ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-network-shuffle_2.10/1.3.1/jars/spark-network-shuffle_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-shuffle_2.10;1.3.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-network-shuffle_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-shuffle_2.10;1.3.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-network-shuffle_2.10;1.3.1->org.apache.spark#spark-network-common_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-network-shuffle_2.10;1.3.1->org.apache.spark#spark-network-common_2.10;1.3.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-network-shuffle_2.10;1.3.1->org.spark-project.spark#unused;1.0.0 [compile->compile(*)][0m
@@ -5806,24 +5741,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.3.1 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib_2.10;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-mllib_2.10;1.3.1 {provided=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-mllib_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-mllib_2.10;1.3.1 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-mllib_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.spark#spark-mllib_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.pom (1.3.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.3.1!spark-mllib_2.10.pom(pom.original) (5327ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.3.1/jars/spark-mllib_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-mllib_2.10;1.3.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-mllib_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-mllib_2.10;1.3.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.3.1 [provided->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.3.1 [provided->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.1->org.apache.spark#spark-core_2.10;1.3.1 [compile->compile(*)][0m
@@ -5832,25 +5751,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.1->org.apache.spark#spark-core_2.10;1.3.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.1->org.apache.spark#spark-streaming_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7edeb051[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-streaming_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@7edeb051[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-streaming_2.10/1.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-streaming_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.spark#spark-streaming_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.pom (1.3.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.10;1.3.1!spark-streaming_2.10.pom(pom.original) (4857ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-streaming_2.10/1.3.1/jars/spark-streaming_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-streaming_2.10;1.3.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-streaming_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-streaming_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-streaming_2.10;1.3.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.3.1->org.apache.spark#spark-core_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.3.1->org.apache.spark#spark-core_2.10;1.3.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-streaming_2.10;1.3.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
@@ -5872,47 +5775,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.1->org.apache.spark#spark-sql_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sql_2.10;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-sql_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-sql_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-sql_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-sql_2.10/1.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-sql_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.spark#spark-sql_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.pom (1.3.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;1.3.1!spark-sql_2.10.pom(pom.original) (3713ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-sql_2.10/1.3.1/jars/spark-sql_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-sql_2.10;1.3.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-sql_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-sql_2.10;1.3.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.10;1.3.1->org.apache.spark#spark-core_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.10;1.3.1->org.apache.spark#spark-core_2.10;1.3.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.10;1.3.1->org.apache.spark#spark-catalyst_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ca64453[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3ca64453[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-catalyst_2.10/1.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-catalyst_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.spark#spark-catalyst_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.pom (1.3.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;1.3.1!spark-catalyst_2.10.pom(pom.original) (5331ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-catalyst_2.10/1.3.1/jars/spark-catalyst_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-catalyst_2.10;1.3.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-catalyst_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-catalyst_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-catalyst_2.10;1.3.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.10;1.3.1->org.scala-lang#scala-compiler;2.10.4 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -6108,24 +5979,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.1->org.apache.spark#spark-graphx_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;1.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-graphx_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-graphx_2.10;1.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-graphx_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.spark#spark-graphx_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.pom (1.3.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.3.1!spark-graphx_2.10.pom(pom.original) (4838ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.3.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.3.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.3.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.3.1/jars/spark-graphx_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-graphx_2.10;1.3.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-graphx_2.10;1.3.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-graphx_2.10;1.3.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.3.1->org.apache.spark#spark-core_2.10;1.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.3.1->org.apache.spark#spark-core_2.10;1.3.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.3.1->org.jblas#jblas;1.2.3 [compile->compile(*)][0m
@@ -6152,21 +6007,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-mllib_2.10;1.3.1->org.scalanlp#breeze_2.10;0.11.2 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scalanlp#breeze_2.10;0.11.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalanlp#breeze_2.10;0.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalanlp#breeze_2.10;0.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalanlp#breeze_2.10;0.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.scalanlp/breeze_2.10/0.11.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalanlp#breeze_2.10;0.11.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scalanlp#breeze_2.10;0.11.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.pom (0.11.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalanlp#breeze_2.10;0.11.2!breeze_2.10.pom(pom.original) (5330ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.scalanlp/breeze_2.10/0.11.2/jars/breeze_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalanlp#breeze_2.10;0.11.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalanlp#breeze_2.10;0.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scalanlp#breeze_2.10;0.11.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.commons#commons-math3;3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.commons#commons-math3;3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -6177,21 +6019,8 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.commons#commons-math3;3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0minfo[0m] [0mResolving org.scalanlp#breeze-macros_2.10;0.11.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalanlp#breeze-macros_2.10;0.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalanlp#breeze-macros_2.10;0.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalanlp#breeze-macros_2.10;0.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.scalanlp/breeze-macros_2.10/0.11.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalanlp#breeze-macros_2.10;0.11.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scalanlp#breeze-macros_2.10;0.11.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.pom (0.11.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalanlp#breeze-macros_2.10;0.11.2!breeze-macros_2.10.pom(pom.original) (4548ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/jinyang/.ivy2/local/org.scalanlp/breeze-macros_2.10/0.11.2/jars/breeze-macros_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalanlp#breeze-macros_2.10;0.11.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalanlp#breeze-macros_2.10;0.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scalanlp#breeze-macros_2.10;0.11.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze-macros_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze-macros_2.10;0.11.2->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalanlp#breeze-macros_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
@@ -16338,18 +16167,8 @@
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.prediction#core_2.10;0.9.5!core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.3.1/spark-core_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;1.3.1!spark-core_2.10.jar (52907ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.3.1/spark-mllib_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.3.1!spark-mllib_2.10.jar (11012ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-core_2.10;1.3.1!spark-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-mllib_2.10;1.3.1!spark-mllib_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.prediction#data_2.10;0.9.5!data_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#twirl-api_2.10;1.0.3!twirl-api_2.10.jar[0m
@@ -16484,18 +16303,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-client;2.2.0!hadoop-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.3.1/spark-network-common_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.10;1.3.1!spark-network-common_2.10.jar (11833ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.3.1/spark-network-shuffle_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.10;1.3.1!spark-network-shuffle_2.10.jar (4103ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-network-common_2.10;1.3.1!spark-network-common_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.10;1.3.1!spark-network-shuffle_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar[0m
@@ -16552,37 +16361,12 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.4.4!jackson-annotations.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon;0.5.0!tachyon.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.3.1/spark-streaming_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.10;1.3.1!spark-streaming_2.10.jar (14455ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.3.1/spark-sql_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;1.3.1!spark-sql_2.10.jar (18428ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.3.1/spark-graphx_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.3.1!spark-graphx_2.10.jar (7773ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-streaming_2.10;1.3.1!spark-streaming_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-sql_2.10;1.3.1!spark-sql_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.3.1!spark-graphx_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jblas#jblas;1.2.3!jblas.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalanlp#breeze_2.10;0.11.2!breeze_2.10.jar (115591ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.3.1/spark-catalyst_2.10-1.3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;1.3.1!spark-catalyst_2.10.jar (13458ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.11.2!breeze_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.10;1.3.1!spark-catalyst_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#parquet-column;1.6.0rc3!parquet-column.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#parquet-hadoop;1.6.0rc3!parquet-hadoop.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jodd#jodd-core;3.6.3!jodd-core.jar[0m
@@ -16593,12 +16377,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#parquet-generator;1.6.0rc3!parquet-generator.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#parquet-format;2.2.0-rc1!parquet-format.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#parquet-jackson;1.6.0rc3!parquet-jackson.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalanlp#breeze-macros_2.10;0.11.2!breeze-macros_2.10.jar (5348ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.11.2!breeze-macros_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar[0m
@@ -16608,19 +16387,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#spire-macros_2.10;0.7.4!spire-macros_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 164392ms :: artifacts dl 255280ms[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT compile produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT runtime produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT test produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT provided produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT optional produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT compile-internal produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT runtime-internal produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT test-internal produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT plugin produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT sources produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT docs produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT pom produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT scala-tool produced in /home/jinyang/Official_temp/MyClassification/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (164392ms resolve - 255280ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 70068ms :: artifacts dl 241ms[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT compile produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT runtime produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT test produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT provided produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT optional produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT compile-internal produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT runtime-internal produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT test-internal produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT plugin produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT sources produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT docs produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT pom produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for io.prediction#template-scala-parallel-classification_2.10;0.1-SNAPSHOT scala-tool produced in /home/jinyang/GitHub/Own_GitHub/GBRT_Template_PredictionIO/target/resolution-cache/reports/io.prediction-template-scala-parallel-classification_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (70068ms resolve - 241ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

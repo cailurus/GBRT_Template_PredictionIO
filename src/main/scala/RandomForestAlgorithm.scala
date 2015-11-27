@@ -31,11 +31,11 @@ class RandomForestAlgorithm(val ap: RandomForestAlgorithmParams)
     extends P2LAlgorithm[PreparedData, RandomForestModel, Query, PredictedResult] {
 
     def train(sc: SparkContext, data: PreparedData): RandomForestModel = {
-        val categoricalFeatureInfo = Map[Int, Int]()
+        val categoricalFeaturesInfo = Map[Int, Int]()
         RandomForest.trainClassifier(
             data.labeledPoints,
             ap.numClasses,
-            categoricalFeatureInfo,
+            categoricalFeaturesInfo,
             ap.numTrees,
             ap.featureSubsetStrategy,
             ap.impurity,
