@@ -9,14 +9,11 @@
   },
   "algorithms": [
     {
-      "name": "randomforest",
+      "name": "gbrt",
       "params": {
-          "numClasses": 3,
-          "numTrees": 5,
-          "featureSubsetStrategy": "auto",
-          "impurity": "gini",
-          "maxDepth": 4,
-          "maxBins": 100
+          "numIterations": 3,
+          "numClasses": 2,
+          "maxDepth": 5
       }
     }
   ]
