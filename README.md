@@ -77,7 +77,7 @@ To further troubleshoot, please see [FAQ - Using PredictionIO](https://docs.pre
 Now let's create a new engine called *GBRT_Classification* by downloading the Classification Engine Template. Go to a directory where you want to put your engine and run the following:
 
 ``` shell
-git clone https://github.com/mohanaprasad1994/PredictionIO-MLlib-Decision-Trees-Template.git MyClassification
+$ git clone https://github.com/mohanaprasad1994/PredictionIO-MLlib-Decision-Trees-Template.git MyClassification
 ```
 
 ## Generate an App ID and Access Key
@@ -93,7 +93,12 @@ $ pio app new MyApp1
 You should find the following in the console output:
 
 ``` shell
-...[INFO] [App$] Initialized Event Store for this app ID: 1.[INFO] [App$] Created new app:[INFO] [App$]       Name: MyApp1[INFO] [App$]         ID: 1[INFO] [App$] Access Key: 3mZWDzci2D5YsqAnqNnXH9SB6Rg3dsTBs8iHkK6X2i54IQsIZI1eEeQQyMfs7b3F
+...
+[INFO] [App$] Initialized Event Store for this app ID: 1.
+[INFO] [App$] Created new app:
+[INFO] [App$]       Name: MyApp1
+[INFO] [App$]         ID: 1
+[INFO] [App$] Access Key: 3mZWDzci2D5YsqAnqNnXH9SB6Rg3dsTBs8iHkK6X2i54IQsIZI1eEeQQyMfs7b3F
 ```
 
 Note that *App ID**, Access Key* are created for this App "MyApp1". You will need the **Access Key** when you collect data with EventServer for this App.
